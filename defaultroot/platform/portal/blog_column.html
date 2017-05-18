@@ -1,0 +1,175 @@
+<div class="wh-portal-i-title clearfix">
+    <ul class="wh-portal-i-title-left clearfix">
+        <li class="wh-portal-title-li on"><a href="">我的微博</a></li>
+    </ul>
+</div>
+
+<div class="wh-portal-blog-content">
+    <div class="wh-portal-blog-release">
+        <div class="wh-portal-blog-form">
+            <p><textarea class="wh-portal-blog-text"></textarea><span>字数限制</span></p>
+            <input type="text" class="wh-portal-blog-btn" value="发布"/>
+        </div>
+        <div class="wh-portal-blog-look">
+            <a href=""><i class="fa fa-at"></i></a>
+            <a href=""><i class="fa fa-comments-o"></i>话题</a>
+            <a href="javascript:void(0);" class="wh-blog-fileup">
+                <i class="fa fa-cloud-upload"></i>上传</a>
+            <a href="javascript:void(0);" class="wh-blog-face"><i class="fa fa-smile-o"></i>表情</a>
+            <div class="blog-look-face">
+                <div class="blog-look-face-con">
+                    <table>
+                        <tr>
+                            <td><img src="images/ver113/face1.gif" /></td>
+                            <td><img src="images/ver113/face1.gif" /></td>
+                            <td><img src="images/ver113/face1.gif" /></td>
+                            <td><img src="images/ver113/face1.gif" /></td>
+                            <td><img src="images/ver113/face1.gif" /></td>
+                            <td><img src="images/ver113/face1.gif" /></td>
+                            <td><img src="images/ver113/face1.gif" /></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/ver113/face1.gif" /></td>
+                            <td><img src="images/ver113/face1.gif" /></td>
+                            <td><img src="images/ver113/face1.gif" /></td>
+                            <td><img src="images/ver113/face1.gif" /></td>
+                            <td><img src="images/ver113/face1.gif" /></td>
+                            <td><img src="images/ver113/face1.gif" /></td>
+                            <td><img src="images/ver113/face1.gif" /></td>
+                        </tr>
+                    </table>
+                    <i class="fa fa-times" onclick="$('.blog-look-face').hide();"></i>
+                </div>
+            </div>
+            <div class="blog-look-fileup">
+                <div class="blog-look-file-con">
+                    <span>本地上传</span>
+                    <div class="upload_box">
+                        <div id="upload_div">
+                            <div id="texttb">
+                                <a class="f_close fileupclose" title="关闭" href="javascript:void(0);" onclick="$('.blog-look-fileup').hide();"><i class="fa fa-times"></i></a>
+                            </div>
+                            <div id="facebox">
+                                <div id="face_detail" class="facebox clearfix">
+                                     <div class="wh-face-fileup">
+                                        <input type="file" onchange="fileupload()" name="filePath" id="filePath" class="wh-face-fileup-button"/>
+                                         <p><i class="fa fa-cloud-upload"></i><span>点击上传</span></p>
+                                     </div>
+                                    <p>微博上传的图片的信息放这里</p>
+                                    <p>支持上传单张gif、jpg、png文件</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="image_div" class="wh-upfile-image-show">
+                            <div id="file_name" class="wh-upfile-name">
+
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- 微博评论 -->
+</div>
+<div class="wh-portal-blog-comment">
+    <div class="wh-portal-b-comment-box">
+        <div class="wh-portal-blog-scroll">
+            <div class="wh-portal-blog-tab">
+                <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                    <tr>
+                        <th>
+                            <div class="wh-portal-blog-user">
+                                <a href=""><img src="images/ver113/blogHead.jpg" width="42"  alt=""/></a>
+                            </div>
+                        </th>
+                        <td valign="top">
+                            <div class="wh-blog-user-comment">
+                                <div class="wh-blog-user-title">
+                                    <span>生产组 2015-4-23</span>
+                                    <a href="">吴晓剑</a>
+                                </div>  
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan='2'>
+                            <div class="wh-blog-user-text">
+                                <p>公司有没有哪位同事电脑是32位操作系统，用的是IE11，借用测试一个问题。</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- 转发 评论 -->
+        <!-- <div class="wh-portal-blog-repeat">
+            <ul class="clearfix">
+                <li><a href=""><i class="fa fa-paper-plane"></i><span>转发</span></a></li>
+                <li><a href=""><i class="fa fa-comment"></i><span>评论（12）</span></a></li>
+            </ul>
+        </div> -->
+    </div>
+    <div class="wh-portal-b-comment-box">
+        <div class="wh-portal-blog-scroll">
+            <div class="wh-portal-blog-tab">
+                <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                    <tr>
+                        <th>
+                            <div class="wh-portal-blog-user">
+                                <a href=""><img src="images/ver113/blogHead.jpg" width="42"  alt=""/></a>
+                            </div>
+                        </th>
+                        <td valign="top">
+                            <div class="wh-blog-user-comment">
+                                <div class="wh-blog-user-title">
+                                    <span>生产组 2015-4-23</span>
+                                    <a href="">吴晓剑</a>
+                                </div> 
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan='2'>
+                            <div class="wh-blog-user-text">
+                                <div class="wh-blog-user-img">
+                                    <a href="">左转</a><a href="">右转</a><a href="">原图</a>
+                                </div>
+                                <a href=""><img src="images/ver113/blog-img.jpg" alt="" width="100%"/></a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="page_index">
+            <div class="hit_more" id="loadMorediv">  
+                <a href="javascript:void(0)" onclick="getMoreWeibo(this,'725');">
+                    <span>获取更多内容</span>
+                    <i class="fa fa-angle-down fa-color"></i>
+                </a> 
+            </div> 
+        </div>
+        <!-- 转发 评论 -->
+        <!-- 转发 评论 -->
+        <!-- <div class="wh-portal-blog-repeat">
+            <ul class="clearfix">
+                <li><a href=""><i class="fa fa-paper-plane"></i><span>转发</span></a></li>
+                <li><a href=""><i class="fa fa-comment"></i><span>评论（12）</span></a></li>
+            </ul>
+        </div> -->
+    </div>
+    <script type="text/javascript">
+        $(function(){
+            $(".wh-blog-fileup").click(function(){
+                $(".blog-look-fileup").slideDown(300);
+            });
+
+            $(".wh-blog-face").click(function(){
+                $(".blog-look-face").slideDown(300);
+            });
+
+        })
+    </script>
+</div>
+

@@ -1,0 +1,490 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="x-strict">
+
+<head>
+    <title>信息列表</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <script type="text/javascript">
+    var whirRootPath = "/defaultroot";
+    var preUrl = "/defaultroot";
+    var whir_browser = "chrome";
+    var whir_agent = "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36";
+    var whir_locale = "zh_cn";
+    </script>
+    <script src="scripts/plugins/jquery/jquery.min.js" type="text/javascript"></script>
+    <script src="scripts/i18n/zh_CN/CommonResource.js" type="text/javascript"></script>
+    <link href="themes/common/common.css" rel="stylesheet" type="text/css">
+    <link href="themes/2015/color2/style.css" rel="stylesheet" type="text/css">
+     <link href="template/css/template_default/template.media.min.css" rel="stylesheet" type="text/css">
+    <script src="scripts/plugins/lhgdialog/lhgdialog.js?skin=idialog" type="text/javascript"></script>
+    <script src="scripts/plugins/form/jquery.form.js" type="text/javascript"></script>
+    <script src="scripts/main/whir.validation.js" type="text/javascript"></script>
+    <script src="scripts/main/whir.application.js" type="text/javascript"></script>
+    <script src="scripts/main/whir.util.js" type="text/javascript"></script>
+    <script src="scripts/plugins/My97DatePicker/WdatePicker.js"></script>
+    <link href="scripts/plugins/My97DatePicker/skin/WdatePicker.css" rel="stylesheet" type="text/css">
+    <script src="scripts/plugins/powerFloat/jquery-powerFloat.js" type="text/javascript"></script>
+    <link href="scripts/plugins/powerFloat/powerFloat.css" rel="stylesheet" type="text/css">
+    <link href="scripts/plugins/easyui/1.3.2/themes/default/easyui.css" rel="stylesheet" type="text/css">
+    <link href="scripts/plugins/easyui/1.3.2/themes/icon.css" rel="stylesheet" type="text/css">
+    <link href="themes/2015/color_red/style.css" rel="stylesheet" type="text/css">
+    <script src="scripts/plugins/easyui/1.3.2/jquery.easyui.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="scripts/static/template.extend.js"></script>
+    <script type="text/javascript">
+    /********公共初始化操作**********************/
+    $(document).ready(function() {
+        setInputStyle();
+        digitCheck();
+        $("input[type='hidden'],select").each(function() {
+            $(this).attr("defaultValue", $(this).val());
+        });
+        try {
+            $(document.body).focus();
+        } catch (e) {}
+    });
+    </script>
+    <script src="scripts/plugins/jPages/js/jPages.js" type="text/javascript"></script>
+    <link href="scripts/plugins/jPages/css/jPages.css" rel="stylesheet" type="text/css">
+    <!--这里可以追加导入模块内私有的js文件或css文件-->
+    <script src="public/relation/relation.js" language="javascript"></script>
+    <script src="scripts/main/whir.userInfo.card.js" language="javascript"></script>
+    <style type="text/css">
+
+    </style>
+    <link rel="stylesheet" type="text/css" media="screen" href="themes/common/style_chrome.css">
+    <style>
+    .jp-invisible {
+        visibility: hidden !important;
+    }
+    
+    .jp-hidden {
+        display: none !important;
+    }
+    </style>
+</head>
+
+<body class="MainFrameBox x-body x-webkit x-chrome" id="ext-gen1018">
+    <div class="test1"></div>
+    <div class="test2"></div>
+    <form id="queryForm" name="queryForm" method="post">
+        <input type="hidden" name="informationId" id="informationId" value="" defaultvalue="">
+        <input type="hidden" name="relationModule" id="relationModule" value="" defaultvalue="">
+        <input type="hidden" name="relationIFrame" id="relationIFrame" value="" defaultvalue="">
+        <input type="hidden" name="moduleType" id="moduleType" value="" defaultvalue="">
+        <input type="hidden" name="relation" id="relation" value="" defaultvalue="">
+        <input type="hidden" name="checkdepart" id="checkdepart" value="" defaultvalue="">
+        <input type="hidden" name="hasRight" id="hasRight" value="true" defaultvalue="true">
+        <input type="hidden" name="channelName" id="channelName" value="" defaultvalue="">
+        <input type="hidden" name="channelType" value="0" id="channelType" defaultvalue="0">
+        <input type="hidden" name="userDefine" value="0" id="userDefine" defaultvalue="0">
+        <input type="hidden" name="userChannelName" value="信息管理" id="userChannelName" defaultvalue="信息管理">
+        <input type="hidden" name="type" value="all" id="type" defaultvalue="all">
+        <input type="hidden" name="channelId" value="" id="channelId" defaultvalue="">
+        <input type="hidden" name="listType" value="" id="listType" defaultvalue="">
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" id="searchTable" class="SearchBar">
+            <tbody>
+                <tr>
+                    <td class="whir_td_searchtitle" nowrap="">栏目名称：</td>
+                    <td class="whir_td_searchinput">
+                        <select id="searchChannels" name="searchChannels" defaultvalue="0">
+                            <option value="0" selected="">===请选择栏目===</option>
+                        </select>
+                    </td>
+                    <td class="whir_td_searchtitle" nowrap="">部门：</td>
+                    <td class="whir_td_searchinput">
+                        <input type="hidden" name="searchOrgId" value="" id="searchOrgId" defaultvalue="">
+                        <input type="text" name="searchOrgName" value="" readonly="readonly" id="searchOrgName" class="inputText" style="width:96%">
+                        <a href="javascript:void(0);" class="selectIco" onclick="openSelect({allowId:'searchOrgId', allowName:'searchOrgName', select:'org', single:'yes', show:'org', range:'*0*'});"></a>
+                    </td>
+                    <td class="whir_td_searchtitle" nowrap="">关键字：</td>
+                    <td class="whir_td_searchinput">
+                        <input type="text" name="key" value="" id="key" class="inputText" style="width:99%">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="whir_td_searchtitle" nowrap="">标题：</td>
+                    <td class="whir_td_searchinput">
+                        <input type="text" name="title" value="" id="title" class="inputText" style="width:96%">
+                    </td>
+                    <td class="whir_td_searchtitle" nowrap="">副标题：</td>
+                    <td class="whir_td_searchinput">
+                        <input type="text" name="subtitle" value="" id="subtitle" class="inputText" style="width:96%">
+                    </td>
+                    <td class="whir_td_searchtitle" nowrap="">附件名：</td>
+                    <td class="whir_td_searchinput">
+                        <input type="text" name="append" value="" id="append" class="inputText" style="width:99%">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="whir_td_searchtitle" nowrap="">发布人：</td>
+                    <td class="whir_td_searchinput">
+                        <input type="text" name="searchIssuerName" value="" id="searchIssuerName" class="inputText" style="width:96%">
+                    </td>
+                    <td class="whir_td_searchtitle" nowrap="">发布日期：</td>
+                    <td class="whir_td_searchinput" colspan="2">
+                        <input type="text" name="startDate" value="" id="startDate" class="Wdate whir_datebox" onfocus="WdatePicker({dateFmt:'yyyy-MM-dd',readOnly:true,maxDate:'#F{$dp.$D(\'endDate\')}'})">&nbsp;至&nbsp;
+                        <input type="text" name="endDate" value="" id="endDate" class="Wdate whir_datebox" onfocus="WdatePicker({dateFmt:'yyyy-MM-dd',readOnly:true,minDate:'#F{$dp.$D(\'startDate\')}'})">
+                    </td>
+                    <td class="SearchBar_toolbar">
+                        <input type="button" class="btnButton4font" onclick="refreshListForm('queryForm');" value="立即查找">
+                        <!--resetForm(obj)为公共方法-->
+                        <input type="button" class="btnButton4font" onclick="resetForm(this);" value="清　除">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="whir_td_searchtitle" nowrap="">全文检索：</td>
+                    <td class="whir_td_searchinput">
+                        <input type="text" name="retrievalKey" value="" id="retrievalKey" class="inputText" style="width:96%">
+                    </td>
+                    <td colspan="4" align="left">
+                        <input type="button" class="btnButton4font" onclick="retrievalAllser();" value="全文检索">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table width="100%" height="35px" border="0" cellpadding="0" cellspacing="0" class="inlineBottomLine">
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="whir_public_movebg">
+                            <div class="whir_flright Public_tag" style="float:right;padding-right:5px">
+                                <div id="whir_titlesearch">
+                                    <input type="button" class="btnButton4font" onclick="chSearch(this);" value="别的按钮">
+                                    <input type="button" class="btnButton4font" onclick="chSearch(this);" value="我的按钮">
+                                    <input type="button" class="btnButton4font" onclick="chSearch(this);" value="打开查询">
+                                </div>
+                            </div>
+                            <div class="Public_tag">
+                                <ul>
+                                    <li id="list" onclick="list();"><span class="tag_center">列表</span><span class="tag_right"></span></li>
+                                    <li id="detail" class="tag_aon" onclick="detail();"><span class="tag_center">详细</span><span class="tag_right"></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <ul id="itemContainer" class="two_column" style="min-height: 0px;">
+                <li style="display: block; opacity: 1;">
+                    <a href="#" onclick="openWin({url:'Information!view.action?informationId=797&amp;informationType=1&amp;userChannelName=单位主页&amp;channelId=383&amp;userDefine=0&amp;channelType=-1&amp;checkdepart=1',winName:'viewInfo797',isFull:true});"><img src="images/filetype/other.gif" border="0"> [dddd]哪个账号？</a>
+                </li>
+                <li style="display: block; opacity: 1;">
+                    <a href="#" onclick="openWin({url:'Information!view.action?informationId=725&amp;informationType=1&amp;userChannelName=单位主页&amp;channelId=383&amp;userDefine=0&amp;channelType=-1&amp;checkdepart=1',winName:'viewInfo725',isFull:true});"><img src="images/filetype/other.gif" border="0"> [dddd]111111</a>
+                </li>
+                <li style="display: block; opacity: 1;">
+                    <a href="#" onclick="openWin({url:'Information!view.action?informationId=711&amp;informationType=1&amp;userChannelName=单位主页&amp;channelId=318&amp;userDefine=0&amp;channelType=-1&amp;checkdepart=1',winName:'viewInfo711',isFull:true});"><img src="images/filetype/other.gif" border="0"> [单位]单位主页</a>
+                </li>
+                <li style="display: block; opacity: 1;">
+                    <a href="#" onclick="openWin({url:'Information!view.action?informationId=675&amp;informationType=1&amp;userChannelName=单位主页&amp;channelId=403&amp;userDefine=0&amp;channelType=-1&amp;checkdepart=1',winName:'viewInfo675',isFull:true});"><img src="images/filetype/other.gif" border="0"> [11]测试1111111111111111</a>
+                </li>
+                <li style="display: block; opacity: 1;">
+                    <a href="#" onclick="openWin({url:'Information!view.action?informationId=592&amp;informationType=1&amp;userChannelName=单位主页&amp;channelId=383&amp;userDefine=0&amp;channelType=-1&amp;checkdepart=1',winName:'viewInfo592',isFull:true});"><img src="images/filetype/other.gif" border="0"> [dddd]dddd</a>
+                </li>
+                <li style="display: block; opacity: 1;">
+                    <a href="#" onclick="openWin({url:'Information!view.action?informationId=542&amp;informationType=1&amp;userChannelName=单位主页&amp;channelId=348&amp;userDefine=0&amp;channelType=-1&amp;checkdepart=1',winName:'viewInfo542',isFull:true});"><img src="images/filetype/other.gif" border="0"> [test3.17]vvvvvvv</a>
+                </li>
+                <li style="display: block; opacity: 1;">
+                    <a href="#" onclick="openWin({url:'Information!view.action?informationId=541&amp;informationType=1&amp;userChannelName=单位主页&amp;channelId=348&amp;userDefine=0&amp;channelType=-1&amp;checkdepart=1',winName:'viewInfo541',isFull:true});"><img src="images/filetype/other.gif" border="0"> [test3.17]cccc</a>
+                </li>
+                <li style="display: block; opacity: 1;">
+                    <a href="#" onclick="openWin({url:'Information!view.action?informationId=481&amp;informationType=4&amp;userChannelName=单位主页&amp;channelId=348&amp;userDefine=0&amp;channelType=-1&amp;checkdepart=1',winName:'viewInfo481',isFull:true});"><img src="images/filetype/other.gif" border="0"> [test3.17]eeeeeee</a>
+                </li>
+                <li style="display: block; opacity: 1;">
+                    <a href="#" onclick="openWin({url:'Information!view.action?informationId=387&amp;informationType=1&amp;userChannelName=单位主页&amp;channelId=348&amp;userDefine=0&amp;channelType=-1&amp;checkdepart=1',winName:'viewInfo387',isFull:true});"><img src="images/filetype/other.gif" border="0"> [test3.17]yuntest</a>
+                </li>
+                <li style="display: block; opacity: 1;">
+                    <a href="#" onclick="openWin({url:'Information!view.action?informationId=349&amp;informationType=1&amp;userChannelName=单位主页&amp;channelId=318&amp;userDefine=0&amp;channelType=-1&amp;checkdepart=1',winName:'viewInfo349',isFull:true});"><img src="images/filetype/other.gif" border="0"> [单位]25</a>
+                </li>
+                <li style="display: block; opacity: 1;">
+                    <a href="#" onclick="openWin({url:'Information!view.action?informationId=410&amp;informationType=1&amp;userChannelName=单位主页&amp;channelId=361&amp;userDefine=0&amp;channelType=-1&amp;checkdepart=1',winName:'viewInfo410',isFull:true});"><img src="images/filetype/jpg.gif" border="0"> [相册]picture</a>
+                </li>
+                <li style="display: block; opacity: 1;">
+                    <a href="#" onclick="openWin({url:'Information!view.action?informationId=407&amp;informationType=1&amp;userChannelName=单位主页&amp;channelId=360&amp;userDefine=0&amp;channelType=-1&amp;checkdepart=1',winName:'viewInfo407',isFull:true});"><img src="images/filetype/jpg.gif" border="0"> [test]
+                        <font color="red">hjjhkjhi</font>
+                    </a>
+                </li>
+                <li style="display: block; opacity: 1;">
+                    <a href="#" onclick="openWin({url:'Information!view.action?informationId=357&amp;informationType=1&amp;userChannelName=单位主页&amp;channelId=318&amp;userDefine=0&amp;channelType=-1&amp;checkdepart=1',winName:'viewInfo357',isFull:true});"><img src="images/filetype/other.gif" border="0"> [单位]33</a>
+                </li>
+                <li style="display: block; opacity: 1;">
+                    <a href="#" onclick="openWin({url:'Information!view.action?informationId=356&amp;informationType=1&amp;userChannelName=单位主页&amp;channelId=318&amp;userDefine=0&amp;channelType=-1&amp;checkdepart=1',winName:'viewInfo356',isFull:true});"><img src="images/filetype/other.gif" border="0"> [单位]32</a>
+                </li>
+                <li style="display: block; opacity: 1;">
+                    <a href="#" onclick="openWin({url:'Information!view.action?informationId=355&amp;informationType=1&amp;userChannelName=单位主页&amp;channelId=318&amp;userDefine=0&amp;channelType=-1&amp;checkdepart=1',winName:'viewInfo355',isFull:true});"><img src="images/filetype/other.gif" border="0"> [单位]31</a>
+                </li>
+            </ul>
+            <div class="clear_0"></div>
+        </div>
+        <table width="100%" border="0" cellpadding="1" cellspacing="1" class="listTable">
+            <thead id="headerContainer">
+                <tr class="listTableHead">
+                    <td nowrap="" whir-options="field:'informationTitle',width:'45%',renderer:infoTitle" width="45%">标题</td>
+                    <td whir-options="field:'informationIssuer',width:'8%',renderer:showCreatedEmp" width="8%">发布人</td>
+                    <td whir-options="field:'informationIssueTime', width:'10%',allowSort:true,renderer:common_DateFormat" width="10%">发布日期<img id="_img_informationIssueTime" src="images/blanksort.gif" style="cursor:pointer" onclick="orderBy(this,'informationIssueTime');"></td>
+                    <td whir-options="field:'informationModifyTime', width:'10%',allowSort:true,renderer:common_DateFormat" width="10%">修改日期<img id="_img_informationModifyTime" src="images/blanksort.gif" style="cursor:pointer" onclick="orderBy(this,'informationModifyTime');"></td>
+                    <td whir-options="field:'informationKits',width:'6%',allowSort:true" width="6%">点击<img id="_img_informationKits" src="images/blanksort.gif" style="cursor:pointer" onclick="orderBy(this,'informationKits');"></td>
+                    <td whir-options="field:'orderCode',width:'6%'" width="6%">排序</td>
+                    <td whir-options="field:'',width:'10%',renderer:myOperate" width="10%">操作</td>
+                </tr>
+            </thead>
+            <tbody id="itemContainer">
+                <tr class="listTableLine1">
+                    <td><img src="images/addgood.gif">&nbsp;<a href="javascript:void(0);" onclick="location_href(&quot;InfoList!allList.action?channelId=414&amp;channelName=培训test&amp;checkdepart=&amp;channelType=0&amp;userChannelName=信息管理&amp;userDefine=0&quot;);" style="cursor:hand">[培训test]</a>&nbsp;<a href="javascript:void(0);" onclick="openWin({url:'Information!view.action?informationId=782&amp;informationType=1&amp;userChannelName=信息管理&amp;channelId=414&amp;userDefine=0&amp;channelType=0&amp;gdType=infomation&amp;checkdepart=',winName:'viewInfo782',isFull:true});" style="cursor:hand">培训信息</a></td>
+                    <td><a class="trigger1" rel="public/desktop/getUserCardInfo.jsp?id=32&amp;hasMsg=true" href="javascript:view(32);">qq2</a></td>
+                    <td>2015-06-29</td>
+                    <td>&nbsp;</td>
+                    <td>83</td>
+                    <td>10001</td>
+                    <td class="listTableLineLastTD">
+                        <a href="javascript:void(0)" onclick="openWin({url:'Information!sort.action?informationId=782&amp;orderCode=10001',width:600,height:120,winName:'infoSort'});"><img border="0" src="images/px.gif" title="排序"></a>
+                    </td>
+                </tr>
+                <tr class="listTableLine2">
+                    <td><a href="javascript:void(0);" onclick="location_href(&quot;InfoList!allList.action?channelId=393&amp;channelName=短信设置（勿删）&amp;checkdepart=&amp;channelType=0&amp;userChannelName=信息管理&amp;userDefine=0&quot;);" style="cursor:hand">[短信设置（勿删）]</a>&nbsp;<a href="javascript:void(0);" onclick="openWin({url:'Information!view.action?informationId=813&amp;informationType=1&amp;userChannelName=信息管理&amp;channelId=393&amp;userDefine=0&amp;channelType=0&amp;gdType=infomation&amp;checkdepart=',winName:'viewInfo813',isFull:true});" style="cursor:hand">1111111122222222222222</a></td>
+                    <td><a class="trigger1" rel="public/desktop/getUserCardInfo.jsp?id=2309&amp;hasMsg=true" href="javascript:view(2309);">liuyh</a></td>
+                    <td>2015-07-15</td>
+                    <td>&nbsp;</td>
+                    <td>0</td>
+                    <td>1000</td>
+                    <td class="listTableLineLastTD">
+                        <a href="javascript:void(0)" onclick="openWin({url:'Information!sort.action?informationId=813&amp;orderCode=1000',width:600,height:120,winName:'infoSort'});"><img border="0" src="images/px.gif" title="排序"></a>
+                    </td>
+                </tr>
+                <tr class="listTableLine1">
+                    <td><a href="javascript:void(0);" onclick="location_href(&quot;InfoList!allList.action?channelId=393&amp;channelName=短信设置（勿删）&amp;checkdepart=&amp;channelType=0&amp;userChannelName=信息管理&amp;userDefine=0&quot;);" style="cursor:hand">[短信设置（勿删）]</a>&nbsp;<a href="javascript:void(0);" onclick="openWin({url:'Information!view.action?informationId=812&amp;informationType=1&amp;userChannelName=信息管理&amp;channelId=393&amp;userDefine=0&amp;channelType=0&amp;gdType=infomation&amp;checkdepart=',winName:'viewInfo812',isFull:true});" style="cursor:hand">111111111111111111</a></td>
+                    <td><a class="trigger1" rel="public/desktop/getUserCardInfo.jsp?id=2309&amp;hasMsg=true" href="javascript:view(2309);">liuyh</a></td>
+                    <td>2015-07-15</td>
+                    <td>&nbsp;</td>
+                    <td>0</td>
+                    <td>1000</td>
+                    <td class="listTableLineLastTD">
+                        <a href="javascript:void(0)" onclick="openWin({url:'Information!sort.action?informationId=812&amp;orderCode=1000',width:600,height:120,winName:'infoSort'});"><img border="0" src="images/px.gif" title="排序"></a>
+                    </td>
+                </tr>
+                <tr class="listTableLine2">
+                    <td><a href="javascript:void(0);" onclick="location_href(&quot;InfoList!allList.action?channelId=314&amp;channelName=下载专区&amp;checkdepart=&amp;channelType=0&amp;userChannelName=信息管理&amp;userDefine=0&quot;);" style="cursor:hand">[下载专区]</a>&nbsp;<a href="javascript:void(0);" onclick="openWin({url:'Information!view.action?informationId=811&amp;informationType=1&amp;userChannelName=信息管理&amp;channelId=314&amp;userDefine=0&amp;channelType=0&amp;gdType=infomation&amp;checkdepart=',winName:'viewInfo811',isFull:true});" style="cursor:hand">111111111111</a></td>
+                    <td><a class="trigger1" rel="public/desktop/getUserCardInfo.jsp?id=2309&amp;hasMsg=true" href="javascript:view(2309);">liuyh</a></td>
+                    <td>2015-07-15</td>
+                    <td>&nbsp;</td>
+                    <td>0</td>
+                    <td>1000</td>
+                    <td class="listTableLineLastTD">
+                        <a href="javascript:void(0)" onclick="openWin({url:'Information!sort.action?informationId=811&amp;orderCode=1000',width:600,height:120,winName:'infoSort'});"><img border="0" src="images/px.gif" title="排序"></a>
+                    </td>
+                </tr>
+                <tr class="listTableLine1">
+                    <td><a href="javascript:void(0);" onclick="location_href(&quot;InfoList!allList.action?channelId=414&amp;channelName=培训test&amp;checkdepart=&amp;channelType=0&amp;userChannelName=信息管理&amp;userDefine=0&quot;);" style="cursor:hand">[培训test]</a>&nbsp;<a href="javascript:void(0);" onclick="openWin({url:'Information!view.action?informationId=810&amp;informationType=1&amp;userChannelName=信息管理&amp;channelId=414&amp;userDefine=0&amp;channelType=0&amp;gdType=infomation&amp;checkdepart=',winName:'viewInfo810',isFull:true});" style="cursor:hand">ytt_714</a></td>
+                    <td><a class="trigger1" rel="public/desktop/getUserCardInfo.jsp?id=53&amp;hasMsg=true" href="javascript:view(53);">杨婷婷</a></td>
+                    <td>2015-07-14</td>
+                    <td>&nbsp;</td>
+                    <td>0</td>
+                    <td>1000</td>
+                    <td class="listTableLineLastTD">
+                        <a href="javascript:void(0)" onclick="openWin({url:'Information!sort.action?informationId=810&amp;orderCode=1000',width:600,height:120,winName:'infoSort'});"><img border="0" src="images/px.gif" title="排序"></a>
+                    </td>
+                </tr>
+                <tr class="listTableLine2">
+                    <td><a href="javascript:void(0);" onclick="location_href(&quot;InfoList!allList.action?channelId=365&amp;channelName=新员工介绍&amp;checkdepart=&amp;channelType=0&amp;userChannelName=信息管理&amp;userDefine=0&quot;);" style="cursor:hand">[新员工介绍]</a>&nbsp;<a href="javascript:void(0);" onclick="openWin({url:'Information!view.action?informationId=809&amp;informationType=1&amp;userChannelName=信息管理&amp;channelId=365&amp;userDefine=0&amp;channelType=0&amp;gdType=infomation&amp;checkdepart=',winName:'viewInfo809',isFull:true});" style="cursor:hand">shipin</a></td>
+                    <td><a class="trigger1" rel="public/desktop/getUserCardInfo.jsp?id=53&amp;hasMsg=true" href="javascript:view(53);">杨婷婷</a></td>
+                    <td>2015-07-13</td>
+                    <td>&nbsp;</td>
+                    <td>5</td>
+                    <td>1000</td>
+                    <td class="listTableLineLastTD">
+                        <a href="javascript:void(0)" onclick="openWin({url:'Information!sort.action?informationId=809&amp;orderCode=1000',width:600,height:120,winName:'infoSort'});"><img border="0" src="images/px.gif" title="排序"></a>
+                    </td>
+                </tr>
+                <tr class="listTableLine1">
+                    <td><a href="javascript:void(0);" onclick="location_href(&quot;InfoList!allList.action?channelId=312&amp;channelName=通知通告&amp;checkdepart=&amp;channelType=0&amp;userChannelName=信息管理&amp;userDefine=0&quot;);" style="cursor:hand">[通知通告]</a>&nbsp;<a href="javascript:void(0);" onclick="openWin({url:'Information!view.action?informationId=808&amp;informationType=4&amp;userChannelName=信息管理&amp;channelId=312&amp;userDefine=0&amp;channelType=0&amp;gdType=infomation&amp;checkdepart=',winName:'viewInfo808',isFull:true});" style="cursor:hand">发文标准流程</a></td>
+                    <td><a class="trigger1" rel="public/desktop/getUserCardInfo.jsp?id=39&amp;hasMsg=true" href="javascript:view(39);">pyaa</a></td>
+                    <td>2015-07-10</td>
+                    <td>&nbsp;</td>
+                    <td>3</td>
+                    <td>1000</td>
+                    <td class="listTableLineLastTD">
+                        <a href="javascript:void(0)" onclick="openWin({url:'Information!sort.action?informationId=808&amp;orderCode=1000',width:600,height:120,winName:'infoSort'});"><img border="0" src="images/px.gif" title="排序"></a>
+                    </td>
+                </tr>
+                <tr class="listTableLine2">
+                    <td><a href="javascript:void(0);" onclick="location_href(&quot;InfoList!allList.action?channelId=377&amp;channelName=新流程&amp;checkdepart=&amp;channelType=0&amp;userChannelName=信息管理&amp;userDefine=0&quot;);" style="cursor:hand">[新流程]</a>&nbsp;<a href="javascript:void(0);" onclick="openWin({url:'Information!view.action?informationId=806&amp;informationType=1&amp;userChannelName=信息管理&amp;channelId=377&amp;userDefine=0&amp;channelType=0&amp;gdType=infomation&amp;checkdepart=',winName:'viewInfo806',isFull:true});" style="cursor:hand">阿妹</a></td>
+                    <td><a class="trigger1" rel="public/desktop/getUserCardInfo.jsp?id=2189&amp;hasMsg=true" href="javascript:view(2189);">周杰伦</a></td>
+                    <td>2015-07-09</td>
+                    <td>2015-07-09</td>
+                    <td>1</td>
+                    <td>1000</td>
+                    <td class="listTableLineLastTD">
+                        <a href="javascript:void(0)" onclick="openWin({url:'Information!sort.action?informationId=806&amp;orderCode=1000',width:600,height:120,winName:'infoSort'});"><img border="0" src="images/px.gif" title="排序"></a>
+                    </td>
+                </tr>
+                <tr class="listTableLine1">
+                    <td><a href="javascript:void(0);" onclick="location_href(&quot;InfoList!allList.action?channelId=417&amp;channelName=czq 栏目&amp;checkdepart=&amp;channelType=0&amp;userChannelName=信息管理&amp;userDefine=0&quot;);" style="cursor:hand">[czq 栏目]</a>&nbsp;<a href="javascript:void(0);" onclick="openWin({url:'Information!view.action?informationId=804&amp;informationType=1&amp;userChannelName=信息管理&amp;channelId=417&amp;userDefine=0&amp;channelType=0&amp;gdType=infomation&amp;checkdepart=',winName:'viewInfo804',isFull:true});" style="cursor:hand">aaaaaa</a></td>
+                    <td><a class="trigger1" rel="public/desktop/getUserCardInfo.jsp?id=44&amp;hasMsg=true" href="javascript:view(44);">陈勤</a></td>
+                    <td>2015-07-08</td>
+                    <td>2015-07-08</td>
+                    <td>1</td>
+                    <td>1000</td>
+                    <td class="listTableLineLastTD">
+                        <a href="javascript:void(0)" onclick="openWin({url:'Information!sort.action?informationId=804&amp;orderCode=1000',width:600,height:120,winName:'infoSort'});"><img border="0" src="images/px.gif" title="排序"></a>
+                    </td>
+                </tr>
+                <tr class="listTableLine2">
+                    <td><a href="javascript:void(0);" onclick="location_href(&quot;InfoList!allList.action?channelId=312&amp;channelName=通知通告&amp;checkdepart=&amp;channelType=0&amp;userChannelName=信息管理&amp;userDefine=0&quot;);" style="cursor:hand">[通知通告]</a>&nbsp;<a href="javascript:void(0);" onclick="openWin({url:'Information!view.action?informationId=802&amp;informationType=1&amp;userChannelName=信息管理&amp;channelId=312&amp;userDefine=0&amp;channelType=0&amp;gdType=infomation&amp;checkdepart=',winName:'viewInfo802',isFull:true});" style="cursor:hand">测试信息</a></td>
+                    <td><a class="trigger1" rel="public/desktop/getUserCardInfo.jsp?id=157&amp;hasMsg=true" href="javascript:view(157);">王建</a></td>
+                    <td>2015-07-08</td>
+                    <td>&nbsp;</td>
+                    <td>2</td>
+                    <td>1000</td>
+                    <td class="listTableLineLastTD">
+                        <a href="javascript:void(0)" onclick="openWin({url:'Information!sort.action?informationId=802&amp;orderCode=1000',width:600,height:120,winName:'infoSort'});"><img border="0" src="images/px.gif" title="排序"></a>
+                    </td>
+                </tr>
+                <tr class="listTableLine1">
+                    <td><a href="javascript:void(0);" onclick="location_href(&quot;InfoList!allList.action?channelId=417&amp;channelName=czq 栏目&amp;checkdepart=&amp;channelType=0&amp;userChannelName=信息管理&amp;userDefine=0&quot;);" style="cursor:hand">[czq 栏目]</a>&nbsp;<a href="javascript:void(0);" onclick="openWin({url:'Information!view.action?informationId=801&amp;informationType=1&amp;userChannelName=信息管理&amp;channelId=417&amp;userDefine=0&amp;channelType=0&amp;gdType=infomation&amp;checkdepart=',winName:'viewInfo801',isFull:true});" style="cursor:hand">czq</a></td>
+                    <td><a class="trigger1" rel="public/desktop/getUserCardInfo.jsp?id=2270&amp;hasMsg=true" href="javascript:view(2270);">曹竹情</a></td>
+                    <td>2015-07-07</td>
+                    <td>2015-07-07</td>
+                    <td>5</td>
+                    <td>1000</td>
+                    <td class="listTableLineLastTD">
+                        <a href="javascript:void(0)" onclick="openWin({url:'Information!sort.action?informationId=801&amp;orderCode=1000',width:600,height:120,winName:'infoSort'});"><img border="0" src="images/px.gif" title="排序"></a>
+                    </td>
+                </tr>
+                <tr class="listTableLine2">
+                    <td><a href="javascript:void(0);" onclick="location_href(&quot;InfoList!allList.action?channelId=362&amp;channelName=测试写字段老流程&amp;checkdepart=&amp;channelType=0&amp;userChannelName=信息管理&amp;userDefine=0&quot;);" style="cursor:hand">[测试写字段老流程]</a>&nbsp;<a href="javascript:void(0);" onclick="openWin({url:'Information!view.action?informationId=799&amp;informationType=1&amp;userChannelName=信息管理&amp;channelId=362&amp;userDefine=0&amp;channelType=0&amp;gdType=infomation&amp;checkdepart=',winName:'viewInfo799',isFull:true});" style="cursor:hand">fffffff</a></td>
+                    <td><a class="trigger1" rel="public/desktop/getUserCardInfo.jsp?id=44&amp;hasMsg=true" href="javascript:view(44);">陈勤</a></td>
+                    <td>2015-07-06</td>
+                    <td>&nbsp;</td>
+                    <td>3</td>
+                    <td>1000</td>
+                    <td class="listTableLineLastTD">
+                        <a href="javascript:void(0)" onclick="openWin({url:'Information!sort.action?informationId=799&amp;orderCode=1000',width:600,height:120,winName:'infoSort'});"><img border="0" src="images/px.gif" title="排序"></a>
+                    </td>
+                </tr>
+                <tr class="listTableLine1">
+                    <td><a href="javascript:void(0);" onclick="location_href(&quot;InfoList!allList.action?channelId=414&amp;channelName=培训test&amp;checkdepart=&amp;channelType=0&amp;userChannelName=信息管理&amp;userDefine=0&quot;);" style="cursor:hand">[培训test]</a>&nbsp;
+                        <a href="javascript:void(0);" onclick="openWin({url:'Information!view.action?informationId=798&amp;informationType=1&amp;userChannelName=信息管理&amp;channelId=414&amp;userDefine=0&amp;channelType=0&amp;gdType=infomation&amp;checkdepart=',winName:'viewInfo798',isFull:true});" style="cursor:hand">
+                            <font color="red">是cxs发布的吗？</font>
+                        </a>
+                    </td>
+                    <td><a class="trigger1" rel="public/desktop/getUserCardInfo.jsp?id=2205&amp;hasMsg=true" href="javascript:view(2205);">陈小沙</a></td>
+                    <td>2015-07-02</td>
+                    <td>&nbsp;</td>
+                    <td>1</td>
+                    <td>1000</td>
+                    <td class="listTableLineLastTD">
+                        <a href="javascript:void(0)" onclick="openWin({url:'Information!sort.action?informationId=798&amp;orderCode=1000',width:600,height:120,winName:'infoSort'});"><img border="0" src="images/px.gif" title="排序"></a>
+                    </td>
+                </tr>
+                <tr class="listTableLine2">
+                    <td><a href="javascript:void(0);" onclick="location_href(&quot;InfoList!allList.action?channelId=412&amp;channelName=fqq栏目&amp;checkdepart=&amp;channelType=0&amp;userChannelName=信息管理&amp;userDefine=0&quot;);" style="cursor:hand">[fqq栏目]</a>&nbsp;<a href="javascript:void(0);" onclick="openWin({url:'Information!view.action?informationId=796&amp;informationType=1&amp;userChannelName=信息管理&amp;channelId=412&amp;userDefine=0&amp;channelType=0&amp;gdType=infomation&amp;checkdepart=',winName:'viewInfo796',isFull:true});" style="cursor:hand">公司召开年度保密工作会议</a></td>
+                    <td><a class="trigger1" rel="public/desktop/getUserCardInfo.jsp?id=54&amp;hasMsg=true" href="javascript:view(54);">鲁小英</a></td>
+                    <td>2015-06-30</td>
+                    <td>2015-07-01</td>
+                    <td>8</td>
+                    <td>1000</td>
+                    <td class="listTableLineLastTD">
+                        <a href="javascript:void(0)" onclick="openWin({url:'Information!sort.action?informationId=796&amp;orderCode=1000',width:600,height:120,winName:'infoSort'});"><img border="0" src="images/px.gif" title="排序"></a>
+                    </td>
+                </tr>
+                <tr class="listTableLine1">
+                    <td><a href="javascript:void(0);" onclick="location_href(&quot;InfoList!allList.action?channelId=414&amp;channelName=培训test&amp;checkdepart=&amp;channelType=0&amp;userChannelName=信息管理&amp;userDefine=0&quot;);" style="cursor:hand">[培训test]</a>&nbsp;<a href="javascript:void(0);" onclick="openWin({url:'Information!view.action?informationId=793&amp;informationType=0&amp;userChannelName=信息管理&amp;channelId=414&amp;userDefine=0&amp;channelType=0&amp;gdType=infomation&amp;checkdepart=',winName:'viewInfo793',isFull:true});" style="cursor:hand">“…-^_^【《》】”</a></td>
+                    <td><a class="trigger1" rel="public/desktop/getUserCardInfo.jsp?id=186&amp;hasMsg=true" href="javascript:view(186);">袁三燕</a></td>
+                    <td>2015-06-29</td>
+                    <td>&nbsp;</td>
+                    <td>0</td>
+                    <td>1000</td>
+                    <td class="listTableLineLastTD">
+                        <a href="javascript:void(0)" onclick="openWin({url:'Information!sort.action?informationId=793&amp;orderCode=1000',width:600,height:120,winName:'infoSort'});"><img border="0" src="images/px.gif" title="排序"></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="Pagebar">
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="page" style="display: block;">
+                            <div id="pager_desc">第&nbsp;
+                                <font color="red">1</font>/23&nbsp;页&nbsp;&nbsp;&nbsp;共&nbsp;340&nbsp;条记录&nbsp;</div>
+                            <div id="pagerSize">
+                                <select name="pageSize" id="page_size" onchange="pageClick(1,this);" class="pageSize" defaultvalue="15">
+                                    <option value="15" selected="">15</option>
+                                    <option value="30">30</option>
+                                    <option value="50">50</option>
+                                    <option value="100">100</option>
+                                </select>
+                            </div>
+                            <div id="pager"><a class="jp-previous jp-disabled" onclick="pageBtnClick(this,'previous');">前页</a><a href="javascript:void(0);" onclick="pageClick($(this).text(),this);" class="jp-current">1</a><span class="jp-hidden"><b>...</b></span><a href="javascript:void(0);" onclick="pageClick($(this).text(),this);" class="">2</a><a href="javascript:void(0);" onclick="pageClick($(this).text(),this);" class="">3</a><a href="javascript:void(0);" onclick="pageClick($(this).text(),this);" class="">4</a><a href="javascript:void(0);" onclick="pageClick($(this).text(),this);" class="">5</a><span><b>...</b></span><a href="javascript:void(0);" onclick="pageClick($(this).text(),this);" class="">23</a><a class="jp-next" onclick="pageBtnClick(this,'next');">后页</a></div>
+                            <div id="pagebtn">
+                                <input id="go_start_pager" onfocus="$(this).attr('class','clicked');" onblur="$(this).attr('class','');">
+                                <input type="button" onclick="goPager(this);" value=" Go ">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <input type="hidden" id="orderByFieldName" name="orderByFieldName" value="" defaultvalue="">
+        <input type="hidden" id="orderByType" name="orderByType" value="" defaultvalue="">
+        <input type="hidden" id="start_page" name="startPage" defaultvalue="1" value="1">
+        <input type="hidden" id="page_count" name="pageCount" defaultvalue="1" value="23">
+        <input type="hidden" id="recordCount" defaultvalue="0" name="recordCount" value="340">
+    </form>
+    <div class="yang_BombBox">
+        <div class="yang_Bomb">
+           <!--  <h3 class="yang_Bomb_title">我的回执</h3> -->
+            <div class="yang_part1 clearfix">
+                <div class="yang_part1_fl fl">
+                    <input type="radio" checked="checked" value="0">
+                    <label>小型</label>
+                    <input type="radio" name="boardRoomPO.boardroomType" id="dataForm_boardRoomPO_boardroomType1" value="1">
+                    <label for="dataForm_boardRoomPO_boardroomType1">中型</label>
+      
+                </div>
+                <div class="yang_part1_fr fr">
+                    <input type="text" class="inputText">
+                    <a href="#" class="selectIco"></a>
+                </div>
+
+            </div>
+            <textarea class="yang_textarea">sdfds</textarea>
+            <input type="button" name="" class="yang_button" value="提交">
+            <!-- <a href="#" class="yang_close"></a> -->
+        </div>
+    </div>
+    <iframe id="gdIframe" src="" frameborder="0" style="display:'none'" height="0"></iframe>
+    <link rel="stylesheet" type="text/css" href="scripts/plugins/extjs/4.2.1/resources/css/ext-all-neptune.css">
+    <script type="text/javascript" src="scripts/plugins/extjs/4.2.1/ext-all.js" id="ext4js"></script>
+    <script type="text/javascript" src="scripts/plugins/extjs/4.2.1/packages/ext-theme-neptune/build/ext-theme-neptune.js" defer=""></script>
+    <style>
+    .Table_bottomline .x-form-trigger-wrap TD {
+        padding-left: 4px
+    }
+    </style>
+    <script language="javascript">
+     
+
+
+
+//点击发起会议 
+            layer.open({
+                type: 1,
+                title: '<div class="huzhi">我的回执</div>',
+                shadeClose: false,
+                shade: 0,
+                offset: 'rb',
+                area: ['529px', '287px'],
+                content: $('.yang_BombBox')
+
+            });
+      
+   $(".huzhi").parent().parent().addClass("huizhi-box");
+   
+
+
+    </script>
+</body>
+
+</html>

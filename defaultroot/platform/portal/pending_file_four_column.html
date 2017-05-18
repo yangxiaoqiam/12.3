@@ -1,0 +1,68 @@
+<div class="wh-portal-i-title clearfix">
+    <ul class="wh-portal-i-title-left clearfix">
+        <li class="wh-portal-title-li on"><a href="">流程催办</a></li>
+    </ul>
+</div>
+<div class="wh-portal-i-content">
+    <div class="wh-portal-info-content wh-portal-iclist5 wh-protal-overflow">
+        <div class="wh-portal-i-item clearfix">
+            <a href="">
+                <i class="fa fa-clock-o"></i>
+                <span>催办:管理员[05-26 10:08]提交的ＢＳ半自由流程等待您...</span>
+            </a>
+        </div>
+        <div class="wh-portal-i-item clearfix">
+            <a href="">
+                <i class="fa fa-clock-o"></i>
+                <span>催办:管理员[05-26 10:08]提交的ＢＳ半自由流程等待您...</span>
+            </a>
+        </div>
+        <div class="wh-portal-i-item clearfix">
+            <a href="">
+                <i class="fa fa-clock-o"></i>
+                <span>催办:管理员[05-26 10:08]提交的ＢＳ半自由流程等待您...</span>
+            </a>
+        </div>
+        <div class="wh-portal-i-item clearfix">
+            <a href="">
+                <i class="fa fa-clock-o"></i>
+                <span>催办:管理员[05-26 10:08]提交的ＢＳ半自由流程等待您...</span>
+            </a>
+        </div>
+        <div class="wh-portal-i-item clearfix">
+            <a href="">
+                <i class="fa fa-clock-o"></i>
+                <span>催办:管理员[05-26 10:08]提交的ＢＳ半自由流程等待您...</span>
+            </a>
+        </div>
+        <div class="wh-portal-i-item clearfix">
+            <a href="">
+                <i class="fa fa-clock-o"></i>
+                <span>催办:管理员[05-26 10:08]提交的ＢＳ半自由流程等待您...</span>
+            </a>
+        </div>
+    </div>
+</div>
+<script>
+    $(function(){
+        //列表滚动
+        var _wrap=$('.wh-portal-iclist5');
+        var _interval=3000;
+        var _moving;
+        var infonum = 6;
+        var info_line_height = 26;
+        var counth = info_line_height*(infonum-1);
+        _wrap.css('height',counth);
+        _wrap.hover(function(){
+            clearInterval(_moving);
+        },function(){
+            _moving=setInterval(function(){
+                var _field=_wrap.find('.wh-portal-i-item:first');
+                var _h=_field.height();
+                _field.animate({marginTop:-_h+'px'},600,function(){
+                    _field.css('marginTop',0).appendTo(_wrap);
+                })
+            },_interval)
+        }).trigger('mouseleave');
+    })
+</script>
