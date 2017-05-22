@@ -23,7 +23,7 @@ table.ui_border,table.ui_dialog{ width:auto;border-spacing:0;*border-collapse:co
 select {
     vertical-align: middle;
     margin: 0;
-    font: 12px "微软雅黑", Arial, Helvetica, sans-serif;
+    font: 12px "Microsoft YaHei", Arial, Helvetica, sans-serif;
 	color:#666;
     -webkit-font-smoothing: subpixel-antialiased;
 
