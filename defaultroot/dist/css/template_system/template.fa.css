@@ -660,3 +660,24 @@
 .fa-three-line:before {
   content: "\f0d6";
 }
+.fa-company:before {
+  content: "\f0d7";
+}
+.fa-sex:before {
+  content: "\f0d8";
+}
+.fa-box:before {
+  content: "\f0d9";
+}
+.fa-num:before {
+  content: "\f0da";
+}
+.fa-per:before {
+  content: "\f0db";
+}
+.fa-noselect:before {
+  content: "\f0dc";
+}
+.fa-selected:before {
+  content: "\f0dd";
+}
