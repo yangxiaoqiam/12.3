@@ -1,0 +1,123 @@
+<div class="wh-portal-i-title clearfix">
+    <ul class="wh-portal-i-title-left wh-portal-title-slide04 clearfix" data-linum="1">
+        <li class="wh-portal-title-li wh-portal-overflow on"><a href=""><i class="fa fa-file-o"></i>制度</a></li>
+        <!-- <li class="wh-portal-title-li wh-portal-overflow"><a href="">归档文档文</a></li>
+        <li class="wh-portal-title-li wh-portal-overflow"><a href="">操作工艺文归档文档文</a></li>
+        <li class="wh-portal-title-li wh-portal-overflow"><a href="">规范性质文归档文档文</a></li> -->
+    </ul>
+    <h3><a href="#">主标题设置</a></h3>
+</div>
+<div class="wh-portal-i-content">
+    <div class="wh-portal-info-content">
+        <div class="wh-portal-slide04">
+            <ul class="clearfix">
+                <li>
+                    <div class="wh-portal-i-item clearfix">
+                        <a href="">
+                            <i class="fa fa-file-o"></i>
+                            <span> 万户网站-4月份新员工企业企业企业企业企</span>
+                            <em>（4-27阅36次）</em>
+                            <i class="fa fa-new"></i>
+                        </a>
+                        
+                    </div>
+                    <div class="wh-portal-i-item clearfix">
+                        <a href="">
+                            <i class="fa fa-file-o"></i>
+                            <span> 万户网站-4月份新员工企业 万户网站-4月份新员工企业 万户网站-4月份新员工企业</span>
+                        </a>
+                        <em>（4-27阅36次）</em>
+                        <i class="fa fa-new"></i>
+                    </div>
+                    <div class="wh-portal-i-item clearfix">
+                        <a href="">
+                            <i class="fa fa-file-o"></i>
+                            <span> 万户网站-4月份新员工企业 万户网站-4月份新员工企业</span>
+                        </a>
+                        <em>（4-27阅36次）</em>
+                    </div>
+                    <div class="wh-portal-i-item">
+                        <a href="">
+                            <i class="fa fa-file-o"></i>
+                            <span> 万户网站-4月份新员工企业</span>
+                        </a>
+                        <em>（4-27阅36次）</em>
+                    </div>
+                    <div class="wh-portal-i-item clearfix">
+                        <a href="">
+                            <i class="fa fa-file-o"></i>
+                            <span>海万户网站建设签单快报</span>
+                        </a>
+                        <em>（4-27阅36次）</em>
+                    </div>
+                </li>
+                <li class="wh-portal-hidden">
+                    <div class="wh-portal-i-item">
+                        <a href="">
+                            <i class="fa fa-file-o"></i>
+                            <span> 万户网站-4月份新员工企业 万户网站-4月份新员工企业 万户网站-4月份新员工企业 万户网站-4月份新员工企业</span>
+                        </a>
+                        <em>（4-27阅36次）</em>
+                    </div>
+                    <div class="wh-portal-i-item clearfix">
+                        <a href="">
+                            <i class="fa fa-file-o"></i>
+                            <span>海万户网站建设签单快报</span>
+                        </a>
+                        <em>（4-27阅36次）</em>
+                    </div>
+                </li>
+                <li class="wh-portal-hidden">
+                    <div class="wh-portal-i-item">
+                        <a href="">
+                            <i class="fa fa-file-o"></i>
+                            <span> 万户网站-4月份新员工企业</span>
+                        </a>
+                        <em>（4-27阅36次）</em>
+                    </div>
+                    <div class="wh-portal-i-item clearfix">
+                        <a href="">
+                            <i class="fa fa-file-o"></i>
+                            <span>海万户网站建设签单快报</span>
+                        </a>
+                        <em>（4-27阅36次）</em>
+                    </div>
+                </li>
+                <li class="wh-portal-hidden">
+                    <div class="wh-portal-i-item">
+                        <a href="">
+                            <i class="fa fa-file-o"></i>
+                            <span> 万户网站-4月份新员工企业 万户网站-4月份新员工企业 万户网站-4月份新员工企业</span>
+                        </a>
+                        <em>（4-27阅36次）</em>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<script type="text/javascript">
+$(function(){
+    var $tab_li = $(".wh-portal-title-slide04 li");
+    $tab_li.hover(function(){
+        $(this).addClass('on').siblings().removeClass('on');
+        var index = $tab_li.index(this);
+        $('.wh-portal-slide04 > ul > li').eq(index).show().siblings().hide();
+    });
+
+
+    var tabLiDom = $('.wh-portal-title-slide04 li.wh-portal-overflow');
+    var tabLiNum = parseInt($('.wh-portal-title-slide04').data('linum'));
+    var tabLiWidth = 100 / tabLiNum +"%"; //计算页签个数取整;
+    tabLiDom.css({width:tabLiWidth});
+    if(tabLiNum == 2){
+        tabLiDom.css({width:"25%"});
+    }
+    if(tabLiNum == 1){
+        tabLiDom.css({width:"auto"});
+    }
+
+})
+</script>

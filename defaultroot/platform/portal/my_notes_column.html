@@ -1,0 +1,84 @@
+
+
+<div class="wh-portal-i-title clearfix">
+    <ul class="wh-portal-i-title-left clearfix">
+        <li class="wh-portal-title-li on"><a href="">我的便签</a></li>
+    </ul>
+</div>
+<div class="wh-portal-i-content">
+    <div class="wh-my-note">
+        <ul class="wh-my-notes clearfix">
+            <li>
+                <div class="wh-my-notes-box">
+                    <dl class="wh-my-notes-dl">
+                        <dd>1. 周四下午有部门会议</dd>
+                    </dl>
+                    <a href="" class="wh-my-notes-plus"><i class="fa fa-plus"></i></a>
+                    <a href="" class="wh-my-notes-minus"><i class="fa fa-minus"></i></a>
+                </div>
+            </li> 
+            <li>
+                <div class="wh-my-notes-box">
+                    <dl class="wh-my-notes-dl">
+                        <dd>1. 周四下午有部门会议</dd>
+                    </dl>
+                    <a href="" class="wh-my-notes-plus"><i class="fa fa-plus"></i></a>
+                    <a href="" class="wh-my-notes-minus"><i class="fa fa-minus"></i></a>
+                </div>
+            </li> 
+            <li>
+                <div class="wh-my-notes-box">
+                    <dl class="wh-my-notes-dl">
+                        <dd>1. 周四下午有部门会议</dd>
+                    </dl>
+                    <a href="" class="wh-my-notes-plus"><i class="fa fa-plus"></i></a>
+                    <a href="" class="wh-my-notes-minus"><i class="fa fa-minus"></i></a>
+                </div>
+            </li> 
+            <li>
+                <div class="wh-my-notes-box" style="display: block;">
+                    <dl class="wh-my-notes-dl">
+                        <dd>1. 周四下午有部门会议</dd>
+                        <dd>2. 下周二记得带工具</dd>
+                        <dd>3. 陈总交代，PPT金融方案</dd>
+                    </dl>
+                    <a href="" class="wh-my-notes-plus"><i class="fa fa-plus"></i></a>
+                    <a href="" class="wh-my-notes-minus"><i class="fa fa-minus"></i></a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<script>
+    /*我的便签*/
+    $(function(){
+        $(window).resize(function(){
+            liBox;
+        })
+       var liBox=$(".wh-my-notes li").each(function(i){
+            var wid=$(".wh-my-notes").width()-248-$(".wh-my-notes li").length-1;
+            var lilength=$(".wh-my-notes li").length-1;
+            var li=wid/lilength;
+            $(this).width(li);
+            $(".wh-my-notes li").eq(lilength).css({ width:'248px'});
+        });
+        liBox;
+        $(".wh-my-notes li").bind("click", function(){
+            $(".wh-my-notes li").each(function(i){
+                var num=i+1;
+                $(this).find(".wh-my-notes-box").addClass("noteBox0"+num);
+                var wid=$(".wh-my-notes").width()-248-$(".wh-my-notes li").length-1;
+                var lilength=$(".wh-my-notes li").length-1;
+                var li=wid/lilength;
+                 $(this).width(li); 
+                $(".noteBox0"+num).hide();
+                //最后一个li的宽度设置为248px; 
+            });
+            var index = $(this).index()+1;
+            $(".noteBox0"+index).show();
+            $(this).stop().css({ width:"248px"});
+        });
+
+    })
+</script>
+

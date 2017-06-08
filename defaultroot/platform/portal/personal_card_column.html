@@ -1,0 +1,49 @@
+<div class="wh-personal-card">
+    <div class="wh-personal-card-content clearfix">
+        <img src="images/ver113/personal-card-bg.png" class="wh-personal-card-bg" alt=""/>
+        <div class="wh-personal-card-con clearfix">
+            <p class="wh-personal-date"><span>2015</span>年<span>9</span>月<span>29</span>日<span>星期二</span></p>
+            <a href="javascript:void(0);" class="fa fa-th-large wh-personal-card-setting-click"></a>
+            <span class="wh-personal-card-pos">
+                <a href="">李小琳</a>
+                <span>总监</span>
+            </span>
+            <a href="javascript:void(0);" class="wh-personal-card-look">
+                <img src="images/ver113/card-look.png" class="wh-card-look"/>
+            </a>
+            <span class="wh-personal-card-state">
+                <a href="javascript:void(0)" class="wh-card-department clearfix"><span>项目管理中心</span><i class="fa fa-angle-down"></i></a>
+                <a href="javascript:void(0)" class="wh-card-state clearfix"><span>上班</span><i class="fa fa-angle-down state-setting-click"></i></a>
+                <div class="per-wh-hd-user-state">
+                    <a href="javascript:void(0)" class="current"><span>上班超过很多字怎么办</span><i class="fa"></i></a>
+                    <a href="javascript:void(0)"><span>出差</span><i class="fa"></i></a>
+                    <a href="javascript:void(0)"><span>调休</span><i class="fa"></i></a>
+                    <a href="javascript:void(0)"><span>请假</span><i class="fa"></i></a>
+                    <a href="" class="state-self">自定义</a>
+                </div>
+                <div class="per-wh-hd-depart-state">
+                    <a href="javascript:void(0)" class="current"><span>质量一部</span><i class="fa"></i></a>
+                    <a href="javascript:void(0)"><span>研发一部</span><i class="fa"></i></a> 
+                </div> 
+            </span>
+        </div>
+    </div>
+    <div class="wh-personal-card-btn clearfix">
+        <a href="" class="wh-personal-card-btn-a fl">个人设置</a>
+        <a href="" class="wh-personal-card-btn-a fr">修改密码</a>
+    </div>
+</div>
+<script>
+$(function(){
+    $('.per-wh-hd-user-state a').click(function () {
+        $(this).addClass('current').siblings().removeClass('current');
+    });
+    $(".state-setting-click").click(function(){
+        $('.per-wh-hd-user-state').slideToggle();
+    });
+    $(".wh-card-department").click(function(){
+        $(".per-wh-hd-depart-state").slideToggle()
+    })
+    $(".wh-personal-card-state>div").hover(function(){},function(){ $(this).hide(); })
+});
+</script>

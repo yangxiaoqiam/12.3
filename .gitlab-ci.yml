@@ -1,0 +1,7 @@
+stages:
+- build
+
+build:
+  stage: build
+  script:
+  - echo '推送项目成功'

@@ -1,0 +1,87 @@
+<div class="wh-portal-i-title clearfix">
+    <ul class="wh-portal-i-title-left wh-portal-title-slide03 clearfix">
+        <li class="wh-portal-title-li on"><a href="">待办文件</a></li>
+        <li class="wh-portal-title-li"><a href="">已办文件</a></li>
+        <li class="wh-portal-title-li"><a href="">已阅文件</a></li>
+    </ul>
+</div>
+<div class="wh-portal-i-content">
+    <div class="wh-portal-info-content">
+    <div class="wh-portal-slide03">
+        <ul class="clearfix">
+            <li>  
+                <div class="wh-portal-i-item clearfix">
+                    <a href="">
+                        <i class="wh-pending-state wh-pending-s-finish">已完成</i>
+                        <span>机关代字测试〔2015〕5号 关于政府采购的若干规定机关代字测试〔2015〕5号 关于政府采购的若干规定机关代字测试〔2015〕5号 关于政府采购的若干规定机关代字测试〔2015〕5号 关于政府采购的若干规定</span>
+                    </a>
+                    <em class="wh-pending-em">[03-20 10:36]</em>
+                </div>
+                <div class="wh-portal-i-item clearfix">
+                    <a href="">
+                        <i class="wh-pending-state wh-pending-s-finish">已完成</i>
+                        <span>暂无文号  关于政府采购的若干规定  机关代字测试〔2015〕5号 关于政府采购的若干规定机关代字测试〔2015〕5号 关于政府采购的若干规定</span>
+                    </a>
+                    <em class="wh-pending-em">[03-20 10:36]</em>
+                </div>
+                <div class="wh-portal-i-item clearfix">
+                    <a href="">
+                        <i class="wh-pending-state wh-pending-s-finish">已完成</i>
+                        <span>机关代字测试〔2015〕5号 关于政府采购的若干规定</span>
+                    </a>
+                    <em class="wh-pending-em">[03-20 10:36]</em>
+                </div>
+                <div class="wh-portal-i-item clearfix">
+                    <a href="">
+                        <i class="wh-pending-state wh-pending-s-finish">已完成</i>
+                        <span>暂无文号  关于政府采购的若干规定  </span>
+                    </a>
+                    <em class="wh-pending-em">[03-20 10:36]</em>
+                </div>
+                <div class="wh-portal-i-item clearfix">
+                    <a href="">
+                        <i class="wh-pending-state wh-pending-s-finish">已完成</i>
+                        <span>机关代字测试〔2015〕5号 关于政府采购的若干规定</span>
+                    </a>
+                    <em class="wh-pending-em">[03-20 10:36]</em>
+                </div>
+            </li>
+            <li class="wh-portal-hidden">
+                <div class="wh-portal-i-item clearfix">
+                    <a href="">
+                        <i class="wh-pending-state wh-pending-s-finish">已完成</i>
+                        <span>机关代字测试〔2015〕5号 关于政府采购的若干规定</span>
+                    </a>
+                    <em class="wh-pending-em">[03-20 10:36]</em>
+                </div>
+                <div class="wh-portal-i-item clearfix">
+                    <a href="">
+                        <i class="wh-pending-state wh-pending-s-finish">已完成</i>
+                        <span>机关代字测试〔2015〕5号 关于政府采购的若干规定</span>
+                    </a>
+                    <em class="wh-pending-em">[03-20 10:36]</em>
+                </div> 
+            </li>
+            <li class="wh-portal-hidden">
+                <div class="wh-portal-i-item clearfix">
+                   <a href="">
+                        <i class="wh-pending-state wh-pending-s-finish">已完成</i>
+                        <span>机关代字测试〔2015〕5号 关于政府采购的若干规定</span>
+                    </a>
+                    <em class="wh-pending-em">[03-20 10:36]</em>
+                </div>
+            </li>
+        </ul>
+    </div>
+    </div>
+</div>
+<script>
+    $(function(){
+        var $tab_li = $('.wh-portal-title-slide03 li');
+        $tab_li.hover(function(){
+            $(this).addClass('on').siblings().removeClass('on');
+            var index = $tab_li.index(this);
+            $('.wh-portal-slide03 > ul > li').eq(index).show().siblings().hide();
+        });
+    })
+</script>
