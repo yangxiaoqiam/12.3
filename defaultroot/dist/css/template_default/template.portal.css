@@ -5211,3 +5211,22 @@ h5 {
   word-wrap: normal;
   white-space: nowrap;
 }
+.theme-newa .wh-portal-i-title {
+  background: #f6f6f6;
+  height: 55px;
+  line-height: 55px;
+}
+.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
+.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
+.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
+  border-bottom: 0 none;
+  border-top: 2px solid red;
+  background: #fff;
+}
+.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
+  height: 55px;
+}
+.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a {
+  font-size: 22px;
+  margin: 0px 18px;
+}
