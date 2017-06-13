@@ -640,3 +640,11 @@ body.size-big {
 .size-big .process-list .listbox ul li a {
   font-size: 14px;
 }
+.size-big .wh-file-handle-purebackground li a .fafa em,
+.size-big .wh-file-handle-purebackground li a span.title {
+  font-size: 14px;
+}
+.size-big .wh-quick-entry-purbackground li a .fafa em,
+.size-big .wh-quick-entry-purbackground li a span.title {
+  font-size: 14px;
+}

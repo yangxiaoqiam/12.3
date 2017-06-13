@@ -848,6 +848,16 @@ ul.wh-sim-quick-entry-list li a:hover span.wh-sys-warn-num,
   -o-animation: moveLeftlittle 0.3s ease-in-out forwards;
   animation: moveLeftlittle 0.3s ease-in-out forwards;
 }
+.wh-file-handle-purebackground li a:hover i.fa {
+  -webkit-animation: moveFromTop 0.3s ease-in-out;
+  -o-animation: moveFromTop 0.3s ease-in-out;
+  animation: moveFromTop 0.3s ease-in-out;
+}
+.wh-quick-entry-purbackground li a:hover i.fa {
+  -webkit-animation: moveFromTop 0.3s ease-in-out;
+  -o-animation: moveFromTop 0.3s ease-in-out;
+  animation: moveFromTop 0.3s ease-in-out;
+}
 .wh-file-handle li:hover .wh-file-list-box .wh-file-type i.fa {
   -webkit-animation: moveFromTop 0.3s ease-in-out;
   -o-animation: moveFromTop 0.3s ease-in-out;

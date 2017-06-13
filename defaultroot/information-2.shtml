@@ -25,7 +25,21 @@
     <table id="portalMain" cellpadding="0" cellspacing="0" border="0" width="100%" align="center" style="table-layout:fixed;">
     <tr>
         <td width="35%" class="portal-column-td" zone="A">
-        <!--流程场景-->
+        <!--  纯色背景快捷入口  -->
+            <div class="wh-portal-info-box">
+                <!--#include file="platform/portal/portal-i-tools.html"-->
+                <div class="wh-portal-info">
+                    <!--#include file="platform/portal/wh-quick-entry-purbackground.html"-->
+                </div>
+            </div>
+           <!--  纯色背景文件办理提醒  -->
+            <div class="wh-portal-info-box">
+                <!--#include file="platform/portal/portal-i-tools.html"-->
+                <div class="wh-portal-info">
+                    <!--#include file="platform/portal/wh-file-handle-purebackground.html"-->
+                </div>
+            </div>
+        <!-- 新增图片轮番 -->
             <div class="wh-portal-info-box">
                 <div class="wh-portal-info wh-portal-nopadding wh-portal-noborder">
                     <!--#include file="platform/portal/news-pic.html"-->
@@ -38,6 +52,16 @@
                     <!--#include file="platform/portal/quick_entry_bigicon_column.html"-->
                 </div>
             </div>
+            
+            <!-- 新增工作汇报  -->
+            <div class="wh-portal-info-box">
+                <!--#include file="platform/portal/portal-i-tools.html"-->
+                <div class="wh-portal-info">
+                    <!--#include file="platform/portal/new-work_report_column.html"-->
+                </div>
+            </div>
+
+
             <!--自定义HTML模块 -->
             <div class="wh-portal-info-box wh-portal-noborder wh-portal-html">
                 <!--#include file="platform/portal/portal-i-tools.html"-->
