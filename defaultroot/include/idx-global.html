@@ -1,88 +1,4 @@
 
-<style type="text/css">
-
-
-   @-webkit-keyframes scaleaa{
-     0%{
-       transform: scale(1,1);
-       -webkit-transform: scale(1,1);
-     }
-     50%{
-       transform: scale(0,0);
-       -webkit-transform: scale(0,0);
-     }
-
-      70%{
-       transform: scale(0,0);
-       -webkit-transform: scale(0,0);
-     }
-
-      100%{
-       transform: scale(1,1);
-       -webkit-transform: scale(1,1);
-     }
-  }
-.wh-sys-warn-num{
-  animation: blink .75s linear infinite;  
-    /* 其它浏览器兼容性前缀 */
-    -webkit-animation: blink .75s linear infinite;
-    -moz-animation: blink .75s linear infinite;
-    -ms-animation: blink .75s linear infinite;
-    -o-animation: blink .75s linear infinite;
-}
-
-
-
-
-@keyframes blink{
-  0%{opacity: 1;}
-  50%{opacity: 1;}
-  50.01%{opacity: 0;} /* 注意这里定义50.01%立刻透明度为０，可以设置闪烁效果 */
-  100%{opacity: 0;} 
-}
-
-/* 添加兼容性前缀 */
-
-@-webkit-keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 1; }
-    50.01% { opacity: 0; }
-    100% { opacity: 0; }
-}
-
-@-moz-keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 1; }
-    50.01% { opacity: 0; }
-    100% { opacity: 0; }
-}
-
-@-ms-keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 1; }
-    50.01% { opacity: 0; }
-    100% { opacity: 0; }
-}
-
-@-o-keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 1; }
-    50.01% { opacity: 0; }
-    100% { opacity: 0; }
-}
-
-/* 定义blink类*/
-.blink{
-    animation: blink .75s linear infinite;  
-    /* 其它浏览器兼容性前缀 */
-    -webkit-animation: blink .75s linear infinite;
-    -moz-animation: blink .75s linear infinite;
-    -ms-animation: blink .75s linear infinite;
-    -o-animation: blink .75s linear infinite;
-    color: #dd4814;
-}
-
-</style> 
 <div class="wh-header">
   <div class="wh-container clearfix">
     <a href="" class="wh-logo" tabindex="-1"><img src="images/ver113/home/logo.png" /></a>
@@ -256,7 +172,7 @@
             <a href="javascript:void(0)" class="wh-hd-group-click-change wh-hd-user-click-change welcomea wh-hd-user-faclick"><span>组织</span>：<em>销售二组</em>
               <i class="fa fa-angle-right"></i> 
               </a>
-            <a id="switch-font-size" href="javascript:void(0)" class="wh-hd-font-click-change welcomea"><span>界面字号</span>：<em class="wh-font-small noselect" data-fsize="small">-A</em><em class="wh-font-big" data-fsize="big">+A</em></a>
+            <a id="switch-font-size" href="javascript:void(0)" class="wh-hd-font-click-change welcomea"><span>界面字号</span>：<em class="wh-font-small noselect" data-fsize="small">-A</em><em class="wh-font-big" data-fsize="big">+A</em><em class="wh-font-big" data-fsize="big16">+A+</em></a>
             <div class="wh-hd-statecontainer">
               <div class="wh-hd-user-state wh-hd-state">
                 <a href="javascript:void(0)" class="current"><span>上班超过很多字怎么办上班超过很多字怎么办</span><i class="fa"></i></a>
@@ -322,7 +238,7 @@
           <i class="fa fa-bell fa-color"></i>
         </a> -->
         <a href="javascript:void(0);" class="wh-r-nav-a on wh-sys-sdc"><i class="fa fa-bell fa-color"></i></a>
-        <div class="wh-sys-notice-list wh-hd-box-shadow open">
+        <div class="wh-sys-notice-list wh-hd-box-shadow">
           <span class="s-point"><em></em></span>
           <div>
             <p><i class="fa fa-pencil-square-o"></i><a href="" title="If u want to say loving me, just tell me now.">If u want to say loving me, just tell me now.</a><span>(6666)</span> </p>
@@ -456,4 +372,5 @@
         </div>
       </div>
     </div>
+  </div>
   </div>

@@ -849,14 +849,14 @@ ul.wh-sim-quick-entry-list li a:hover span.wh-sys-warn-num,
   animation: moveLeftlittle 0.3s ease-in-out forwards;
 }
 .wh-file-handle-purebackground li a:hover i.fa {
-  -webkit-animation: moveFromTop 0.3s ease-in-out;
-  -o-animation: moveFromTop 0.3s ease-in-out;
-  animation: moveFromTop 0.3s ease-in-out;
+  -webkit-animation: rotate360 0.5s ease-in-out;
+  -o-animation: rotate360 0.5s ease-in-out;
+  animation: rotate360 0.5s ease-in-out;
 }
 .wh-quick-entry-purbackground li a:hover i.fa {
-  -webkit-animation: moveFromTop 0.3s ease-in-out;
-  -o-animation: moveFromTop 0.3s ease-in-out;
-  animation: moveFromTop 0.3s ease-in-out;
+  -webkit-animation: rotate360 0.5s ease-in-out;
+  -o-animation: rotate360 0.5s ease-in-out;
+  animation: rotate360 0.5s ease-in-out;
 }
 .wh-file-handle li:hover .wh-file-list-box .wh-file-type i.fa {
   -webkit-animation: moveFromTop 0.3s ease-in-out;

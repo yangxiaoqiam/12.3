@@ -1,0 +1,61 @@
+<div class="wh-portal-i-title clearfix">
+    <ul class="wh-portal-i-title-left wh-portal-title-slide03 clearfix">
+        <li class="wh-portal-title-li on"><a href="">会议中心</a></li>
+    </ul>
+</div>
+<div class="wh-portal-i-content">
+    <div class="wh-portal-info-content">
+        <div class="wh-portal-slide03 wh-meeting-new1">
+            <ul class="clearfix">
+                <li>
+                    <div class="wh-portal-i-item clearfix" style="margin-top: 0px;">
+                        <a href="">
+                            <i class="wh-pending-state wh-pending-s-no-active">不参与</i>
+                            <span>老客户经营汇报会会议纪要（被李小琳退回）！</span>
+                            <span class="wh-pending-time">03-20 10:36</span>
+                        </a>
+                    </div>
+                    <div class="wh-portal-i-item clearfix" style="margin-top: 0px;">
+                        <a href="">
+                            <i class="wh-pending-state wh-pending-s-active">已参与</i>
+                            <span>老客户经营汇报会会议纪要（被李小琳退回）！</span>
+                            <span class="wh-pending-time">03-20 10:36</span>
+                        </a>
+                    </div>
+                    <div class="wh-portal-i-item clearfix" style="margin-top: 0px;">
+                        <a href="">
+                            <i class="wh-pending-state wh-pending-s-active">已参与</i>
+                            <span>老客户经营汇报会会议纪要（被李小琳退回）！</span>
+                            <span class="wh-pending-time">03-20 10:36</span>
+                        </a>
+                    </div>
+                    <div class="wh-portal-i-item clearfix" style="margin-top: 0px;">
+                        <a href="">
+                            <i class="wh-pending-state wh-pending-s-no-active">已参与</i>
+                            <span>老客户经营汇报会会议纪要（被李小琳退回）！</span>
+                            <span class="wh-pending-time">03-20 10:36</span>
+                        </a>
+                    </div>
+                    <div class="wh-portal-i-item clearfix" style="margin-top: 0px;">
+                        <a href="">
+                            <i class="wh-pending-state wh-pending-s-active">已参与</i>
+                            <span>老客户经营汇报会会议纪要（被李小琳退回）！</span>
+                            <span class="wh-pending-time">03-20 10:36</span>
+                        </a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    $(function(){
+        var $tab_li = $('.wh-portal-title-slide03 li');
+        $tab_li.hover(function(){
+            $(this).addClass('on').siblings().removeClass('on');
+            var index = $tab_li.index(this);
+            $('.wh-portal-slide03 > ul > li').eq(index).show().siblings().hide();
+        });
+    })
+</script>
