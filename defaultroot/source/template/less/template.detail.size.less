@@ -1,6 +1,11 @@
 .size-mixin(e('big'),@size-base:14px);
 .size-mixin(e('small'),@size-base:12px);
-
+html.size-big, html.size-big body {
+    font-size: 14px;
+}
+html.size-small, html.size-small body {
+    font-size: 12px;
+}
 .size-mixin(@size-name,@size-base){
   .size-@{size-name}{
   	&{

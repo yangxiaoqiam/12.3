@@ -148,3 +148,11 @@
 .size-small .detail-btn .btn {
   font-size: 12px;
 }
+html.size-big,
+html.size-big body {
+  font-size: 14px;
+}
+html.size-small,
+html.size-small body {
+  font-size: 12px;
+}
