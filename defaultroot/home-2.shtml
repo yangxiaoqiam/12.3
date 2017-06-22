@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn" class="wh-gray-bg theme-gray theme-line-gray theme-newa size-big">
+<html lang="zh-cn" class="wh-gray-bg theme-blue theme-limitwidth-blue  size-big">
 
 <head>
   <meta charset="utf-8">
@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="template/css/template_default/template.style.min.css" />
   <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.before.min.css" />  
   <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.after.min.css" />  
-  <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.line.min.css" />   
+  <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.limitwidth.min.css" />   
   <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.media.min.css" /> 
   <link rel="stylesheet" href="template/css/template_default/template.style.size.min.css" />
 </head>

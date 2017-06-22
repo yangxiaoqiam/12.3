@@ -78,6 +78,13 @@
 .theme-red .wh-hd-l-gateway-info {
   border-color: #cd2500 \9;
 }
+.theme-red .wh-header .wh-hd-l-nav > dd.on {
+  background: #cd2500;
+}
+.theme-red .wh-header .wh-hd-l-nav > dd.on > a .fa,
+.theme-red .wh-header .wh-hd-l-nav > dd.on > a span {
+  color: #fff;
+}
 .theme-red .listbox a:hover {
   background: #cd2500;
   color: #fff;
@@ -91,19 +98,23 @@
 .theme-red .wh-hd-l-nav dd > a > span {
   color: #202020;
 }
-.theme-red .wh-hd-l-nav dd.open > a,
-.theme-red .wh-hd-l-nav dd:hover > a,
-.theme-red .wh-hd-l-nav dd:focus > a {
-  border-bottom: 2px solid #cd2500;
+.theme-red .wh-hd-l-nav dd.open,
+.theme-red .wh-hd-l-nav dd:hover,
+.theme-red .wh-hd-l-nav dd:focus {
+  background: #cd2500;
+}
+.theme-red .wh-hd-l-nav dd.open > a .fa,
+.theme-red .wh-hd-l-nav dd:hover > a .fa,
+.theme-red .wh-hd-l-nav dd:focus > a .fa,
+.theme-red .wh-hd-l-nav dd.open > a span,
+.theme-red .wh-hd-l-nav dd:hover > a span,
+.theme-red .wh-hd-l-nav dd:focus > a span {
+  color: #FFFFFF;
 }
 .theme-red .wh-hd-l-nav dd.open > a > span,
 .theme-red .wh-hd-l-nav dd:hover > a > span,
 .theme-red .wh-hd-l-nav dd:focus > a > span {
-  color: #cd2500;
-}
-.theme-red .wh-hd-l-nav dd.wh-hd-l-gateway > a,
-.theme-red .wh-hd-l-nav dd.wh-hd-l-gateway:hover > a {
-  border-bottom: 2px solid #FFFFFF;
+  color: #FFFFFF;
 }
 .theme-red .wh-hd-l-nav dd.wh-hd-menu-btn:hover,
 .theme-red .wh-hd-l-nav dd.wh-hd-menu-btn:focus,
@@ -286,7 +297,7 @@
 .theme-red .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
 .theme-red .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover,
 .theme-red .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus {
-  border-bottom: 2px solid #cd2500;
+  border-top: 2px solid #cd2500;
 }
 .theme-red .wh-portal-i-title .wh-portal-i-title-left i.fa {
   color: #cd2500;
@@ -1018,6 +1029,13 @@
 .theme-pink .wh-hd-l-gateway-info {
   border-color: #dc4fad \9;
 }
+.theme-pink .wh-header .wh-hd-l-nav > dd.on {
+  background: #dc4fad;
+}
+.theme-pink .wh-header .wh-hd-l-nav > dd.on > a .fa,
+.theme-pink .wh-header .wh-hd-l-nav > dd.on > a span {
+  color: #fff;
+}
 .theme-pink .listbox a:hover {
   background: #dc4fad;
   color: #fff;
@@ -1031,19 +1049,23 @@
 .theme-pink .wh-hd-l-nav dd > a > span {
   color: #202020;
 }
-.theme-pink .wh-hd-l-nav dd.open > a,
-.theme-pink .wh-hd-l-nav dd:hover > a,
-.theme-pink .wh-hd-l-nav dd:focus > a {
-  border-bottom: 2px solid #dc4fad;
+.theme-pink .wh-hd-l-nav dd.open,
+.theme-pink .wh-hd-l-nav dd:hover,
+.theme-pink .wh-hd-l-nav dd:focus {
+  background: #dc4fad;
+}
+.theme-pink .wh-hd-l-nav dd.open > a .fa,
+.theme-pink .wh-hd-l-nav dd:hover > a .fa,
+.theme-pink .wh-hd-l-nav dd:focus > a .fa,
+.theme-pink .wh-hd-l-nav dd.open > a span,
+.theme-pink .wh-hd-l-nav dd:hover > a span,
+.theme-pink .wh-hd-l-nav dd:focus > a span {
+  color: #FFFFFF;
 }
 .theme-pink .wh-hd-l-nav dd.open > a > span,
 .theme-pink .wh-hd-l-nav dd:hover > a > span,
 .theme-pink .wh-hd-l-nav dd:focus > a > span {
-  color: #dc4fad;
-}
-.theme-pink .wh-hd-l-nav dd.wh-hd-l-gateway > a,
-.theme-pink .wh-hd-l-nav dd.wh-hd-l-gateway:hover > a {
-  border-bottom: 2px solid #FFFFFF;
+  color: #FFFFFF;
 }
 .theme-pink .wh-hd-l-nav dd.wh-hd-menu-btn:hover,
 .theme-pink .wh-hd-l-nav dd.wh-hd-menu-btn:focus,
@@ -1226,7 +1248,7 @@
 .theme-pink .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
 .theme-pink .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover,
 .theme-pink .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus {
-  border-bottom: 2px solid #dc4fad;
+  border-top: 2px solid #dc4fad;
 }
 .theme-pink .wh-portal-i-title .wh-portal-i-title-left i.fa {
   color: #dc4fad;
@@ -1958,6 +1980,13 @@
 .theme-darkred .wh-hd-l-gateway-info {
   border-color: #ad193d \9;
 }
+.theme-darkred .wh-header .wh-hd-l-nav > dd.on {
+  background: #ad193d;
+}
+.theme-darkred .wh-header .wh-hd-l-nav > dd.on > a .fa,
+.theme-darkred .wh-header .wh-hd-l-nav > dd.on > a span {
+  color: #fff;
+}
 .theme-darkred .listbox a:hover {
   background: #ad193d;
   color: #fff;
@@ -1971,19 +2000,23 @@
 .theme-darkred .wh-hd-l-nav dd > a > span {
   color: #202020;
 }
-.theme-darkred .wh-hd-l-nav dd.open > a,
-.theme-darkred .wh-hd-l-nav dd:hover > a,
-.theme-darkred .wh-hd-l-nav dd:focus > a {
-  border-bottom: 2px solid #ad193d;
+.theme-darkred .wh-hd-l-nav dd.open,
+.theme-darkred .wh-hd-l-nav dd:hover,
+.theme-darkred .wh-hd-l-nav dd:focus {
+  background: #ad193d;
+}
+.theme-darkred .wh-hd-l-nav dd.open > a .fa,
+.theme-darkred .wh-hd-l-nav dd:hover > a .fa,
+.theme-darkred .wh-hd-l-nav dd:focus > a .fa,
+.theme-darkred .wh-hd-l-nav dd.open > a span,
+.theme-darkred .wh-hd-l-nav dd:hover > a span,
+.theme-darkred .wh-hd-l-nav dd:focus > a span {
+  color: #FFFFFF;
 }
 .theme-darkred .wh-hd-l-nav dd.open > a > span,
 .theme-darkred .wh-hd-l-nav dd:hover > a > span,
 .theme-darkred .wh-hd-l-nav dd:focus > a > span {
-  color: #ad193d;
-}
-.theme-darkred .wh-hd-l-nav dd.wh-hd-l-gateway > a,
-.theme-darkred .wh-hd-l-nav dd.wh-hd-l-gateway:hover > a {
-  border-bottom: 2px solid #FFFFFF;
+  color: #FFFFFF;
 }
 .theme-darkred .wh-hd-l-nav dd.wh-hd-menu-btn:hover,
 .theme-darkred .wh-hd-l-nav dd.wh-hd-menu-btn:focus,
@@ -2166,7 +2199,7 @@
 .theme-darkred .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
 .theme-darkred .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover,
 .theme-darkred .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus {
-  border-bottom: 2px solid #ad193d;
+  border-top: 2px solid #ad193d;
 }
 .theme-darkred .wh-portal-i-title .wh-portal-i-title-left i.fa {
   color: #ad193d;
@@ -2898,6 +2931,13 @@
 .theme-orange .wh-hd-l-gateway-info {
   border-color: #F27521 \9;
 }
+.theme-orange .wh-header .wh-hd-l-nav > dd.on {
+  background: #F27521;
+}
+.theme-orange .wh-header .wh-hd-l-nav > dd.on > a .fa,
+.theme-orange .wh-header .wh-hd-l-nav > dd.on > a span {
+  color: #fff;
+}
 .theme-orange .listbox a:hover {
   background: #F27521;
   color: #fff;
@@ -2911,19 +2951,23 @@
 .theme-orange .wh-hd-l-nav dd > a > span {
   color: #202020;
 }
-.theme-orange .wh-hd-l-nav dd.open > a,
-.theme-orange .wh-hd-l-nav dd:hover > a,
-.theme-orange .wh-hd-l-nav dd:focus > a {
-  border-bottom: 2px solid #F27521;
+.theme-orange .wh-hd-l-nav dd.open,
+.theme-orange .wh-hd-l-nav dd:hover,
+.theme-orange .wh-hd-l-nav dd:focus {
+  background: #F27521;
+}
+.theme-orange .wh-hd-l-nav dd.open > a .fa,
+.theme-orange .wh-hd-l-nav dd:hover > a .fa,
+.theme-orange .wh-hd-l-nav dd:focus > a .fa,
+.theme-orange .wh-hd-l-nav dd.open > a span,
+.theme-orange .wh-hd-l-nav dd:hover > a span,
+.theme-orange .wh-hd-l-nav dd:focus > a span {
+  color: #FFFFFF;
 }
 .theme-orange .wh-hd-l-nav dd.open > a > span,
 .theme-orange .wh-hd-l-nav dd:hover > a > span,
 .theme-orange .wh-hd-l-nav dd:focus > a > span {
-  color: #F27521;
-}
-.theme-orange .wh-hd-l-nav dd.wh-hd-l-gateway > a,
-.theme-orange .wh-hd-l-nav dd.wh-hd-l-gateway:hover > a {
-  border-bottom: 2px solid #FFFFFF;
+  color: #FFFFFF;
 }
 .theme-orange .wh-hd-l-nav dd.wh-hd-menu-btn:hover,
 .theme-orange .wh-hd-l-nav dd.wh-hd-menu-btn:focus,
@@ -3106,7 +3150,7 @@
 .theme-orange .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
 .theme-orange .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover,
 .theme-orange .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus {
-  border-bottom: 2px solid #F27521;
+  border-top: 2px solid #F27521;
 }
 .theme-orange .wh-portal-i-title .wh-portal-i-title-left i.fa {
   color: #F27521;
@@ -3838,6 +3882,13 @@
 .theme-lightgreen .wh-hd-l-gateway-info {
   border-color: #82ba01 \9;
 }
+.theme-lightgreen .wh-header .wh-hd-l-nav > dd.on {
+  background: #82ba01;
+}
+.theme-lightgreen .wh-header .wh-hd-l-nav > dd.on > a .fa,
+.theme-lightgreen .wh-header .wh-hd-l-nav > dd.on > a span {
+  color: #fff;
+}
 .theme-lightgreen .listbox a:hover {
   background: #82ba01;
   color: #fff;
@@ -3851,19 +3902,23 @@
 .theme-lightgreen .wh-hd-l-nav dd > a > span {
   color: #202020;
 }
-.theme-lightgreen .wh-hd-l-nav dd.open > a,
-.theme-lightgreen .wh-hd-l-nav dd:hover > a,
-.theme-lightgreen .wh-hd-l-nav dd:focus > a {
-  border-bottom: 2px solid #82ba01;
+.theme-lightgreen .wh-hd-l-nav dd.open,
+.theme-lightgreen .wh-hd-l-nav dd:hover,
+.theme-lightgreen .wh-hd-l-nav dd:focus {
+  background: #82ba01;
+}
+.theme-lightgreen .wh-hd-l-nav dd.open > a .fa,
+.theme-lightgreen .wh-hd-l-nav dd:hover > a .fa,
+.theme-lightgreen .wh-hd-l-nav dd:focus > a .fa,
+.theme-lightgreen .wh-hd-l-nav dd.open > a span,
+.theme-lightgreen .wh-hd-l-nav dd:hover > a span,
+.theme-lightgreen .wh-hd-l-nav dd:focus > a span {
+  color: #FFFFFF;
 }
 .theme-lightgreen .wh-hd-l-nav dd.open > a > span,
 .theme-lightgreen .wh-hd-l-nav dd:hover > a > span,
 .theme-lightgreen .wh-hd-l-nav dd:focus > a > span {
-  color: #82ba01;
-}
-.theme-lightgreen .wh-hd-l-nav dd.wh-hd-l-gateway > a,
-.theme-lightgreen .wh-hd-l-nav dd.wh-hd-l-gateway:hover > a {
-  border-bottom: 2px solid #FFFFFF;
+  color: #FFFFFF;
 }
 .theme-lightgreen .wh-hd-l-nav dd.wh-hd-menu-btn:hover,
 .theme-lightgreen .wh-hd-l-nav dd.wh-hd-menu-btn:focus,
@@ -4046,7 +4101,7 @@
 .theme-lightgreen .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
 .theme-lightgreen .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover,
 .theme-lightgreen .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus {
-  border-bottom: 2px solid #82ba01;
+  border-top: 2px solid #82ba01;
 }
 .theme-lightgreen .wh-portal-i-title .wh-portal-i-title-left i.fa {
   color: #82ba01;
@@ -4778,6 +4833,13 @@
 .theme-green .wh-hd-l-gateway-info {
   border-color: #008b18 \9;
 }
+.theme-green .wh-header .wh-hd-l-nav > dd.on {
+  background: #008b18;
+}
+.theme-green .wh-header .wh-hd-l-nav > dd.on > a .fa,
+.theme-green .wh-header .wh-hd-l-nav > dd.on > a span {
+  color: #fff;
+}
 .theme-green .listbox a:hover {
   background: #008b18;
   color: #fff;
@@ -4791,19 +4853,23 @@
 .theme-green .wh-hd-l-nav dd > a > span {
   color: #202020;
 }
-.theme-green .wh-hd-l-nav dd.open > a,
-.theme-green .wh-hd-l-nav dd:hover > a,
-.theme-green .wh-hd-l-nav dd:focus > a {
-  border-bottom: 2px solid #008b18;
+.theme-green .wh-hd-l-nav dd.open,
+.theme-green .wh-hd-l-nav dd:hover,
+.theme-green .wh-hd-l-nav dd:focus {
+  background: #008b18;
+}
+.theme-green .wh-hd-l-nav dd.open > a .fa,
+.theme-green .wh-hd-l-nav dd:hover > a .fa,
+.theme-green .wh-hd-l-nav dd:focus > a .fa,
+.theme-green .wh-hd-l-nav dd.open > a span,
+.theme-green .wh-hd-l-nav dd:hover > a span,
+.theme-green .wh-hd-l-nav dd:focus > a span {
+  color: #FFFFFF;
 }
 .theme-green .wh-hd-l-nav dd.open > a > span,
 .theme-green .wh-hd-l-nav dd:hover > a > span,
 .theme-green .wh-hd-l-nav dd:focus > a > span {
-  color: #008b18;
-}
-.theme-green .wh-hd-l-nav dd.wh-hd-l-gateway > a,
-.theme-green .wh-hd-l-nav dd.wh-hd-l-gateway:hover > a {
-  border-bottom: 2px solid #FFFFFF;
+  color: #FFFFFF;
 }
 .theme-green .wh-hd-l-nav dd.wh-hd-menu-btn:hover,
 .theme-green .wh-hd-l-nav dd.wh-hd-menu-btn:focus,
@@ -4986,7 +5052,7 @@
 .theme-green .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
 .theme-green .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover,
 .theme-green .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus {
-  border-bottom: 2px solid #008b18;
+  border-top: 2px solid #008b18;
 }
 .theme-green .wh-portal-i-title .wh-portal-i-title-left i.fa {
   color: #008b18;
@@ -5718,6 +5784,13 @@
 .theme-cyan .wh-hd-l-gateway-info {
   border-color: #03b3b1 \9;
 }
+.theme-cyan .wh-header .wh-hd-l-nav > dd.on {
+  background: #03b3b1;
+}
+.theme-cyan .wh-header .wh-hd-l-nav > dd.on > a .fa,
+.theme-cyan .wh-header .wh-hd-l-nav > dd.on > a span {
+  color: #fff;
+}
 .theme-cyan .listbox a:hover {
   background: #03b3b1;
   color: #fff;
@@ -5731,19 +5804,23 @@
 .theme-cyan .wh-hd-l-nav dd > a > span {
   color: #202020;
 }
-.theme-cyan .wh-hd-l-nav dd.open > a,
-.theme-cyan .wh-hd-l-nav dd:hover > a,
-.theme-cyan .wh-hd-l-nav dd:focus > a {
-  border-bottom: 2px solid #03b3b1;
+.theme-cyan .wh-hd-l-nav dd.open,
+.theme-cyan .wh-hd-l-nav dd:hover,
+.theme-cyan .wh-hd-l-nav dd:focus {
+  background: #03b3b1;
+}
+.theme-cyan .wh-hd-l-nav dd.open > a .fa,
+.theme-cyan .wh-hd-l-nav dd:hover > a .fa,
+.theme-cyan .wh-hd-l-nav dd:focus > a .fa,
+.theme-cyan .wh-hd-l-nav dd.open > a span,
+.theme-cyan .wh-hd-l-nav dd:hover > a span,
+.theme-cyan .wh-hd-l-nav dd:focus > a span {
+  color: #FFFFFF;
 }
 .theme-cyan .wh-hd-l-nav dd.open > a > span,
 .theme-cyan .wh-hd-l-nav dd:hover > a > span,
 .theme-cyan .wh-hd-l-nav dd:focus > a > span {
-  color: #03b3b1;
-}
-.theme-cyan .wh-hd-l-nav dd.wh-hd-l-gateway > a,
-.theme-cyan .wh-hd-l-nav dd.wh-hd-l-gateway:hover > a {
-  border-bottom: 2px solid #FFFFFF;
+  color: #FFFFFF;
 }
 .theme-cyan .wh-hd-l-nav dd.wh-hd-menu-btn:hover,
 .theme-cyan .wh-hd-l-nav dd.wh-hd-menu-btn:focus,
@@ -5926,7 +6003,7 @@
 .theme-cyan .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
 .theme-cyan .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover,
 .theme-cyan .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus {
-  border-bottom: 2px solid #03b3b1;
+  border-top: 2px solid #03b3b1;
 }
 .theme-cyan .wh-portal-i-title .wh-portal-i-title-left i.fa {
   color: #03b3b1;
@@ -6658,6 +6735,13 @@
 .theme-seablue .wh-hd-l-gateway-info {
   border-color: #00829a \9;
 }
+.theme-seablue .wh-header .wh-hd-l-nav > dd.on {
+  background: #00829a;
+}
+.theme-seablue .wh-header .wh-hd-l-nav > dd.on > a .fa,
+.theme-seablue .wh-header .wh-hd-l-nav > dd.on > a span {
+  color: #fff;
+}
 .theme-seablue .listbox a:hover {
   background: #00829a;
   color: #fff;
@@ -6671,19 +6755,23 @@
 .theme-seablue .wh-hd-l-nav dd > a > span {
   color: #202020;
 }
-.theme-seablue .wh-hd-l-nav dd.open > a,
-.theme-seablue .wh-hd-l-nav dd:hover > a,
-.theme-seablue .wh-hd-l-nav dd:focus > a {
-  border-bottom: 2px solid #00829a;
+.theme-seablue .wh-hd-l-nav dd.open,
+.theme-seablue .wh-hd-l-nav dd:hover,
+.theme-seablue .wh-hd-l-nav dd:focus {
+  background: #00829a;
+}
+.theme-seablue .wh-hd-l-nav dd.open > a .fa,
+.theme-seablue .wh-hd-l-nav dd:hover > a .fa,
+.theme-seablue .wh-hd-l-nav dd:focus > a .fa,
+.theme-seablue .wh-hd-l-nav dd.open > a span,
+.theme-seablue .wh-hd-l-nav dd:hover > a span,
+.theme-seablue .wh-hd-l-nav dd:focus > a span {
+  color: #FFFFFF;
 }
 .theme-seablue .wh-hd-l-nav dd.open > a > span,
 .theme-seablue .wh-hd-l-nav dd:hover > a > span,
 .theme-seablue .wh-hd-l-nav dd:focus > a > span {
-  color: #00829a;
-}
-.theme-seablue .wh-hd-l-nav dd.wh-hd-l-gateway > a,
-.theme-seablue .wh-hd-l-nav dd.wh-hd-l-gateway:hover > a {
-  border-bottom: 2px solid #FFFFFF;
+  color: #FFFFFF;
 }
 .theme-seablue .wh-hd-l-nav dd.wh-hd-menu-btn:hover,
 .theme-seablue .wh-hd-l-nav dd.wh-hd-menu-btn:focus,
@@ -6866,7 +6954,7 @@
 .theme-seablue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
 .theme-seablue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover,
 .theme-seablue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus {
-  border-bottom: 2px solid #00829a;
+  border-top: 2px solid #00829a;
 }
 .theme-seablue .wh-portal-i-title .wh-portal-i-title-left i.fa {
   color: #00829a;
@@ -7598,6 +7686,13 @@
 .theme-skyblue .wh-hd-l-gateway-info {
   border-color: #5cb2ff \9;
 }
+.theme-skyblue .wh-header .wh-hd-l-nav > dd.on {
+  background: #5cb2ff;
+}
+.theme-skyblue .wh-header .wh-hd-l-nav > dd.on > a .fa,
+.theme-skyblue .wh-header .wh-hd-l-nav > dd.on > a span {
+  color: #fff;
+}
 .theme-skyblue .listbox a:hover {
   background: #5cb2ff;
   color: #fff;
@@ -7611,19 +7706,23 @@
 .theme-skyblue .wh-hd-l-nav dd > a > span {
   color: #202020;
 }
-.theme-skyblue .wh-hd-l-nav dd.open > a,
-.theme-skyblue .wh-hd-l-nav dd:hover > a,
-.theme-skyblue .wh-hd-l-nav dd:focus > a {
-  border-bottom: 2px solid #5cb2ff;
+.theme-skyblue .wh-hd-l-nav dd.open,
+.theme-skyblue .wh-hd-l-nav dd:hover,
+.theme-skyblue .wh-hd-l-nav dd:focus {
+  background: #5cb2ff;
+}
+.theme-skyblue .wh-hd-l-nav dd.open > a .fa,
+.theme-skyblue .wh-hd-l-nav dd:hover > a .fa,
+.theme-skyblue .wh-hd-l-nav dd:focus > a .fa,
+.theme-skyblue .wh-hd-l-nav dd.open > a span,
+.theme-skyblue .wh-hd-l-nav dd:hover > a span,
+.theme-skyblue .wh-hd-l-nav dd:focus > a span {
+  color: #FFFFFF;
 }
 .theme-skyblue .wh-hd-l-nav dd.open > a > span,
 .theme-skyblue .wh-hd-l-nav dd:hover > a > span,
 .theme-skyblue .wh-hd-l-nav dd:focus > a > span {
-  color: #5cb2ff;
-}
-.theme-skyblue .wh-hd-l-nav dd.wh-hd-l-gateway > a,
-.theme-skyblue .wh-hd-l-nav dd.wh-hd-l-gateway:hover > a {
-  border-bottom: 2px solid #FFFFFF;
+  color: #FFFFFF;
 }
 .theme-skyblue .wh-hd-l-nav dd.wh-hd-menu-btn:hover,
 .theme-skyblue .wh-hd-l-nav dd.wh-hd-menu-btn:focus,
@@ -7806,7 +7905,7 @@
 .theme-skyblue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
 .theme-skyblue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover,
 .theme-skyblue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus {
-  border-bottom: 2px solid #5cb2ff;
+  border-top: 2px solid #5cb2ff;
 }
 .theme-skyblue .wh-portal-i-title .wh-portal-i-title-left i.fa {
   color: #5cb2ff;

@@ -3451,6 +3451,17 @@ ul {
   line-height: 43px;
   color: #333;
 }
+.public_tab .txl_tab_hasborder {
+  float: none;
+}
+.public_tab .txl_tab_hasborder .bd ul li {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+.public_tab .tab-box {
+  display: none;
+}
 .operate-icons {
   position: relative;
   max-width: 83px;

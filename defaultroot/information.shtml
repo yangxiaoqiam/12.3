@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title> 
-    <link rel="stylesheet" href="dist/css/template_system/template.reset.css" />
-    <link rel="stylesheet" href="dist/css/template_system/template.fa.css" />
-    <link rel="stylesheet" href="dist/css/template_default/template.portal.css" />
-    <link rel="stylesheet" href="dist/css/template_default/template.style.css" /> 
-    <link rel="stylesheet" href="dist/css/template_default/template.portal.size.css" />
+    <link rel="stylesheet" href="template/css/template_system/template.reset.min.css" />
+    <link rel="stylesheet" href="template/css/template_system/template.fa.min.css" />
+    <link rel="stylesheet" href="template/css/template_default/template.portal.min.css" />
+    <link rel="stylesheet" href="template/css/template_default/template.style.min.css" /> 
+    <link rel="stylesheet" href="template/css/template_default/template.portal.size.min.css" />
     <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.before.min.css" />  
     <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.after.min.css" />  
       

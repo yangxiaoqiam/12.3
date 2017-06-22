@@ -8,7 +8,7 @@ body.size-big {
   font-size: 14px;
   line-height: 30px;
 }
-/*小尺寸*/
+/*12号  小尺寸*/
 .size-small .wh-main {
   margin: 0 auto;
 }
@@ -324,7 +324,7 @@ body.size-big {
 .size-small .process-list .listbox ul li a {
   font-size: 12px;
 }
-/*大尺寸*/
+/*14号  大尺寸*/
 .size-big .wh-main {
   margin: 0 auto;
 }
@@ -646,5 +646,329 @@ body.size-big {
 }
 .size-big .wh-quick-entry-purbackground li a .fafa em,
 .size-big .wh-quick-entry-purbackground li a span.title {
+  font-size: 14px;
+}
+/*16号  大尺寸*/
+.size-big16 .wh-main {
+  margin: 0 auto;
+}
+.size-big16 h1 {
+  font-size: 24px;
+  line-height: 24px;
+}
+.size-big16 h2 {
+  font-size: 18px;
+}
+.size-big16 h3 {
+  font-size: 16px;
+}
+.size-big16 h4,
+.size-big16 h5 {
+  font-size: 14px;
+}
+.size-big16 .wh-portaler {
+  min-width: 750px;
+}
+.size-big16 .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
+  font-size: 14px;
+}
+.size-big16 .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a i.fa {
+  font-size: 14px;
+}
+.size-big16 .wh-portal-i-title h3 {
+  font-size: 12px;
+}
+.size-big16 .wh-portal-info-content .wh-portal-info-title .wh-portal-infotitle p {
+  font-size: 14px;
+}
+.size-big16 .wh-portal-info-content .wh-portal-info-title .wh-portal-infocon p {
+  font-size: 12px;
+}
+.size-big16 .wh-portal-i-item .wh-pending-em {
+  font-size: 12px;
+}
+.size-big16 .wh-portal-i-item .wh-pending-time {
+  font-size: 12px;
+}
+.size-big16 .wh-portal-i-item em {
+  font-size: 12px;
+}
+.size-big16 .wh-portal-i-item i.fa.fa-new {
+  font-size: 12px;
+}
+.size-big16 .wh-portal-i-item a {
+  font-size: 14px;
+}
+.size-big16 .wh-portal-i-item a .fa-history {
+  font-size: 14px;
+}
+.size-big16 .wh-portal-i-item a span {
+  font-size: 14px;
+}
+.size-big16 .wh-portal-pic-slide-box .wh-portal-pic-slide-text {
+  font-size: 14px;
+}
+.size-big16 .wh-portal-pic-slide-box .wh-portal-pic-slide-txt {
+  font-size: 14px;
+}
+.size-big16 .wh-portal-pic-slide-circle li {
+  width: 10px;
+  height: 10px;
+}
+.size-big16 .wh-portal-k-ul li {
+  font-size: 18px;
+}
+.size-big16 .wh-system-warn li {
+  font-size: 16px;
+}
+.size-big16 .wh-file-handle {
+  margin: 0 -5px;
+}
+.size-big16 .wh-file-handle li .wh-file-num {
+  font-size: 38px;
+}
+.size-big16 .wh-file-handle li .wh-file-num-small {
+  font-size: 28px;
+}
+.size-big16 .wh-file-handle li .wh-file-type em {
+  font-size: 14px;
+}
+.size-big16 .wh-human-remind-title span {
+  font-size: 14px;
+}
+.size-big16 .wh-human-remind-title p {
+  font-size: 14px;
+}
+.size-big16 .wh-human-remind-tab {
+  font-size: 14px;
+}
+.size-big16 .wh-human-remind-tab tr td {
+  font-size: 14px;
+}
+.size-big16 .wh-work-report-name {
+  font-size: 14px;
+}
+.size-big16 .wh-portal-personal-info .wh-p-person-header .wh-p-person-job {
+  font-size: 14px;
+}
+.size-big16 .wh-portal-personal-info .wh-p-person-info em {
+  font-size: 14px;
+}
+.size-big16 .wh-portal-personal-info .wh-p-person-info h3 a {
+  font-size: 16px;
+}
+.size-big16 .wh-portal-know-notice .wh-p-person-info em {
+  font-size: 14px;
+}
+.size-big16 .wh-my-notes-dl {
+  font-size: 14px;
+}
+.size-big16 .wh-web-search-list li {
+  font-size: 14px;
+}
+.size-big16 .wh-web-search-address {
+  font-size: 14px;
+}
+.size-big16 .wh-p-shares-list li .wh-p-shares-detail table td {
+  font-size: 14px;
+}
+.size-big16 .wh-p-shares-list li .wh-p-shares-title {
+  font-size: 14px;
+}
+.size-big16 .wh-p-shares-list li .wh-p-shares-title h3 {
+  font-size: 16px;
+}
+.size-big16 .wh-personal-card-content .wh-personal-card-state .wh-card-department,
+.size-big16 .wh-personal-card-content .wh-personal-card-state .wh-card-state {
+  font-size: 16px;
+}
+.size-big16 .wh-personal-card-content .wh-personal-card-state .per-wh-hd-user-state a,
+.size-big16 .wh-personal-card-content .wh-personal-card-state .per-wh-hd-depart-state a {
+  font-size: 14px;
+}
+.size-big16 .wh-personal-card-content .wh-personal-card-state .per-wh-hd-user-state a i.fa,
+.size-big16 .wh-personal-card-content .wh-personal-card-state .per-wh-hd-depart-state a i.fa {
+  font-size: 14px;
+}
+.size-big16 .wh-personal-card-content .wh-personal-card-state .wh-card-department span,
+.size-big16 .wh-personal-card-content .wh-personal-card-state .wh-card-state span {
+  font-size: 14px;
+}
+.size-big16 .wh-personal-card-content .wh-personal-date {
+  font-size: 14px;
+}
+.size-big16 .wh-personal-card-content .wh-personal-card-pos {
+  font-size: 14px;
+}
+.size-big16 .wh-personal-card-content .wh-personal-card-pos a {
+  font-size: 14px;
+}
+.size-big16 .wh-personal-card-btn .wh-personal-card-btn-a {
+  font-size: 16px;
+}
+.size-big16 .wh-personal-card-setting .wh-personal-card-namesign p.wh-personal-date {
+  font-size: 14px;
+}
+.size-big16 .wh-personal-card-setting .wh-personal-card-namesign span {
+  font-size: 14px;
+}
+.size-big16 .wh-personal-card-setting .wh-personal-card-namesign a {
+  font-size: 18px;
+}
+.size-big16 .wh-personal-card-setting .wh-personal-card-namesign input.sign {
+  font-size: 14px;
+}
+.size-big16 .wh-personal-card-setting-show dl {
+  font-size: 14px;
+}
+.size-big16 .wh-personal-card-setting-show dl ul.wh-pcard-down-list li .fa {
+  font-size: 14px;
+}
+.size-big16 .wh-personal-card-setting-show .per-wh-hd-guser-state a i.fa {
+  font-size: 14px;
+}
+.size-big16 .wh-personal-card-setting-btn .wh-personal-card-btn-a {
+  font-size: 16px;
+}
+.size-big16 .wh-my-s-date-list .flex-direction-nav .flex-prev,
+.size-big16 .wh-my-s-date-list .flex-direction-nav .flex-next {
+  font-size: 16px;
+}
+.size-big16 .wh-my-s-date-list .wh-my-s-date-li li {
+  font-size: 18px;
+}
+.size-big16 .wh-my-s-meeting-day .flex-next {
+  font-size: 40px;
+}
+.size-big16 .wh-my-meeting-content .wh-my-meeting-theme {
+  font-size: 14px;
+}
+.size-big16 .wh-my-meeting-content .wh-my-meeting-address-time table td {
+  font-size: 14px;
+}
+.size-big16 .wh-schedule-time-box .wh-schedule-time-slide li {
+  font-size: 14px;
+}
+.size-big16 .wh-schedule-time-box .flex-next,
+.size-big16 .wh-schedule-time-box .flex-prev {
+  font-size: 14px;
+}
+.size-big16 .wh-slide-consult-box .wh-slide-look {
+  font-size: 14px;
+}
+.size-big16 .wh-slide-consult-box .wh-slide-name {
+  font-size: 16px;
+}
+.size-big16 .wh-slide-sim-consult-box a b {
+  font-size: 16px;
+}
+.size-big16 .wh-common-process-li .wh-common-p-text span {
+  font-size: 16px;
+}
+.size-big16 .wh-common-process-li .wh-common-p-text i {
+  font-size: 14px;
+}
+.size-big16 .wh-common-process-li .wh-common-p-file {
+  width: 40%;
+}
+.size-big16 .wh-portal-blog-form .wh-portal-blog-text {
+  font-size: 14px;
+}
+.size-big16 .wh-portal-blog-look a {
+  font-size: 14px;
+}
+.size-big16 .wh-blog-user-text {
+  font-size: 14px;
+}
+.size-big16 .wh-portal-blog-repeat ul li {
+  font-size: 14px;
+}
+.size-big16 .wh-portal-login h4 {
+  font-size: 16px;
+}
+.size-big16 .wh-portal-login .wh-portal-l-btn a {
+  font-size: 16px;
+}
+.size-big16 .wh-portal-l-check .wh-portal-l-select {
+  font-size: 14px;
+}
+.size-big16 .wh-protal-tab-rush div {
+  font-size: 14px;
+}
+.size-big16 .wh-portal-supervisor-tab p {
+  width: 100%;
+  font-size: 14px;
+}
+.size-big16 .wh-portal-supervisor table {
+  font-size: 14px;
+}
+.size-big16 .wh-online-vote .wh-vote-btn {
+  font-size: 16px;
+}
+.size-big16 .wh-online-vote h3 {
+  font-size: 16px;
+}
+.size-big16 .wh-vote-ques-li li {
+  font-size: 14px;
+}
+.size-big16 .wh-portal-know-list li {
+  width: 264px;
+}
+.size-big16 .wh-p-person-header .wh-p-person-ask {
+  font-size: 14px;
+}
+.size-big16 .wh-quick-entry-list {
+  font-size: 0;
+}
+.size-big16 .wh-quick-entry-list li span {
+  height: 26px;
+  line-height: 26px;
+  font-size: 14px;
+}
+.size-big16 .wh-quick-entry-list li .fa {
+  font-size: 14px;
+}
+.size-big16 .wh-sim-quick-entry-list li span {
+  font-size: 14px;
+}
+.size-big16 .wh-sim-quick-entry-list li .fa {
+  font-size: 14px;
+}
+.size-big16 .wh-portal-doc-search,
+.size-big16 .wh-portal-zd-search {
+  font-size: 14px;
+}
+.size-big16 .user_card h1 {
+  font-size: 14px;
+}
+.size-big16 .user_card .right_aboutinfo {
+  font-size: 14px;
+}
+.size-big16 .wh-control-l-th h3 {
+  font-size: 14px;
+}
+.size-big16 .wh-control-panel-menu h2 {
+  font-size: 16px;
+}
+.size-big16 .leader-list a em,
+.size-big16 .leader-list a font,
+.size-big16 .leader-list a span {
+  font-size: 14px;
+}
+.size-big16 .leader-list a i {
+  font-size: 17px;
+}
+.size-big16 .leader-list .line {
+  margin-left: 7px;
+}
+.size-big16 .process-list .listbox ul li a {
+  font-size: 14px;
+}
+.size-big16 .wh-file-handle-purebackground li a .fafa em,
+.size-big16 .wh-file-handle-purebackground li a span.title {
+  font-size: 14px;
+}
+.size-big16 .wh-quick-entry-purbackground li a .fafa em,
+.size-big16 .wh-quick-entry-purbackground li a span.title {
   font-size: 14px;
 }

@@ -77,6 +77,14 @@
 		.fa-color{
 			color:@global-color;
 		}
+      
+
+       // 头部选中效果
+	    .wh-hd-l-nav dd.on{
+	          background:@global-color;
+	    }
+
+
 
 		// IE8 模式边框
 		 
@@ -84,6 +92,26 @@
 	  .wh-hd-l-gateway-info{
 	  	border-color:@global-color @ie8-fix;
 	  }
+
+
+         // 头部选中效果
+       .wh-header { 
+		    .wh-hd-l-nav {
+		        &>dd {
+		            &.on {
+		                background: @global-color;
+		                &>a {
+		                    .fa,
+		                    span {
+		                        color: #fff;
+		                    }
+		                }
+		            }
+		        }
+		    }
+		 }
+    
+
 
 
 	  //流程场景
@@ -105,23 +133,26 @@
 	      >a{
 		  		border-bottom-color: @global-color-white;
 	      }
-	      >a >span{
+	      >a>span{
 	      	color: @global-color-black-d;
 	      }
 
 	      //激活色
 		    &.open,&:hover,&:focus{
-		    	>a{
-		  			border-bottom: 2px solid @global-color;
+		    	 background: @global-color;
+		    	>a{ 
+		    		.fa,span{
+		    			  color: @global-color-white;
+		    		}
 		    	}
 		      >a >span{
-		      	color: @global-color;
+		      	color: @global-color-white;
 		      }    
 		    }
 		    &.wh-hd-l-gateway,
 				&.wh-hd-l-gateway:hover{
 					>a{
-		  			border-bottom: 2px solid @global-color-white;
+		  			
 					}
 				}
 		  }
@@ -141,6 +172,8 @@
 		    	}
 		    }
 		}
+		
+
 
 		//自定义菜单所有功能
 		//------------------
@@ -375,7 +408,7 @@
 		  .wh-portal-i-title-left{
 		    .wh-portal-title-li{
 		      &.on,&:hover,&:focus{
-		        border-bottom: 2px solid @global-color;
+		        border-top: 2px solid @global-color;
 		      }
 		    }
 		    i.fa{
@@ -1326,7 +1359,6 @@
 		        }
 		   
 		  }
-
 
 	}
 }
