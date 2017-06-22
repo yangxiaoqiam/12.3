@@ -362,6 +362,10 @@ fieldset[disabled] .theme-red .btn.btn-wh-blank.active {
 .theme-red .syfw .btn.btn-wh-line:focus {
   color: #fff;
 }
+.theme-red .task-see-box .xmhb .xuhb-list p {
+  color: #cd2500;
+  font-size: 12px;
+}
 .theme-red #move-attendance td a {
   color: #cd2500;
 }
@@ -728,6 +732,10 @@ fieldset[disabled] .theme-pink .btn.btn-wh-blank.active {
 }
 .theme-pink .syfw .btn.btn-wh-line:focus {
   color: #fff;
+}
+.theme-pink .task-see-box .xmhb .xuhb-list p {
+  color: #dc4fad;
+  font-size: 12px;
 }
 .theme-pink #move-attendance td a {
   color: #dc4fad;
@@ -1096,6 +1104,10 @@ fieldset[disabled] .theme-darkred .btn.btn-wh-blank.active {
 .theme-darkred .syfw .btn.btn-wh-line:focus {
   color: #fff;
 }
+.theme-darkred .task-see-box .xmhb .xuhb-list p {
+  color: #ad193d;
+  font-size: 12px;
+}
 .theme-darkred #move-attendance td a {
   color: #ad193d;
 }
@@ -1462,6 +1474,10 @@ fieldset[disabled] .theme-orange .btn.btn-wh-blank.active {
 }
 .theme-orange .syfw .btn.btn-wh-line:focus {
   color: #fff;
+}
+.theme-orange .task-see-box .xmhb .xuhb-list p {
+  color: #F27521;
+  font-size: 12px;
 }
 .theme-orange #move-attendance td a {
   color: #F27521;
@@ -1830,6 +1846,10 @@ fieldset[disabled] .theme-lightgreen .btn.btn-wh-blank.active {
 .theme-lightgreen .syfw .btn.btn-wh-line:focus {
   color: #fff;
 }
+.theme-lightgreen .task-see-box .xmhb .xuhb-list p {
+  color: #82ba01;
+  font-size: 12px;
+}
 .theme-lightgreen #move-attendance td a {
   color: #82ba01;
 }
@@ -2196,6 +2216,10 @@ fieldset[disabled] .theme-green .btn.btn-wh-blank.active {
 }
 .theme-green .syfw .btn.btn-wh-line:focus {
   color: #fff;
+}
+.theme-green .task-see-box .xmhb .xuhb-list p {
+  color: #008b18;
+  font-size: 12px;
 }
 .theme-green #move-attendance td a {
   color: #008b18;
@@ -2564,6 +2588,10 @@ fieldset[disabled] .theme-cyan .btn.btn-wh-blank.active {
 .theme-cyan .syfw .btn.btn-wh-line:focus {
   color: #fff;
 }
+.theme-cyan .task-see-box .xmhb .xuhb-list p {
+  color: #03b3b1;
+  font-size: 12px;
+}
 .theme-cyan #move-attendance td a {
   color: #03b3b1;
 }
@@ -2930,6 +2958,10 @@ fieldset[disabled] .theme-seablue .btn.btn-wh-blank.active {
 }
 .theme-seablue .syfw .btn.btn-wh-line:focus {
   color: #fff;
+}
+.theme-seablue .task-see-box .xmhb .xuhb-list p {
+  color: #00829a;
+  font-size: 12px;
 }
 .theme-seablue #move-attendance td a {
   color: #00829a;
@@ -3298,6 +3330,10 @@ fieldset[disabled] .theme-skyblue .btn.btn-wh-blank.active {
 .theme-skyblue .syfw .btn.btn-wh-line:focus {
   color: #fff;
 }
+.theme-skyblue .task-see-box .xmhb .xuhb-list p {
+  color: #5cb2ff;
+  font-size: 12px;
+}
 .theme-skyblue #move-attendance td a {
   color: #5cb2ff;
 }
@@ -3664,6 +3700,10 @@ fieldset[disabled] .theme-blue .btn.btn-wh-blank.active {
 }
 .theme-blue .syfw .btn.btn-wh-line:focus {
   color: #fff;
+}
+.theme-blue .task-see-box .xmhb .xuhb-list p {
+  color: #0073c6;
+  font-size: 12px;
 }
 .theme-blue #move-attendance td a {
   color: #0073c6;
@@ -4032,6 +4072,10 @@ fieldset[disabled] .theme-violet .btn.btn-wh-blank.active {
 .theme-violet .syfw .btn.btn-wh-line:focus {
   color: #fff;
 }
+.theme-violet .task-see-box .xmhb .xuhb-list p {
+  color: #4617b5;
+  font-size: 12px;
+}
 .theme-violet #move-attendance td a {
   color: #4617b5;
 }
@@ -4398,6 +4442,10 @@ fieldset[disabled] .theme-purple .btn.btn-wh-blank.active {
 }
 .theme-purple .syfw .btn.btn-wh-line:focus {
   color: #fff;
+}
+.theme-purple .task-see-box .xmhb .xuhb-list p {
+  color: #8c0095;
+  font-size: 12px;
 }
 .theme-purple #move-attendance td a {
   color: #8c0095;
@@ -4766,6 +4814,10 @@ fieldset[disabled] .theme-indigo .btn.btn-wh-blank.active {
 .theme-indigo .syfw .btn.btn-wh-line:focus {
   color: #fff;
 }
+.theme-indigo .task-see-box .xmhb .xuhb-list p {
+  color: #004b8c;
+  font-size: 12px;
+}
 .theme-indigo #move-attendance td a {
   color: #004b8c;
 }
@@ -5132,6 +5184,10 @@ fieldset[disabled] .theme-darkblue .btn.btn-wh-blank.active {
 }
 .theme-darkblue .syfw .btn.btn-wh-line:focus {
   color: #fff;
+}
+.theme-darkblue .task-see-box .xmhb .xuhb-list p {
+  color: #001941;
+  font-size: 12px;
 }
 .theme-darkblue #move-attendance td a {
   color: #001941;
@@ -5500,6 +5556,10 @@ fieldset[disabled] .theme-maroon .btn.btn-wh-blank.active {
 .theme-maroon .syfw .btn.btn-wh-line:focus {
   color: #fff;
 }
+.theme-maroon .task-see-box .xmhb .xuhb-list p {
+  color: #580000;
+  font-size: 12px;
+}
 .theme-maroon #move-attendance td a {
   color: #580000;
 }
@@ -5866,6 +5926,10 @@ fieldset[disabled] .theme-brown .btn.btn-wh-blank.active {
 }
 .theme-brown .syfw .btn.btn-wh-line:focus {
   color: #fff;
+}
+.theme-brown .task-see-box .xmhb .xuhb-list p {
+  color: #380001;
+  font-size: 12px;
 }
 .theme-brown #move-attendance td a {
   color: #380001;
@@ -6234,6 +6298,10 @@ fieldset[disabled] .theme-gray .btn.btn-wh-blank.active {
 .theme-gray .syfw .btn.btn-wh-line:focus {
   color: #fff;
 }
+.theme-gray .task-see-box .xmhb .xuhb-list p {
+  color: #585858;
+  font-size: 12px;
+}
 .theme-gray #move-attendance td a {
   color: #585858;
 }
@@ -6600,6 +6668,10 @@ fieldset[disabled] .theme-black .btn.btn-wh-blank.active {
 }
 .theme-black .syfw .btn.btn-wh-line:focus {
   color: #fff;
+}
+.theme-black .task-see-box .xmhb .xuhb-list p {
+  color: #333;
+  font-size: 12px;
 }
 .theme-black #move-attendance td a {
   color: #333;

@@ -1,3 +1,78 @@
+.size-big16 {
+  font-size: 16px;
+}
+.size-big16 .fa {
+  font-size: 17px;
+}
+.size-big16 .wh-dtl-bread .fa,
+.size-big16 .wh-dtl-bread span {
+  margin-right: 5px;
+}
+.size-big16 .wh-dtl-bread a span:before {
+  font-size: 16px;
+}
+.size-big16 .nav .dropdown-menu {
+  font-size: 14px;
+}
+.size-big16 .wh-detail hr {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.size-big16 .wh-detail h1,
+.size-big16 .wh-detail h2,
+.size-big16 .wh-detail h3,
+.size-big16 .wh-detail h4,
+.size-big16 .wh-detail h5 {
+  font-weight: normal;
+}
+.size-big16 .wh-detail h1 {
+  font-size: 32px;
+  line-height: 48px;
+}
+.size-big16 .wh-detail h2 {
+  font-size: 24px;
+  line-height: 40px;
+}
+.size-big16 .wh-detail h3,
+.size-big16 .wh-detail h4 {
+  font-size: 20px;
+  line-height: 36px;
+}
+.size-big16 .wh-detail h5,
+.size-big16 .wh-detail h6 {
+  font-size: 16px;
+  line-height: 32px;
+}
+.size-big16 .wh-dtl-con p {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+.size-big16 .wh-dtl-con ul,
+.size-big16 .wh-dtl-con ol {
+  padding-left: 26.4px;
+  margin-bottom: 16px;
+}
+.size-big16 .wh-dtl-con ul,
+.size-big16 .wh-dtl-con ol,
+.size-big16 .wh-dtl-con li {
+  font-size: 18px;
+}
+.size-big16 .wh-dtl-con blockquote {
+  padding: 18px;
+  padding-left: 16px;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+.size-big16 .details-container > strong {
+  font-size: 18px;
+}
+.size-big16 .details-container .form-group label,
+.size-big16 .details-container .form-group .form-control {
+  font-size: 16px;
+}
+.size-big16 .detail-btn .btn {
+  font-size: 16px;
+}
 .size-big {
   font-size: 14px;
 }

@@ -3451,6 +3451,9 @@ ul {
   line-height: 43px;
   color: #333;
 }
+.public_tab {
+  margin: 10px 0;
+}
 .public_tab .txl_tab_hasborder {
   float: none;
 }
@@ -3461,6 +3464,60 @@ ul {
 }
 .public_tab .tab-box {
   display: none;
+}
+.textareabox-a {
+  position: relative;
+}
+.textareabox-a span {
+  color: #adadad;
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+}
+.task-see-box .col-left {
+  border-right: 1px solid #ccc;
+}
+.task-see-box .col-right {
+  padding-top: 10px;
+}
+.task-see-box .xmhb .textareabox-a {
+  margin-top: 10px;
+}
+.task-see-box .xmhb .rw-publish {
+  height: 28px;
+  line-height: 28px;
+  margin: 10px 0;
+  font-size: 12px;
+}
+.task-see-box .xmhb .rw-publish .btn {
+  padding: 3px 10px;
+}
+.task-see-box .xuhb-list li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0 2px 0;
+}
+.task-see-box .xuhb-list li a {
+  width: 100%;
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: keep-all;
+  word-wrap: normal;
+  white-space: nowrap;
+  line-height: 30px;
+  display: block;
+}
+.has-righticon {
+  position: relative;
+}
+.has-righticon .input-group-btn {
+  position: absolute;
+  right: 17px;
+  bottom: 5px;
+}
+.has-righticon .input-group-btn .btn {
+  padding: 0px 4px;
+  border-radius: 3px;
 }
 .operate-icons {
   position: relative;
