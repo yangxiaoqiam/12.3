@@ -1291,6 +1291,9 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
   width: 100%;
   z-index: 100;
 }
+.top-trabg {
+  display: none;
+}
 /* Header */
 .wh-header {
   text-align: right;

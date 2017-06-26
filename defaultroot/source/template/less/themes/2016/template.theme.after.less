@@ -5,7 +5,8 @@
 .theme-mixin(@colorName,
 	@global-color,
 	@global-color-l:tint(@global-color, 90%),
-	@global-color-d:darken(@global-color, 15%)
+	@global-color-d:darken(@global-color, 15%),
+	@global-color-light:tint(@global-color, 60%),
 ) {
   .theme-@{colorName}{
 
@@ -84,6 +85,9 @@
 	          background:@global-color;
 	    }
 
+      .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li{
+		 	 border-top-color:@global-color;
+		 }
 
 
 		// IE8 模式边框
@@ -404,25 +408,7 @@
 		    }
 		  }
 		}
-		.wh-portal-i-title{
-		  .wh-portal-i-title-left{
-		    .wh-portal-title-li{
-		      &.on,&:hover,&:focus{
-		        border-top: 2px solid @global-color;
-		      }
-		    }
-		    i.fa{
-		      color:@global-color;
-		    }
-		  }
-		  .wh-portal-title-more{
-		    color: @global-color;
-		    border-color:@global-color;
-		  }
-		  h3{
-		    color: @global-color-black-l;
-		  }
-		}
+		
 		.wh-portal-pic-slide-circle{
 		  li{
 		    background: @global-color-gray;
@@ -1328,6 +1314,57 @@
 	  	  	  }
 	  	  }
 	  }
+      
+       
+         // 单行文件办理提醒
+
+     .wh-file-handle-one {
+		    ul {
+		        li {
+		            a {
+                       border-color:@global-color;
+                       .file-icon{
+                       	  border-right-color:@global-color;
+                       	    i{
+                       	        color:@global-color;
+                       		}
+                       }
+                       &:hover{
+                       	.file-icon{
+                       		background:@global-color;
+                       		i{
+                       	  	 color:#fff;
+                       	  }
+                       	}
+
+                       	.file-con{
+                       		
+                       		span{
+                       	  	 color:@global-color;
+                       	  }
+                       	}
+                       	  
+                       }
+                       
+		            }
+		        }
+		    }
+		}
+
+   
+
+
+       // 单行文件办理提醒
+
+     .wh-file-handle-one {
+		    ul {
+		        li {
+		            a {
+                       border-color:@global-color;
+		            }
+		        }
+		    }
+		}
 
 
 	 // 纯色背景快捷入口
@@ -1342,6 +1379,33 @@
 	  	  }
 	  }
     
+
+    
+    //单行快捷入口
+		.wh-quick-entry-column1 {
+			    ul {
+			        li {
+			            a {
+			                background: @global-color-l;
+			                em{
+			                	 i{
+			                	 	 color:@global-color; 
+			                	 }
+			                }
+			                &.on,&:hover {
+			                    background: @global-color;
+			                    color: #fff;
+			                    i {
+			                        color: #fff;
+			                    }
+			                }
+			            }
+			        }
+			    }
+			}
+        
+        
+      
     
 
 		  &.theme-newa{
@@ -1362,5 +1426,6 @@
 
 	}
 }
+
 
 

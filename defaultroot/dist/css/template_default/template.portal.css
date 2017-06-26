@@ -939,7 +939,7 @@ h5 {
   box-shadow: none;
 }
 .wh-portal-nopadding .wh-portal-i-content {
-  padding: 0 ;
+  padding: 0;
 }
 .wh-portal-nohidden .wh-portal-i-content {
   overflow: visible;
@@ -1021,7 +1021,8 @@ h5 {
   height: 36px;
   font-size: 14px;
   text-align: left;
-  border-top: 2px solid #f6f6f6;
+  border-top-width: 2px;
+  border-top-style: solid;
 }
 .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
 .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
@@ -1705,7 +1706,7 @@ h5 {
 /*----------������Ϣ portal----------*/
 .wh-portal-personal-info .wh-p-person-header {
   width: 40%;
-  padding-right: 10px ;
+  padding-right: 10px;
 }
 .wh-portal-personal-info .wh-p-person-header .wh-p-person-job {
   display: block;
@@ -1845,8 +1846,8 @@ h5 {
   background: url("../../../../defaultroot/images/ver113/ribbon.png") no-repeat 10px 0px;
 }
 .wh-my-notes-dl {
-  padding: 0 30px ;
-  margin: 20px 0 ;
+  padding: 0 30px;
+  margin: 20px 0;
   overflow: hidden;
   height: 120px;
   font-size: 12px;
@@ -2031,7 +2032,7 @@ h5 {
 .wh-personal-card-content .wh-personal-card-state .per-wh-hd-user-state a,
 .wh-personal-card-content .wh-personal-card-state .per-wh-hd-depart-state a {
   font-size: 12px;
-  padding: 0 8px 0 0 ;
+  padding: 0 8px 0 0;
   color: #b2b2b2;
   display: inline-block;
   position: relative;
@@ -2143,7 +2144,7 @@ h5 {
 .wh-personal-card-setting .wh-personal-card-setting-divtop {
   position: relative;
   z-index: 2;
-  padding: 25px 0 0 0 ;
+  padding: 25px 0 0 0;
 }
 .wh-personal-card-setting .wh-personal-card-bg {
   position: absolute;
@@ -2213,7 +2214,7 @@ h5 {
 .wh-personal-card-setting-show {
   width: 85%;
   margin: 0 auto;
-  padding: 10px 0 ;
+  padding: 10px 0;
 }
 .wh-personal-card-setting-show dl {
   text-align: left;
@@ -2312,7 +2313,7 @@ h5 {
   clear: both;
 }
 .wh-personal-card-setting-show .per-wh-hd-guser-state a {
-  padding: 0 5px 0 0 ;
+  padding: 0 5px 0 0;
   color: #b2b2b2;
   display: inline-block;
   position: relative;
@@ -2486,7 +2487,7 @@ h5 {
 .wh-my-s-meeting-day .wh-my-meeting-day-ul li {
   width: 172px;
   float: left;
-  margin: 0 16px 0 0 ;
+  margin: 0 16px 0 0;
   overflow: hidden;
 }
 .wh-my-meeting-content {
@@ -3027,7 +3028,7 @@ h5 {
 }
 .wh-portal-blog-look {
   width: 75%;
-  margin: 10px 0 ;
+  margin: 10px 0;
   height: 28px;
   line-height: 28px;
   position: relative;
@@ -3087,7 +3088,7 @@ h5 {
 .wh-portal-blog-look .blog-look-fileup .blog-look-file-con {
   border-radius: 2px;
   text-align: center;
-  padding: 10px ;
+  padding: 10px;
   position: relative;
 }
 .wh-portal-blog-look .blog-look-fileup .blog-look-file-con > span {
@@ -3141,7 +3142,7 @@ h5 {
 }
 .wh-portal-blog-look .blog-look-fileup .wh-face-fileup p i {
   display: inline-block;
-  margin: 0 5px ;
+  margin: 0 5px;
 }
 .wh-portal-blog-look .blog-look-fileup .wh-face-fileup input {
   height: inherit;
@@ -3161,7 +3162,7 @@ h5 {
   overflow: hidden;
 }
 .wh-portal-blog-scroll {
-  margin: 10px 10px 0 10px ;
+  margin: 10px 10px 0 10px;
 }
 .wh-portal-b-comment-box {
   border: 1px solid #e0e0e0;
@@ -3557,7 +3558,7 @@ h5 {
 }
 .wh-control-btn-blue {
   display: inline-block;
-  padding: 4px 10px ;
+  padding: 4px 10px;
   margin-right: 10px;
   background: #fff;
   border-radius: 3px;
@@ -4048,7 +4049,7 @@ h5 {
   width: 50%;
 }
 .wh-portal-supervisor-tab p a b {
-  padding: 0 10px 0 0 ;
+  padding: 0 10px 0 0;
 }
 .wh-portal-supervisor-color em {
   color: #696969;
@@ -4384,7 +4385,7 @@ h5 {
 }
 .wh-task-in-list .wh-portal-i-item {
   height: auto;
-  padding-bottom: 10px ;
+  padding-bottom: 10px;
 }
 .wh-portal-know-list li {
   width: 250px;
@@ -4467,7 +4468,7 @@ h5 {
   vertical-align: middle;
   font-size: 12px;
   float: left;
-  margin: 0 5px 0 10px ;
+  margin: 0 5px 0 10px;
   height: 26px;
   line-height: 26px;
 }
@@ -4476,7 +4477,7 @@ h5 {
   height: 76px;
   text-align: center;
   float: left;
-  margin: 0 5px 0 0 ;
+  margin: 0 5px 0 0;
 }
 .wh-sim-quick-title p {
   padding: 18px 20px 0 20px;
@@ -4665,7 +4666,7 @@ h5 {
 .wh-pager .wh-pager-list a {
   float: left;
   display: inline-block;
-  padding: 0 8px ;
+  padding: 0 8px;
   margin: 0 2px;
   cursor: pointer;
   line-height: 24px;
@@ -4840,7 +4841,7 @@ h5 {
   height: 25px;
 }
 .wh-zhidao-personals-table {
-  margin: 10px 0 0 0 ;
+  margin: 10px 0 0 0;
 }
 .wh-zd-toolbarBottomLine {
   margin: 0 auto;
@@ -4850,7 +4851,7 @@ h5 {
   display: inline-block;
 }
 .wh-zd-toolbarBottomLine input.wh-zd-search-text {
-  line-height: 20px ;
+  line-height: 20px;
   padding: 7px 0;
   height: 20px;
   text-indent: 1em;
@@ -5373,6 +5374,41 @@ h5 {
   vertical-align: middle;
   font-size: 36px;
 }
+.wh-file-handle-one {
+  width: 90%;
+  margin: 0 auto;
+}
+.wh-file-handle-one ul li a {
+  display: block;
+  width: 100%;
+  height: 45px;
+  border-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  margin: 4px 0;
+}
+.wh-file-handle-one ul li a .file-icon {
+  display: inline-block;
+  text-align: center;
+  padding: 0 15px;
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+.wh-file-handle-one ul li a .file-icon i {
+  height: 45px;
+  line-height: 45px;
+}
+.wh-file-handle-one ul li a .file-con {
+  display: inline-block;
+  height: 45px;
+  line-height: 45px;
+  margin-left: 15px;
+}
+.wh-file-handle-one ul li a .file-con em {
+  color: red;
+  margin-left: 4px;
+  font-weight: bold;
+}
 .wh-quick-entry-purbackground {
   font-size: 0;
   padding-top: 10px;
@@ -5439,6 +5475,40 @@ h5 {
 .wh-quick-entry-purbackground li .fa {
   vertical-align: middle;
   font-size: 36px;
+}
+.wh-quick-entry-column1 {
+  width: 95%;
+  margin: 0 auto;
+}
+.wh-quick-entry-column1 ul li {
+  width: 100%;
+}
+.wh-quick-entry-column1 ul li a {
+  font-size: 0;
+  display: block;
+  width: 100%;
+  margin: 4px 0;
+  height: 47px;
+}
+.wh-quick-entry-column1 ul li a em {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+  padding-right: 2%;
+  box-sizing: border-box;
+}
+.wh-quick-entry-column1 ul li a em i {
+  height: 47px;
+  line-height: 49px;
+}
+.wh-quick-entry-column1 ul li a span {
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+  padding-left: 2%;
+  box-sizing: border-box;
+  height: 47px;
+  line-height: 47px;
 }
 .wh-column2 li {
   width: 50%;

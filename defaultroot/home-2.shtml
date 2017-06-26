@@ -21,7 +21,7 @@
 <body>
   <div class="wh-wrapper">
     <!--#include file="include/idx-global.html"-->
-    <div class="wh-content">
+    <div class="wh-content close-l-nav">
       <span id="switch-l-nav" class="btn-switch-show"><i class="fa fa-caret-right"></i><i class="fa fa-caret-left"></i></span>
       <div class="wh-l-content" switch-tip="true">
         <div class="wh-left-menuList">

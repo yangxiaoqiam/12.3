@@ -77,6 +77,9 @@
 .theme-blue .wh-hd-l-nav dd.on {
   background: #0073c6;
 }
+.theme-blue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
+  border-top-color: #0073c6;
+}
 .theme-blue .wh-hd-box-shadow,
 .theme-blue .wh-hd-l-gateway-info {
   border-color: #0073c6 \9;
@@ -296,21 +299,6 @@
 }
 .theme-blue .wh-portal-tools .fa-color.fa-times {
   color: red;
-}
-.theme-blue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.theme-blue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover,
-.theme-blue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus {
-  border-top: 2px solid #0073c6;
-}
-.theme-blue .wh-portal-i-title .wh-portal-i-title-left i.fa {
-  color: #0073c6;
-}
-.theme-blue .wh-portal-i-title .wh-portal-title-more {
-  color: #0073c6;
-  border-color: #0073c6;
-}
-.theme-blue .wh-portal-i-title h3 {
-  color: #acacac;
 }
 .theme-blue .wh-portal-pic-slide-circle li {
   background: #cfcfcf;
@@ -938,8 +926,44 @@
 .theme-blue .wh-file-handle-purebackground ul li .fafa {
   background: #0073c6;
 }
+.theme-blue .wh-file-handle-one ul li a {
+  border-color: #0073c6;
+}
+.theme-blue .wh-file-handle-one ul li a .file-icon {
+  border-right-color: #0073c6;
+}
+.theme-blue .wh-file-handle-one ul li a .file-icon i {
+  color: #0073c6;
+}
+.theme-blue .wh-file-handle-one ul li a:hover .file-icon {
+  background: #0073c6;
+}
+.theme-blue .wh-file-handle-one ul li a:hover .file-icon i {
+  color: #fff;
+}
+.theme-blue .wh-file-handle-one ul li a:hover .file-con span {
+  color: #0073c6;
+}
+.theme-blue .wh-file-handle-one ul li a {
+  border-color: #0073c6;
+}
 .theme-blue .wh-quick-entry-purbackground ul li .fafa {
   background: #0073c6;
+}
+.theme-blue .wh-quick-entry-column1 ul li a {
+  background: #e6f1f9;
+}
+.theme-blue .wh-quick-entry-column1 ul li a em i {
+  color: #0073c6;
+}
+.theme-blue .wh-quick-entry-column1 ul li a.on,
+.theme-blue .wh-quick-entry-column1 ul li a:hover {
+  background: #0073c6;
+  color: #fff;
+}
+.theme-blue .wh-quick-entry-column1 ul li a.on i,
+.theme-blue .wh-quick-entry-column1 ul li a:hover i {
+  color: #fff;
 }
 .theme-blue.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
 .theme-blue.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
@@ -1030,6 +1054,9 @@
 }
 .theme-violet .wh-hd-l-nav dd.on {
   background: #4617b5;
+}
+.theme-violet .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
+  border-top-color: #4617b5;
 }
 .theme-violet .wh-hd-box-shadow,
 .theme-violet .wh-hd-l-gateway-info {
@@ -1250,21 +1277,6 @@
 }
 .theme-violet .wh-portal-tools .fa-color.fa-times {
   color: red;
-}
-.theme-violet .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.theme-violet .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover,
-.theme-violet .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus {
-  border-top: 2px solid #4617b5;
-}
-.theme-violet .wh-portal-i-title .wh-portal-i-title-left i.fa {
-  color: #4617b5;
-}
-.theme-violet .wh-portal-i-title .wh-portal-title-more {
-  color: #4617b5;
-  border-color: #4617b5;
-}
-.theme-violet .wh-portal-i-title h3 {
-  color: #acacac;
 }
 .theme-violet .wh-portal-pic-slide-circle li {
   background: #cfcfcf;
@@ -1892,8 +1904,44 @@
 .theme-violet .wh-file-handle-purebackground ul li .fafa {
   background: #4617b5;
 }
+.theme-violet .wh-file-handle-one ul li a {
+  border-color: #4617b5;
+}
+.theme-violet .wh-file-handle-one ul li a .file-icon {
+  border-right-color: #4617b5;
+}
+.theme-violet .wh-file-handle-one ul li a .file-icon i {
+  color: #4617b5;
+}
+.theme-violet .wh-file-handle-one ul li a:hover .file-icon {
+  background: #4617b5;
+}
+.theme-violet .wh-file-handle-one ul li a:hover .file-icon i {
+  color: #fff;
+}
+.theme-violet .wh-file-handle-one ul li a:hover .file-con span {
+  color: #4617b5;
+}
+.theme-violet .wh-file-handle-one ul li a {
+  border-color: #4617b5;
+}
 .theme-violet .wh-quick-entry-purbackground ul li .fafa {
   background: #4617b5;
+}
+.theme-violet .wh-quick-entry-column1 ul li a {
+  background: #ede8f8;
+}
+.theme-violet .wh-quick-entry-column1 ul li a em i {
+  color: #4617b5;
+}
+.theme-violet .wh-quick-entry-column1 ul li a.on,
+.theme-violet .wh-quick-entry-column1 ul li a:hover {
+  background: #4617b5;
+  color: #fff;
+}
+.theme-violet .wh-quick-entry-column1 ul li a.on i,
+.theme-violet .wh-quick-entry-column1 ul li a:hover i {
+  color: #fff;
 }
 .theme-violet.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
 .theme-violet.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
@@ -1984,6 +2032,9 @@
 }
 .theme-purple .wh-hd-l-nav dd.on {
   background: #8c0095;
+}
+.theme-purple .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
+  border-top-color: #8c0095;
 }
 .theme-purple .wh-hd-box-shadow,
 .theme-purple .wh-hd-l-gateway-info {
@@ -2204,21 +2255,6 @@
 }
 .theme-purple .wh-portal-tools .fa-color.fa-times {
   color: red;
-}
-.theme-purple .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.theme-purple .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover,
-.theme-purple .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus {
-  border-top: 2px solid #8c0095;
-}
-.theme-purple .wh-portal-i-title .wh-portal-i-title-left i.fa {
-  color: #8c0095;
-}
-.theme-purple .wh-portal-i-title .wh-portal-title-more {
-  color: #8c0095;
-  border-color: #8c0095;
-}
-.theme-purple .wh-portal-i-title h3 {
-  color: #acacac;
 }
 .theme-purple .wh-portal-pic-slide-circle li {
   background: #cfcfcf;
@@ -2846,8 +2882,44 @@
 .theme-purple .wh-file-handle-purebackground ul li .fafa {
   background: #8c0095;
 }
+.theme-purple .wh-file-handle-one ul li a {
+  border-color: #8c0095;
+}
+.theme-purple .wh-file-handle-one ul li a .file-icon {
+  border-right-color: #8c0095;
+}
+.theme-purple .wh-file-handle-one ul li a .file-icon i {
+  color: #8c0095;
+}
+.theme-purple .wh-file-handle-one ul li a:hover .file-icon {
+  background: #8c0095;
+}
+.theme-purple .wh-file-handle-one ul li a:hover .file-icon i {
+  color: #fff;
+}
+.theme-purple .wh-file-handle-one ul li a:hover .file-con span {
+  color: #8c0095;
+}
+.theme-purple .wh-file-handle-one ul li a {
+  border-color: #8c0095;
+}
 .theme-purple .wh-quick-entry-purbackground ul li .fafa {
   background: #8c0095;
+}
+.theme-purple .wh-quick-entry-column1 ul li a {
+  background: #f4e6f4;
+}
+.theme-purple .wh-quick-entry-column1 ul li a em i {
+  color: #8c0095;
+}
+.theme-purple .wh-quick-entry-column1 ul li a.on,
+.theme-purple .wh-quick-entry-column1 ul li a:hover {
+  background: #8c0095;
+  color: #fff;
+}
+.theme-purple .wh-quick-entry-column1 ul li a.on i,
+.theme-purple .wh-quick-entry-column1 ul li a:hover i {
+  color: #fff;
 }
 .theme-purple.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
 .theme-purple.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
@@ -2938,6 +3010,9 @@
 }
 .theme-indigo .wh-hd-l-nav dd.on {
   background: #004b8c;
+}
+.theme-indigo .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
+  border-top-color: #004b8c;
 }
 .theme-indigo .wh-hd-box-shadow,
 .theme-indigo .wh-hd-l-gateway-info {
@@ -3158,21 +3233,6 @@
 }
 .theme-indigo .wh-portal-tools .fa-color.fa-times {
   color: red;
-}
-.theme-indigo .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.theme-indigo .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover,
-.theme-indigo .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus {
-  border-top: 2px solid #004b8c;
-}
-.theme-indigo .wh-portal-i-title .wh-portal-i-title-left i.fa {
-  color: #004b8c;
-}
-.theme-indigo .wh-portal-i-title .wh-portal-title-more {
-  color: #004b8c;
-  border-color: #004b8c;
-}
-.theme-indigo .wh-portal-i-title h3 {
-  color: #acacac;
 }
 .theme-indigo .wh-portal-pic-slide-circle li {
   background: #cfcfcf;
@@ -3800,8 +3860,44 @@
 .theme-indigo .wh-file-handle-purebackground ul li .fafa {
   background: #004b8c;
 }
+.theme-indigo .wh-file-handle-one ul li a {
+  border-color: #004b8c;
+}
+.theme-indigo .wh-file-handle-one ul li a .file-icon {
+  border-right-color: #004b8c;
+}
+.theme-indigo .wh-file-handle-one ul li a .file-icon i {
+  color: #004b8c;
+}
+.theme-indigo .wh-file-handle-one ul li a:hover .file-icon {
+  background: #004b8c;
+}
+.theme-indigo .wh-file-handle-one ul li a:hover .file-icon i {
+  color: #fff;
+}
+.theme-indigo .wh-file-handle-one ul li a:hover .file-con span {
+  color: #004b8c;
+}
+.theme-indigo .wh-file-handle-one ul li a {
+  border-color: #004b8c;
+}
 .theme-indigo .wh-quick-entry-purbackground ul li .fafa {
   background: #004b8c;
+}
+.theme-indigo .wh-quick-entry-column1 ul li a {
+  background: #e6edf4;
+}
+.theme-indigo .wh-quick-entry-column1 ul li a em i {
+  color: #004b8c;
+}
+.theme-indigo .wh-quick-entry-column1 ul li a.on,
+.theme-indigo .wh-quick-entry-column1 ul li a:hover {
+  background: #004b8c;
+  color: #fff;
+}
+.theme-indigo .wh-quick-entry-column1 ul li a.on i,
+.theme-indigo .wh-quick-entry-column1 ul li a:hover i {
+  color: #fff;
 }
 .theme-indigo.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
 .theme-indigo.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
@@ -3892,6 +3988,9 @@
 }
 .theme-darkblue .wh-hd-l-nav dd.on {
   background: #001941;
+}
+.theme-darkblue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
+  border-top-color: #001941;
 }
 .theme-darkblue .wh-hd-box-shadow,
 .theme-darkblue .wh-hd-l-gateway-info {
@@ -4112,21 +4211,6 @@
 }
 .theme-darkblue .wh-portal-tools .fa-color.fa-times {
   color: red;
-}
-.theme-darkblue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.theme-darkblue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover,
-.theme-darkblue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus {
-  border-top: 2px solid #001941;
-}
-.theme-darkblue .wh-portal-i-title .wh-portal-i-title-left i.fa {
-  color: #001941;
-}
-.theme-darkblue .wh-portal-i-title .wh-portal-title-more {
-  color: #001941;
-  border-color: #001941;
-}
-.theme-darkblue .wh-portal-i-title h3 {
-  color: #acacac;
 }
 .theme-darkblue .wh-portal-pic-slide-circle li {
   background: #cfcfcf;
@@ -4754,8 +4838,44 @@
 .theme-darkblue .wh-file-handle-purebackground ul li .fafa {
   background: #001941;
 }
+.theme-darkblue .wh-file-handle-one ul li a {
+  border-color: #001941;
+}
+.theme-darkblue .wh-file-handle-one ul li a .file-icon {
+  border-right-color: #001941;
+}
+.theme-darkblue .wh-file-handle-one ul li a .file-icon i {
+  color: #001941;
+}
+.theme-darkblue .wh-file-handle-one ul li a:hover .file-icon {
+  background: #001941;
+}
+.theme-darkblue .wh-file-handle-one ul li a:hover .file-icon i {
+  color: #fff;
+}
+.theme-darkblue .wh-file-handle-one ul li a:hover .file-con span {
+  color: #001941;
+}
+.theme-darkblue .wh-file-handle-one ul li a {
+  border-color: #001941;
+}
 .theme-darkblue .wh-quick-entry-purbackground ul li .fafa {
   background: #001941;
+}
+.theme-darkblue .wh-quick-entry-column1 ul li a {
+  background: #e6e8ec;
+}
+.theme-darkblue .wh-quick-entry-column1 ul li a em i {
+  color: #001941;
+}
+.theme-darkblue .wh-quick-entry-column1 ul li a.on,
+.theme-darkblue .wh-quick-entry-column1 ul li a:hover {
+  background: #001941;
+  color: #fff;
+}
+.theme-darkblue .wh-quick-entry-column1 ul li a.on i,
+.theme-darkblue .wh-quick-entry-column1 ul li a:hover i {
+  color: #fff;
 }
 .theme-darkblue.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
 .theme-darkblue.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
@@ -4846,6 +4966,9 @@
 }
 .theme-maroon .wh-hd-l-nav dd.on {
   background: #580000;
+}
+.theme-maroon .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
+  border-top-color: #580000;
 }
 .theme-maroon .wh-hd-box-shadow,
 .theme-maroon .wh-hd-l-gateway-info {
@@ -5066,21 +5189,6 @@
 }
 .theme-maroon .wh-portal-tools .fa-color.fa-times {
   color: red;
-}
-.theme-maroon .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.theme-maroon .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover,
-.theme-maroon .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus {
-  border-top: 2px solid #580000;
-}
-.theme-maroon .wh-portal-i-title .wh-portal-i-title-left i.fa {
-  color: #580000;
-}
-.theme-maroon .wh-portal-i-title .wh-portal-title-more {
-  color: #580000;
-  border-color: #580000;
-}
-.theme-maroon .wh-portal-i-title h3 {
-  color: #acacac;
 }
 .theme-maroon .wh-portal-pic-slide-circle li {
   background: #cfcfcf;
@@ -5708,8 +5816,44 @@
 .theme-maroon .wh-file-handle-purebackground ul li .fafa {
   background: #580000;
 }
+.theme-maroon .wh-file-handle-one ul li a {
+  border-color: #580000;
+}
+.theme-maroon .wh-file-handle-one ul li a .file-icon {
+  border-right-color: #580000;
+}
+.theme-maroon .wh-file-handle-one ul li a .file-icon i {
+  color: #580000;
+}
+.theme-maroon .wh-file-handle-one ul li a:hover .file-icon {
+  background: #580000;
+}
+.theme-maroon .wh-file-handle-one ul li a:hover .file-icon i {
+  color: #fff;
+}
+.theme-maroon .wh-file-handle-one ul li a:hover .file-con span {
+  color: #580000;
+}
+.theme-maroon .wh-file-handle-one ul li a {
+  border-color: #580000;
+}
 .theme-maroon .wh-quick-entry-purbackground ul li .fafa {
   background: #580000;
+}
+.theme-maroon .wh-quick-entry-column1 ul li a {
+  background: #eee6e6;
+}
+.theme-maroon .wh-quick-entry-column1 ul li a em i {
+  color: #580000;
+}
+.theme-maroon .wh-quick-entry-column1 ul li a.on,
+.theme-maroon .wh-quick-entry-column1 ul li a:hover {
+  background: #580000;
+  color: #fff;
+}
+.theme-maroon .wh-quick-entry-column1 ul li a.on i,
+.theme-maroon .wh-quick-entry-column1 ul li a:hover i {
+  color: #fff;
 }
 .theme-maroon.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
 .theme-maroon.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
@@ -5800,6 +5944,9 @@
 }
 .theme-brown .wh-hd-l-nav dd.on {
   background: #380001;
+}
+.theme-brown .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
+  border-top-color: #380001;
 }
 .theme-brown .wh-hd-box-shadow,
 .theme-brown .wh-hd-l-gateway-info {
@@ -6020,21 +6167,6 @@
 }
 .theme-brown .wh-portal-tools .fa-color.fa-times {
   color: red;
-}
-.theme-brown .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.theme-brown .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover,
-.theme-brown .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus {
-  border-top: 2px solid #380001;
-}
-.theme-brown .wh-portal-i-title .wh-portal-i-title-left i.fa {
-  color: #380001;
-}
-.theme-brown .wh-portal-i-title .wh-portal-title-more {
-  color: #380001;
-  border-color: #380001;
-}
-.theme-brown .wh-portal-i-title h3 {
-  color: #acacac;
 }
 .theme-brown .wh-portal-pic-slide-circle li {
   background: #cfcfcf;
@@ -6662,8 +6794,44 @@
 .theme-brown .wh-file-handle-purebackground ul li .fafa {
   background: #380001;
 }
+.theme-brown .wh-file-handle-one ul li a {
+  border-color: #380001;
+}
+.theme-brown .wh-file-handle-one ul li a .file-icon {
+  border-right-color: #380001;
+}
+.theme-brown .wh-file-handle-one ul li a .file-icon i {
+  color: #380001;
+}
+.theme-brown .wh-file-handle-one ul li a:hover .file-icon {
+  background: #380001;
+}
+.theme-brown .wh-file-handle-one ul li a:hover .file-icon i {
+  color: #fff;
+}
+.theme-brown .wh-file-handle-one ul li a:hover .file-con span {
+  color: #380001;
+}
+.theme-brown .wh-file-handle-one ul li a {
+  border-color: #380001;
+}
 .theme-brown .wh-quick-entry-purbackground ul li .fafa {
   background: #380001;
+}
+.theme-brown .wh-quick-entry-column1 ul li a {
+  background: #ebe6e6;
+}
+.theme-brown .wh-quick-entry-column1 ul li a em i {
+  color: #380001;
+}
+.theme-brown .wh-quick-entry-column1 ul li a.on,
+.theme-brown .wh-quick-entry-column1 ul li a:hover {
+  background: #380001;
+  color: #fff;
+}
+.theme-brown .wh-quick-entry-column1 ul li a.on i,
+.theme-brown .wh-quick-entry-column1 ul li a:hover i {
+  color: #fff;
 }
 .theme-brown.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
 .theme-brown.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
@@ -6754,6 +6922,9 @@
 }
 .theme-gray .wh-hd-l-nav dd.on {
   background: #585858;
+}
+.theme-gray .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
+  border-top-color: #585858;
 }
 .theme-gray .wh-hd-box-shadow,
 .theme-gray .wh-hd-l-gateway-info {
@@ -6974,21 +7145,6 @@
 }
 .theme-gray .wh-portal-tools .fa-color.fa-times {
   color: red;
-}
-.theme-gray .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.theme-gray .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover,
-.theme-gray .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus {
-  border-top: 2px solid #585858;
-}
-.theme-gray .wh-portal-i-title .wh-portal-i-title-left i.fa {
-  color: #585858;
-}
-.theme-gray .wh-portal-i-title .wh-portal-title-more {
-  color: #585858;
-  border-color: #585858;
-}
-.theme-gray .wh-portal-i-title h3 {
-  color: #acacac;
 }
 .theme-gray .wh-portal-pic-slide-circle li {
   background: #cfcfcf;
@@ -7616,8 +7772,44 @@
 .theme-gray .wh-file-handle-purebackground ul li .fafa {
   background: #585858;
 }
+.theme-gray .wh-file-handle-one ul li a {
+  border-color: #585858;
+}
+.theme-gray .wh-file-handle-one ul li a .file-icon {
+  border-right-color: #585858;
+}
+.theme-gray .wh-file-handle-one ul li a .file-icon i {
+  color: #585858;
+}
+.theme-gray .wh-file-handle-one ul li a:hover .file-icon {
+  background: #585858;
+}
+.theme-gray .wh-file-handle-one ul li a:hover .file-icon i {
+  color: #fff;
+}
+.theme-gray .wh-file-handle-one ul li a:hover .file-con span {
+  color: #585858;
+}
+.theme-gray .wh-file-handle-one ul li a {
+  border-color: #585858;
+}
 .theme-gray .wh-quick-entry-purbackground ul li .fafa {
   background: #585858;
+}
+.theme-gray .wh-quick-entry-column1 ul li a {
+  background: #eeeeee;
+}
+.theme-gray .wh-quick-entry-column1 ul li a em i {
+  color: #585858;
+}
+.theme-gray .wh-quick-entry-column1 ul li a.on,
+.theme-gray .wh-quick-entry-column1 ul li a:hover {
+  background: #585858;
+  color: #fff;
+}
+.theme-gray .wh-quick-entry-column1 ul li a.on i,
+.theme-gray .wh-quick-entry-column1 ul li a:hover i {
+  color: #fff;
 }
 .theme-gray.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
 .theme-gray.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
@@ -7708,6 +7900,9 @@
 }
 .theme-black .wh-hd-l-nav dd.on {
   background: #333;
+}
+.theme-black .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
+  border-top-color: #333;
 }
 .theme-black .wh-hd-box-shadow,
 .theme-black .wh-hd-l-gateway-info {
@@ -7928,21 +8123,6 @@
 }
 .theme-black .wh-portal-tools .fa-color.fa-times {
   color: red;
-}
-.theme-black .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.theme-black .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover,
-.theme-black .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus {
-  border-top: 2px solid #333;
-}
-.theme-black .wh-portal-i-title .wh-portal-i-title-left i.fa {
-  color: #333;
-}
-.theme-black .wh-portal-i-title .wh-portal-title-more {
-  color: #333;
-  border-color: #333;
-}
-.theme-black .wh-portal-i-title h3 {
-  color: #acacac;
 }
 .theme-black .wh-portal-pic-slide-circle li {
   background: #cfcfcf;
@@ -8570,8 +8750,44 @@
 .theme-black .wh-file-handle-purebackground ul li .fafa {
   background: #333;
 }
+.theme-black .wh-file-handle-one ul li a {
+  border-color: #333;
+}
+.theme-black .wh-file-handle-one ul li a .file-icon {
+  border-right-color: #333;
+}
+.theme-black .wh-file-handle-one ul li a .file-icon i {
+  color: #333;
+}
+.theme-black .wh-file-handle-one ul li a:hover .file-icon {
+  background: #333;
+}
+.theme-black .wh-file-handle-one ul li a:hover .file-icon i {
+  color: #fff;
+}
+.theme-black .wh-file-handle-one ul li a:hover .file-con span {
+  color: #333;
+}
+.theme-black .wh-file-handle-one ul li a {
+  border-color: #333;
+}
 .theme-black .wh-quick-entry-purbackground ul li .fafa {
   background: #333;
+}
+.theme-black .wh-quick-entry-column1 ul li a {
+  background: #ebebeb;
+}
+.theme-black .wh-quick-entry-column1 ul li a em i {
+  color: #333;
+}
+.theme-black .wh-quick-entry-column1 ul li a.on,
+.theme-black .wh-quick-entry-column1 ul li a:hover {
+  background: #333;
+  color: #fff;
+}
+.theme-black .wh-quick-entry-column1 ul li a.on i,
+.theme-black .wh-quick-entry-column1 ul li a:hover i {
+  color: #fff;
 }
 .theme-black.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
 .theme-black.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,

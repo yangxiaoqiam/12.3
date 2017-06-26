@@ -1,0 +1,115 @@
+// 颜色对应关系
+//---------------
+//@global-color-hd-color: #282828; --顶部设置字体颜色
+//@global-color-bg-deep : #1b8ba3; --背景渐变色 深
+//@global-color-bg-light: #2ab3d1; --背景渐变色 浅
+
+@import "../../../less/global/template.global.less";
+@import "../../../less/template.bootstrap.theme.wh.less";
+@import "color/var-global.less";
+@import "color/var-limitwidth.less";
+//背景
+
+.theme-limitwidth-blue{
+    .wh-content{
+        background:url(../../../../../images/ver113/home/blue-bg.jpg) center top no-repeat;
+    }
+}
+.theme-mixin(
+  @colorName,
+  @colorType,
+	@global-color,
+	@global-color-hd-color:#282828,
+	@global-color-bg-deep:darken(@global-color, 10%),
+	@global-color-bg-light:tint(@global-color, 20%),
+	@global-color-bghover-deep:darken(@global-color, 5%),
+	@global-color-bghover-light:darken(@global-color, 2%)
+) {
+  .theme-@{colorType}-@{colorName}{
+    // 开始符
+
+   // 背景透明
+   background:transparent !important;
+    body{
+       background:transparent !important;
+    }
+    //头部
+    .wh-header {
+     .wh-container {
+         position: relative;
+         .wh-hd-l-nav {
+             position: absolute;
+             left: 4px;
+             top: 60px;
+             background: transparent;
+             &>dd {
+                 border-left:1px solid #323d4f; 
+                 padding:0 20px; 
+                 &>a {
+                     color: #fff;
+                     .fa,
+                     span {
+                         color: #fff;
+                     }
+                 }
+             }
+         }
+     }
+    }
+
+
+    .wh-content{
+         top:60px;
+        //左侧
+        .wh-l-content{
+            top:60px;
+        }
+        .wh-r-content{
+           top:60px;
+        }
+    }
+
+
+      
+
+      .top-trabg{
+         position: fixed;
+         top:60px;
+         left:0;
+         right:0;
+         height:60px;
+         border-bottom:1px solid #323d4f;
+          background-color:rgba(0,0,0,0.6);
+           *background:#000; 
+           *filter:alpha(opacity=60); 
+           z-index:200;
+           display:block;
+      }
+              
+     //portal栏目样式
+
+      .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
+       .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus, 
+      .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover{
+         border-top:0 none;
+         border-bottom-width:2px;
+         border-bottom-style:solid;
+          border-bottom-color:@global-color;
+
+      }
+      .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li{
+         border:0 none;
+      }
+
+      .wh-portal-info{
+         border-bottom-color:@global-color;
+      }
+
+      .wh-portal-i-title{
+         background:transparent;
+      }
+   
+   
+  // 结束符         
+  }
+}

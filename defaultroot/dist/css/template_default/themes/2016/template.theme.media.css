@@ -323,6 +323,9 @@ fieldset[disabled] .theme-red .btn.btn-wh-blank.active {
 .theme-red .txl_tab .bd ul li.active span {
   color: #fff;
 }
+.theme-red .txl_tab .bd ul li.active span em {
+  color: #fff;
+}
 .theme-red .management-handle-set ul li div {
   border-color: #cfcfcf;
 }
@@ -692,6 +695,9 @@ fieldset[disabled] .theme-pink .btn.btn-wh-blank.active {
   background: #dc4fad;
 }
 .theme-pink .txl_tab .bd ul li.active span {
+  color: #fff;
+}
+.theme-pink .txl_tab .bd ul li.active span em {
   color: #fff;
 }
 .theme-pink .management-handle-set ul li div {
@@ -1065,6 +1071,9 @@ fieldset[disabled] .theme-darkred .btn.btn-wh-blank.active {
 .theme-darkred .txl_tab .bd ul li.active span {
   color: #fff;
 }
+.theme-darkred .txl_tab .bd ul li.active span em {
+  color: #fff;
+}
 .theme-darkred .management-handle-set ul li div {
   border-color: #cfcfcf;
 }
@@ -1434,6 +1443,9 @@ fieldset[disabled] .theme-orange .btn.btn-wh-blank.active {
   background: #F27521;
 }
 .theme-orange .txl_tab .bd ul li.active span {
+  color: #fff;
+}
+.theme-orange .txl_tab .bd ul li.active span em {
   color: #fff;
 }
 .theme-orange .management-handle-set ul li div {
@@ -1807,6 +1819,9 @@ fieldset[disabled] .theme-lightgreen .btn.btn-wh-blank.active {
 .theme-lightgreen .txl_tab .bd ul li.active span {
   color: #fff;
 }
+.theme-lightgreen .txl_tab .bd ul li.active span em {
+  color: #fff;
+}
 .theme-lightgreen .management-handle-set ul li div {
   border-color: #cfcfcf;
 }
@@ -2176,6 +2191,9 @@ fieldset[disabled] .theme-green .btn.btn-wh-blank.active {
   background: #008b18;
 }
 .theme-green .txl_tab .bd ul li.active span {
+  color: #fff;
+}
+.theme-green .txl_tab .bd ul li.active span em {
   color: #fff;
 }
 .theme-green .management-handle-set ul li div {
@@ -2549,6 +2567,9 @@ fieldset[disabled] .theme-cyan .btn.btn-wh-blank.active {
 .theme-cyan .txl_tab .bd ul li.active span {
   color: #fff;
 }
+.theme-cyan .txl_tab .bd ul li.active span em {
+  color: #fff;
+}
 .theme-cyan .management-handle-set ul li div {
   border-color: #cfcfcf;
 }
@@ -2918,6 +2939,9 @@ fieldset[disabled] .theme-seablue .btn.btn-wh-blank.active {
   background: #00829a;
 }
 .theme-seablue .txl_tab .bd ul li.active span {
+  color: #fff;
+}
+.theme-seablue .txl_tab .bd ul li.active span em {
   color: #fff;
 }
 .theme-seablue .management-handle-set ul li div {
@@ -3291,6 +3315,9 @@ fieldset[disabled] .theme-skyblue .btn.btn-wh-blank.active {
 .theme-skyblue .txl_tab .bd ul li.active span {
   color: #fff;
 }
+.theme-skyblue .txl_tab .bd ul li.active span em {
+  color: #fff;
+}
 .theme-skyblue .management-handle-set ul li div {
   border-color: #cfcfcf;
 }
@@ -3660,6 +3687,9 @@ fieldset[disabled] .theme-blue .btn.btn-wh-blank.active {
   background: #0073c6;
 }
 .theme-blue .txl_tab .bd ul li.active span {
+  color: #fff;
+}
+.theme-blue .txl_tab .bd ul li.active span em {
   color: #fff;
 }
 .theme-blue .management-handle-set ul li div {
@@ -4033,6 +4063,9 @@ fieldset[disabled] .theme-violet .btn.btn-wh-blank.active {
 .theme-violet .txl_tab .bd ul li.active span {
   color: #fff;
 }
+.theme-violet .txl_tab .bd ul li.active span em {
+  color: #fff;
+}
 .theme-violet .management-handle-set ul li div {
   border-color: #cfcfcf;
 }
@@ -4402,6 +4435,9 @@ fieldset[disabled] .theme-purple .btn.btn-wh-blank.active {
   background: #8c0095;
 }
 .theme-purple .txl_tab .bd ul li.active span {
+  color: #fff;
+}
+.theme-purple .txl_tab .bd ul li.active span em {
   color: #fff;
 }
 .theme-purple .management-handle-set ul li div {
@@ -4775,6 +4811,9 @@ fieldset[disabled] .theme-indigo .btn.btn-wh-blank.active {
 .theme-indigo .txl_tab .bd ul li.active span {
   color: #fff;
 }
+.theme-indigo .txl_tab .bd ul li.active span em {
+  color: #fff;
+}
 .theme-indigo .management-handle-set ul li div {
   border-color: #cfcfcf;
 }
@@ -5144,6 +5183,9 @@ fieldset[disabled] .theme-darkblue .btn.btn-wh-blank.active {
   background: #001941;
 }
 .theme-darkblue .txl_tab .bd ul li.active span {
+  color: #fff;
+}
+.theme-darkblue .txl_tab .bd ul li.active span em {
   color: #fff;
 }
 .theme-darkblue .management-handle-set ul li div {
@@ -5517,6 +5559,9 @@ fieldset[disabled] .theme-maroon .btn.btn-wh-blank.active {
 .theme-maroon .txl_tab .bd ul li.active span {
   color: #fff;
 }
+.theme-maroon .txl_tab .bd ul li.active span em {
+  color: #fff;
+}
 .theme-maroon .management-handle-set ul li div {
   border-color: #cfcfcf;
 }
@@ -5886,6 +5931,9 @@ fieldset[disabled] .theme-brown .btn.btn-wh-blank.active {
   background: #380001;
 }
 .theme-brown .txl_tab .bd ul li.active span {
+  color: #fff;
+}
+.theme-brown .txl_tab .bd ul li.active span em {
   color: #fff;
 }
 .theme-brown .management-handle-set ul li div {
@@ -6259,6 +6307,9 @@ fieldset[disabled] .theme-gray .btn.btn-wh-blank.active {
 .theme-gray .txl_tab .bd ul li.active span {
   color: #fff;
 }
+.theme-gray .txl_tab .bd ul li.active span em {
+  color: #fff;
+}
 .theme-gray .management-handle-set ul li div {
   border-color: #cfcfcf;
 }
@@ -6628,6 +6679,9 @@ fieldset[disabled] .theme-black .btn.btn-wh-blank.active {
   background: #333;
 }
 .theme-black .txl_tab .bd ul li.active span {
+  color: #fff;
+}
+.theme-black .txl_tab .bd ul li.active span em {
   color: #fff;
 }
 .theme-black .management-handle-set ul li div {

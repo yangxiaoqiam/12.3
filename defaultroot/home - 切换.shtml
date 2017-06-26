@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-cn" class="wh-gray-bg theme-gray theme-line-gray size-big">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base url="defaultroot">
+  <title></title>
+  <link rel="stylesheet" href="dist/css/template_system/template.reset.css" /> 
+  <link rel="stylesheet" href="dist/css/template_system/template.fa.css" />
+  <link rel="stylesheet" href="dist/css/template_default/template.media.css" />
+  <link rel="stylesheet" href="dist/css/template_default/template.style.css" />
+  <link rel="stylesheet" href="dist/css/template_default/themes/2016/template.theme.before.css" />  
+  <link rel="stylesheet" href="dist/css/template_default/themes/2016/template.theme.after.css" />  
+  <link rel="stylesheet" href="dist/css/template_default/themes/2016/template.theme.line.css" />   
+  <link rel="stylesheet" href="dist/css/template_default/themes/2016/template.theme.media.css" /> 
+  <link rel="stylesheet" href="dist/css/template_default/template.style.size.css" />
+    <script type="text/javascript" src="scripts/plugins/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/static/template.custom.js"></script>
+  <script type="text/javascript" src="scripts/plugins/zTree_v3/jquery.ztree.core-3.5.js"></script>
+  <script type="text/javascript" src="scripts/plugins/lhgdialog/lhgcore.lhgdialog.min.js"></script>
+  <script type="text/javascript" src="scripts/pagejs/view-frame.js?v=20160307"></script>
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.superbox {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.wh-tab-title a {
+    font-style: 16px;
+    margin-right: 10px;
+}
+
+.wh-tab-title a.on {
+    color: red;
+}
+
+.wh-tabbox .tab-con {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    min-height: 300px;
+    padding: 10px;
+    margin-top: 10px;
+}
+</style>
+
+<div class="superbox">
+    <div class="wh-tab-title">
+        <a class="on">tab1</a><a>tab2</a> <a>tab3</a>
+    </div>
+    <div class="wh-tabbox">
+        <div class="tab-con">
+            内容1
+        </div>
+        <div class="tab-con">
+            内容2
+        </div>
+        <div class="tab-con">
+            内容3
+        </div>
+</div>
+
+<script>
+    $(function(){
+       var $tab_li = $('.wh-tab-title a');
+      $('.wh-tabbox .tab-con').eq(0).show().siblings().hide();
+      $tab_li.click(function(){
+         $(this).addClass('on').siblings().removeClass('on');
+         var index = $tab_li.index(this);
+         $('.wh-tabbox .tab-con').eq(index).show().siblings().hide();
+     });
+})</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <style>
+  .superbox{
+      width: 90%;
+      margin:0 auto;
+
+  }
+      .wh-tab-title a{
+          font-style: 16px;
+          margin-right:10px;
+      }
+
+       .wh-tab-title a.on{
+         color: red;
+       }
+
+      .wh-tabbox .tab-con{
+          width: 100%;
+          margin:0 auto; 
+          border:1px solid #ddd;
+          min-height: 300px;
+          padding:10px;
+          margin-top:10px;
+
+      }
+  </style>
+  <div class="superbox">
+        <div class="wh-tab-title">
+                <a class="on">tab1</a>
+                <a>tab2</a>
+                <a>tab3</a>
+        </div> 
+
+        <div class="wh-tabbox">
+             <div class="tab-con">
+                     111
+             </div>
+              <div class="tab-con">
+                     222
+             </div>
+              <div class="tab-con">
+                     3333
+             </div>
+        </div>
+  </div>
+    <script>
+    $(function(){
+        var $tab_li = $('.wh-tab-title a');
+        $tab_li.click(function(){
+         
+            $(this).addClass('on').siblings().removeClass('on');
+            var index = $tab_li.index(this);
+            $('.wh-tabbox .tab-con').eq(index).show().siblings().hide();
+        });
+    })
+</script>
+
+
+
+  
+
+</body>
+</html>

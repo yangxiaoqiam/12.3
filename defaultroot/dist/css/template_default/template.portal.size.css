@@ -324,6 +324,18 @@ body.size-big {
 .size-small .process-list .listbox ul li a {
   font-size: 12px;
 }
+.size-small .wh-quick-entry-column1 ul li a span {
+  font-size: 14px;
+}
+.size-small .wh-quick-entry-column1 ul li a i {
+  font-size: 26px;
+}
+.size-small .wh-file-handle-one ul li a .file-icon i {
+  font-size: 26px;
+}
+.size-small .wh-file-handle-one ul li a .file-con {
+  font-size: 14px;
+}
 /*14号  大尺寸*/
 .size-big .wh-main {
   margin: 0 auto;
@@ -648,6 +660,18 @@ body.size-big {
 .size-big .wh-quick-entry-purbackground li a span.title {
   font-size: 14px;
 }
+.size-big .wh-quick-entry-column1 ul li a span {
+  font-size: 16px;
+}
+.size-big .wh-quick-entry-column1 ul li a i {
+  font-size: 26px;
+}
+.size-big .wh-file-handle-one ul li a .file-icon i {
+  font-size: 26px;
+}
+.size-big .wh-file-handle-one ul li a .file-con {
+  font-size: 16px;
+}
 /*16号  大尺寸*/
 .size-big16 .wh-main {
   margin: 0 auto;
@@ -971,4 +995,16 @@ body.size-big {
 .size-big16 .wh-quick-entry-purbackground li a .fafa em,
 .size-big16 .wh-quick-entry-purbackground li a span.title {
   font-size: 14px;
+}
+.size-big16 .wh-quick-entry-column1 ul li a span {
+  font-size: 16px;
+}
+.size-big16 .wh-quick-entry-column1 ul li a i {
+  font-size: 18px;
+}
+.size-big16 .wh-file-handle-one ul li a .file-icon i {
+  font-size: 28px;
+}
+.size-big16 .wh-file-handle-one ul li a .file-con {
+  font-size: 18px;
 }

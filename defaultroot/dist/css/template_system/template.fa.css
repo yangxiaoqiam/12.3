@@ -678,6 +678,36 @@
 .fa-noselect:before {
   content: "\f0dc";
 }
-.fa-selected:before {
-  content: "\f0dd";
+.fa-man:before {
+  content: "\f0de";
+}
+.fa-lady:before {
+  content: "\f0df";
+}
+.fa-camera:before {
+  content: "\f0e0";
+}
+.fa-boxa:before {
+  content: "\f0e1";
+}
+.fa-daiban:before {
+  content: "\e900";
+}
+.fa-daiyue:before {
+  content: "\e901";
+}
+.fa-yiban:before {
+  content: "\e902";
+}
+.fa-yiyue:before {
+  content: "\e903";
+}
+.fa-gz:before {
+  content: "\e904";
+}
+.fa-mine:before {
+  content: "\e905";
+}
+.fa-return:before {
+  content: "\e906";
 }

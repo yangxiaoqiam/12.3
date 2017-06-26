@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="template/css/template_default/template.portal.size.min.css" />
     <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.before.min.css" />  
     <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.after.min.css" />  
+    <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.limitwidth.min.css" />   
       
      <script type="text/javascript" src="scripts/plugins/jquery/jquery.min.js" ></script>
     <script type="text/javascript" src="scripts/plugins/superslide/jquery.SuperSlide.2.1.1.js" ></script>
@@ -20,7 +21,7 @@
     <script type="text/javascript" src="scripts/plugins/highcharts/jquery.highcharts.js"></script>
     <script type="text/javascript" src="scripts/plugins/highcharts/jquery.highcharts-more.js"></script>
 </head>
-<body>
+<body style="width:1200px;margin:0 auto;">
 <div class="wh-container wh-portaler">
     <table id="portalMain" cellpadding="0" cellspacing="0" border="0" width="100%" align="center" style="table-layout:fixed;">
     <tr>
@@ -44,6 +45,14 @@
                 </div>
             </div>
 
+           <!--  单个快捷入口  -->
+            <div class="wh-portal-info-box">
+                <!--#include file="platform/portal/portal-i-tools.html"-->
+                <div class="wh-portal-info">
+                    <!--#include file="platform/portal/wh-quick-entry-one.html"-->
+                </div>
+            </div>
+
 
         <!--  纯色背景快捷入口  -->
             <div class="wh-portal-info-box">
@@ -52,6 +61,15 @@
                     <!--#include file="platform/portal/wh-quick-entry-purbackground.html"-->
                 </div>
             </div>
+            
+            <!--  单个文件办理提醒  -->
+            <div class="wh-portal-info-box">
+                <!--#include file="platform/portal/portal-i-tools.html"-->
+                <div class="wh-portal-info">
+                    <!--#include file="platform/portal/wh-file-handle-one.html"-->
+                </div>
+            </div>
+
            <!--  纯色背景文件办理提醒  -->
             <div class="wh-portal-info-box">
                 <!--#include file="platform/portal/portal-i-tools.html"-->
@@ -59,12 +77,16 @@
                     <!--#include file="platform/portal/wh-file-handle-purebackground.html"-->
                 </div>
             </div>
+
+
         <!-- 新增图片轮番 -->
             <div class="wh-portal-info-box">
                 <div class="wh-portal-info wh-portal-nopadding wh-portal-noborder">
                     <!--#include file="platform/portal/news-pic.html"-->
                 </div>
             </div>
+
+
          <!--快捷入口 大图标版-->
             <div class="wh-portal-info-box">
                 <!--#include file="platform/portal/portal-i-tools.html"-->
@@ -315,12 +337,7 @@
                     <!--#include file="platform/portal/My_schedule_column.html"-->
                 </div>
             </div>
-            <!--在线人数-->
-            <div class="wh-portal-info-box">
-                <div class="wh-portal-info">
-
-                </div>
-            </div>
+            
             <!--专家咨询-->
             <div class="wh-portal-info-box">
                 <!--#include file="platform/portal/portal-i-tools.html"-->

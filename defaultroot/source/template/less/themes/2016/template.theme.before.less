@@ -84,7 +84,9 @@
 	  .wh-hd-l-gateway-info{
 	  	border-color:@global-color @ie8-fix;
 	  }
-		 
+		 .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li{
+		 	 border-top-color:@global-color;
+		 }
 
        // 头部选中效果
        .wh-header { 
@@ -398,6 +400,7 @@
 		    .wh-portal-title-li{
 		      &.on,&:hover,&:focus{
 		        border-top: 2px solid @global-color;
+		         border-bottom:0 solid @global-color;
 		      }
 		    }
 		    i.fa{
@@ -1302,6 +1305,18 @@
 	  	  	  }
 	  	  }
 	  }
+     
+     // 单行文件办理提醒
+
+     .wh-file-handle-one {
+		    ul {
+		        li {
+		            a {
+                       border-color:@global-color;
+		            }
+		        }
+		    }
+		}
 
 
 	  // 纯色背景快捷入口
@@ -1315,6 +1330,30 @@
 	  	  	  }
 	  	  }
 	  }
+
+    //单行快捷入口
+		.wh-quick-entry-column1 {
+			    ul {
+			        li {
+			            a {
+			                background: @global-color-l;
+			                em{
+			                	 i{
+			                	 	 color:@global-color; 
+			                	 }
+			                }
+			                &.on,&:hover {
+			                    background: @global-color;
+			                    color: #fff;
+			                    i {
+			                        color: #fff;
+			                    }
+			                }
+			            }
+			        }
+			    }
+			}
+
 
 
   &.theme-newa{
