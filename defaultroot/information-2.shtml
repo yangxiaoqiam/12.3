@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn" class="wh-gray-bg theme-blue theme-limitwidth-blue size-big">
+<html lang="zh-cn" class="wh-gray-bg theme-blue theme-width-blue size-big">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="template/css/template_default/template.portal.size.min.css" />
     <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.before.min.css" />  
     <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.after.min.css" />  
-    <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.limitwidth.min.css" />   
+    <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.width.min.css" />   
       
      <script type="text/javascript" src="scripts/plugins/jquery/jquery.min.js" ></script>
     <script type="text/javascript" src="scripts/plugins/superslide/jquery.SuperSlide.2.1.1.js" ></script>

@@ -13,9 +13,12 @@
   <link rel="stylesheet" href="dist/css/template_default/template.style.css" />
   <link rel="stylesheet" href="dist/css/template_default/themes/2016/template.theme.before.css" />  
   <link rel="stylesheet" href="dist/css/template_default/themes/2016/template.theme.after.css" />  
-  <link rel="stylesheet" href="dist/css/template_default/themes/2016/template.theme.limitwidth.css" />   
+  <link rel="stylesheet" href="dist/css/template_default/themes/2016/template.theme.width.css" />   
   <link rel="stylesheet" href="dist/css/template_default/themes/2016/template.theme.media.css" /> 
   <link rel="stylesheet" href="dist/css/template_default/template.style.size.css" />
+  <style type="text/css">
+      .ztree li.level2{background: red;}
+  </style>
 </head>
 
 <body>

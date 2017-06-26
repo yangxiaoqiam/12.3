@@ -177,9 +177,9 @@ module.exports = function(grunt) {
         dest: '<%= meta.distPath %>/css/<%= template.tmpDefault %>/themes/2016/<%= pkg.name %>.theme.pure.css'
       },
 
-      themeslimitwidth: {
-        src: '<%= meta.lessPath %>/themes/2016/<%= pkg.name %>.theme.limitwidth.less',
-        dest: '<%= meta.distPath %>/css/<%= template.tmpDefault %>/themes/2016/<%= pkg.name %>.theme.limitwidth.css'
+      themeswidth: {
+        src: '<%= meta.lessPath %>/themes/2016/<%= pkg.name %>.theme.width.less',
+        dest: '<%= meta.distPath %>/css/<%= template.tmpDefault %>/themes/2016/<%= pkg.name %>.theme.width.css'
       },
 
       themesdetail: {
@@ -294,9 +294,9 @@ module.exports = function(grunt) {
         src: '<%= meta.distPath %>/css/<%= template.tmpDefault %>/themes/2016/<%= pkg.name %>.theme.pure.css',
         dest: '<%= meta.docsPath %>/css/<%= template.tmpDefault %>/themes/2016/<%= pkg.name %>.theme.pure.min.css'
       },
-      themeslimitwidth: {
-        src: '<%= meta.distPath %>/css/<%= template.tmpDefault %>/themes/2016/<%= pkg.name %>.theme.limitwidth.css',
-        dest: '<%= meta.docsPath %>/css/<%= template.tmpDefault %>/themes/2016/<%= pkg.name %>.theme.limitwidth.min.css'
+      themeswidth: {
+        src: '<%= meta.distPath %>/css/<%= template.tmpDefault %>/themes/2016/<%= pkg.name %>.theme.width.css',
+        dest: '<%= meta.docsPath %>/css/<%= template.tmpDefault %>/themes/2016/<%= pkg.name %>.theme.width.min.css'
       },
       themesmedia: {
         src: '<%= meta.distPath %>/css/<%= template.tmpDefault %>/themes/2016/<%= pkg.name %>.theme.media.css',

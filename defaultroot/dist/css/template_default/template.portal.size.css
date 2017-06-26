@@ -336,6 +336,9 @@ body.size-big {
 .size-small .wh-file-handle-one ul li a .file-con {
   font-size: 14px;
 }
+.size-small .wh-quick-entry-purbackground li a p.title {
+  font-size: 12px;
+}
 /*14号  大尺寸*/
 .size-big .wh-main {
   margin: 0 auto;
@@ -1007,4 +1010,7 @@ body.size-big {
 }
 .size-big16 .wh-file-handle-one ul li a .file-con {
   font-size: 18px;
+}
+.size-big16 .wh-quick-entry-purbackground li a p.title {
+  font-size: 16px;
 }

@@ -340,12 +340,12 @@ var zNodes = [{
 }, {
     id: 122,
     pId: 12,
-    name: "登陆页登陆页设置登陆页设置登陆页设置设置",
+    name: "登陆页登陆页设置登陆页设置登陆页设置设置置设置置设置",
     iconSkin: "fa fa"
 }, {
     id: 12221,
-    pId: 122,
-    name: "我的发布",
+    pId: 12222,
+    name: "我的发布ww",
     iconSkin: "fa fa"
 }, {
     id: 12222,

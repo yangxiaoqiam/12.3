@@ -318,6 +318,9 @@ html.size-big16 body {
 .size-big .view-hdpanel .tb-col .fa-times {
   font-size: 12px;
 }
+.size-big .wh-quick-entry-purbackground li a p.title {
+  font-size: 14px;
+}
 /*16号  大尺寸*/
 .size-big16 h1 {
   font-size: 18px;
