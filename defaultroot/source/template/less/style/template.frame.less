@@ -236,7 +236,6 @@ gway-switch-btn.wh-wrapper {
       }
       span {
         display: inline-block;
-        font-weight: bold;
         &.wh-hd-lspan {
           font-weight: normal;
           margin-right: 6px;
@@ -1374,23 +1373,31 @@ gway-switch-btn.wh-wrapper {
 /* Left Main */
 
 .wh-l-content {
-  position: absolute;
+  position: fixed;
   z-index: 1;
   width: 202px;
   top: 0;
   left: 5px;
   bottom: 5px;
-  height: 100%;
   overflow: hidden;
   margin: 0;
   .transition(width .3s);
 }
+.ztree{
+   background:#2b2b2b;
+}
 
+
+.ztree li{
+   &.level0 a span{color:#fff;}
+   &.level1 a span{color:#d3d3d3;}
+   &.level2{background:#3f3f3f}
+}
 .wh-left-menuList {
   position: relative;
   width: 202px;
   height: 100%;
-  background: #fff;
+  background:#2b2b2b;
   .box-shadow(0 0 3px #cfcfcf);
   .wh-l-msg {
     border-width: 2px 1px 1px 1px;
@@ -1425,7 +1432,6 @@ gway-switch-btn.wh-wrapper {
 .wh-l-msg {
   text-align: left;
   padding-left: 7px;
-  //text-align: right;
   height: 42px;
   line-height: 42px;
   a {
@@ -1441,6 +1447,7 @@ gway-switch-btn.wh-wrapper {
       padding: 0 2px;
       font-size: 16px;
       margin-top: -8px;
+      color:#fff !important;
     }
     span {
       display: block;
@@ -1450,6 +1457,7 @@ gway-switch-btn.wh-wrapper {
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
+      color:#fff;
       i.fa {
         left: auto;
         right: 10px;
@@ -1608,6 +1616,7 @@ gway-switch-btn.wh-wrapper {
       a{
         .fa {
           cursor: pointer;
+          color:#fff;
         }
       }
     }

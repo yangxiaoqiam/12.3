@@ -987,6 +987,9 @@ h5 {
   cursor: pointer;
   margin-left: 2px;
 }
+.wh-portal-tools .fa.fa-cnmore:before {
+  content: none;
+}
 /* Portal title */
 .wh-portal-i-title {
   position: relative;
@@ -1130,6 +1133,9 @@ h5 {
 .wh-portal-info-content .wh-portal-info-title img {
   display: block;
   margin: 0 auto;
+}
+.wh-portal-info-conlinebig .works-img {
+  margin-bottom: 5px;
 }
 .wh-portal-info-conlinebig .wh-portal-i-item {
   height: 30px;
@@ -5302,6 +5308,9 @@ h5 {
 .theme-newa .wh-portal-i-item a:hover span.wh-mail-state-red {
   color: #fff;
 }
+.wh-new-work {
+  display: none;
+}
 .wh-new-work .works-img img {
   width: 100%;
   height: 113px;
@@ -5356,6 +5365,8 @@ h5 {
 }
 .wh-file-handle-purebackground li a p.fafa .fa {
   color: #fff;
+  height: 70px;
+  line-height: 70px;
 }
 .wh-file-handle-purebackground li a p.title {
   display: block;
@@ -5418,6 +5429,7 @@ h5 {
   width: 33.33%;
   text-align: center;
   position: relative;
+  margin-bottom: 5px;
 }
 .wh-quick-entry-purbackground li a {
   display: block;
@@ -5468,7 +5480,6 @@ h5 {
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 12px;
-  margin-top: 4px;
   width: 100%;
   color: ##666;
 }

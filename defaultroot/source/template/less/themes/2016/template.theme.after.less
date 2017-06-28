@@ -248,9 +248,6 @@
 		.wh-left-menuList{	  
 			.wh-l-msg{
 				border-color: @global-color @global-color-gray-d @global-color @global-color-gray-d;
-			  a{
-			    color: @global-color;
-			  }
 			}
 			.wh-l-con{
 				border-color: @global-color-gray-d;
@@ -435,18 +432,13 @@
 		      //border-bottom:1px solid @global-color-white;
 		      &:hover,&:focus,
 		      &.curSelectedNode{
-		        background: @global-color-l;
-		        border-left:2px solid @global-color;
+		        background:@global-color;
+		        //border-left:2px solid @global-color;
 		        //border-top:1px solid #efefef;
 		        //border-bottom:1px solid #efefef;
-		        span{
-		          color: @global-color;
+		        span.button:before{
+		        	color:#fff;
 		        }
-		      }
-		    }
-		    span.button{
-		      &:before{
-		        color: @global-color;
 		      }
 		    }
 		  }

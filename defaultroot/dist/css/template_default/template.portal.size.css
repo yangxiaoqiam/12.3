@@ -328,7 +328,7 @@ body.size-big {
   font-size: 14px;
 }
 .size-small .wh-quick-entry-column1 ul li a i {
-  font-size: 26px;
+  font-size: 24px;
 }
 .size-small .wh-file-handle-one ul li a .file-icon i {
   font-size: 26px;
@@ -697,13 +697,13 @@ body.size-big {
   min-width: 750px;
 }
 .size-big16 .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a i.fa {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-portal-i-title h3 {
-  font-size: 12px;
+  font-size: 14px;
 }
 .size-big16 .wh-portal-info-content .wh-portal-info-title .wh-portal-infotitle p {
   font-size: 14px;
@@ -711,17 +711,21 @@ body.size-big {
 .size-big16 .wh-portal-info-content .wh-portal-info-title .wh-portal-infocon p {
   font-size: 12px;
 }
+.size-big16 .wh-portal-i-item {
+  height: 30px;
+  line-height: 30px;
+}
 .size-big16 .wh-portal-i-item .wh-pending-em {
-  font-size: 12px;
+  font-size: 14px;
 }
 .size-big16 .wh-portal-i-item .wh-pending-time {
-  font-size: 12px;
+  font-size: 14px;
 }
 .size-big16 .wh-portal-i-item em {
-  font-size: 12px;
+  font-size: 14px;
 }
 .size-big16 .wh-portal-i-item i.fa.fa-new {
-  font-size: 12px;
+  font-size: 14px;
 }
 .size-big16 .wh-portal-i-item a {
   font-size: 14px;
@@ -730,13 +734,13 @@ body.size-big {
   font-size: 14px;
 }
 .size-big16 .wh-portal-i-item a span {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-portal-pic-slide-box .wh-portal-pic-slide-text {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-portal-pic-slide-box .wh-portal-pic-slide-txt {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-portal-pic-slide-circle li {
   width: 10px;
@@ -874,17 +878,17 @@ body.size-big {
   font-size: 14px;
 }
 .size-big16 .wh-schedule-time-box .wh-schedule-time-slide li {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-schedule-time-box .flex-next,
 .size-big16 .wh-schedule-time-box .flex-prev {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-slide-consult-box .wh-slide-look {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-slide-consult-box .wh-slide-name {
-  font-size: 16px;
+  font-size: 18px;
 }
 .size-big16 .wh-slide-sim-consult-box a b {
   font-size: 16px;
@@ -902,13 +906,16 @@ body.size-big {
   font-size: 14px;
 }
 .size-big16 .wh-portal-blog-look a {
+  font-size: 16px;
+}
+.size-big16 .wh-blog-user-title {
   font-size: 14px;
 }
 .size-big16 .wh-blog-user-text {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-portal-blog-repeat ul li {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-portal-login h4 {
   font-size: 16px;
@@ -924,7 +931,7 @@ body.size-big {
 }
 .size-big16 .wh-portal-supervisor-tab p {
   width: 100%;
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-portal-supervisor table {
   font-size: 14px;
@@ -942,7 +949,7 @@ body.size-big {
   width: 264px;
 }
 .size-big16 .wh-p-person-header .wh-p-person-ask {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-quick-entry-list {
   font-size: 0;
@@ -980,13 +987,21 @@ body.size-big {
 .size-big16 .leader-list a em,
 .size-big16 .leader-list a font,
 .size-big16 .leader-list a span {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .leader-list a i {
-  font-size: 17px;
+  font-size: 18px;
 }
 .size-big16 .leader-list .line {
   margin-left: 7px;
+}
+.size-big16 .wh-leader-schedule-time-box {
+  margin-bottom: 2px;
+}
+.size-big16 .wh-leader-schedule-time-box .wh-leader-schedule-time-slide li,
+.size-big16 .wh-leader-schedule-time-box .flex-next,
+.size-big16 .wh-leader-schedule-time-box .flex-prev {
+  font-size: 16px;
 }
 .size-big16 .process-list .listbox ul li a {
   font-size: 14px;
@@ -1003,14 +1018,17 @@ body.size-big {
   font-size: 16px;
 }
 .size-big16 .wh-quick-entry-column1 ul li a i {
-  font-size: 18px;
+  font-size: 26px;
 }
 .size-big16 .wh-file-handle-one ul li a .file-icon i {
-  font-size: 28px;
+  font-size: 26px;
 }
 .size-big16 .wh-file-handle-one ul li a .file-con {
   font-size: 18px;
 }
 .size-big16 .wh-quick-entry-purbackground li a p.title {
+  font-size: 16px;
+}
+.size-big16 .news-pic .bd li a p span {
   font-size: 16px;
 }

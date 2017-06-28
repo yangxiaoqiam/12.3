@@ -29,24 +29,42 @@
     // 开始符
 
    // 背景透明
-   background:transparent !important;
-    body{
-       background:transparent !important;
-    }
-    //头部
-    .wh-header {
+ background:transparent !important;
+ body {
+     background: transparent !important;
+ }
+ 
+ //头部
+ .wh-header {
      .wh-container {
          position: relative;
+         .wh-logo {
+             img {
+                 height: 40px;
+                 margin-top: -20px;
+             }
+         }
          .wh-hd-l-nav {
              position: absolute;
-             left: 4px;
+             left: 10px;
              top: 60px;
              background: transparent;
+             .wh-hd-menu-btn.open .wh-hd-custom-cont {
+                 top: 50px;
+             }
              &>dd {
-                 border-left:1px solid #323d4f; 
-                 padding:0 20px; 
+                 background-image: url(../../../../../images/ver113/home/nav-line.png);
+                 background-repeat: no-repeat;
+                 background-position: left center;
+                 padding: 0 20px;
+                 height: 50px;
+                 &#gway-switch-btn {
+                     background-image: none;
+                 }
                  &>a {
                      color: #fff;
+                     height: 50px;
+                     line-height: 50px;
                      .fa,
                      span {
                          color: #fff;
@@ -55,61 +73,90 @@
              }
          }
      }
-    }
+ }
+ 
+ .wh-content {
+     top: 60px;
+     //左侧
+     .wh-l-content {
+         top: 111px;
+     }
+     .wh-r-content {
+         top: 50px;
+     }
+ }
+ 
+ //定宽内页头部栏目
+ .top-trabg {
+     position: fixed;
+     top: 60px;
+     left: 0;
+     right: 0;
+     height: 50px;
+     background:@global-color;
+     border-bottom: 1px solid @global-color;
+     z-index: 200;
+     display: block;
+ }
+
+ //定宽首页头部栏目
+ .wh-header-home{
+     .top-trabg{
+          border-bottom: 1px solid #323d4f;
+          background-color: rgba(0, 0, 0, 0.6);
+         *background: #000;
+         *filter: alpha(opacity=60);
+
+     }
+ }
+ 
+ //portal栏目样式
+ .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
+ .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
+ .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
+     border-top: 0 none;
+     border-bottom-width: 2px;
+     border-bottom-style: solid;
+     border-bottom-color: @global-color;
+ }
+ 
+ .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
+     border: 0 none;
+ }
+ 
+ .wh-portal-info {
+     border-bottom-color: @global-color;
+ }
+ 
+ .wh-portal-i-title {
+     background: transparent;
+ }
+
+//定宽左侧树结构
 
 
-    .wh-content{
-         top:60px;
-        //左侧
-        .wh-l-content{
-            top:60px;
-        }
-        .wh-r-content{
-           top:60px;
-        }
-    }
-
-
-      
-
-      .top-trabg{
-         position: fixed;
-         top:60px;
-         left:0;
-         right:0;
-         height:60px;
-         border-bottom:1px solid #323d4f;
-          background-color:rgba(0,0,0,0.6);
-           *background:#000; 
-           *filter:alpha(opacity=60); 
-           z-index:200;
-           display:block;
-      }
-              
-     //portal栏目样式
-
-      .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-       .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus, 
-      .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover{
-         border-top:0 none;
-         border-bottom-width:2px;
-         border-bottom-style:solid;
-          border-bottom-color:@global-color;
-
-      }
-      .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li{
-         border:0 none;
-      }
-
-      .wh-portal-info{
-         border-bottom-color:@global-color;
-      }
-
-      .wh-portal-i-title{
-         background:transparent;
-      }
-   
-   
   // 结束符         
   }
 }
+
+
+// 定宽头部内页导航选中效果
+.theme-width-red .wh-header .wh-hd-l-nav>dd.on{background:#bf1b00}
+.theme-width-pink .wh-header .wh-hd-l-nav>dd.on{background:#d13794}
+.theme-width-darkred .wh-header .wh-hd-l-nav>dd.on{background:#bf1b00}
+.theme-width-orange .wh-header .wh-hd-l-nav>dd.on{background:#ee5218}
+.theme-width-lightgreen .wh-header .wh-hd-l-nav>dd.on{background:#5ca500}
+.theme-width-green .wh-header .wh-hd-l-nav>dd.on{background:#016811}
+.theme-width-cyan .wh-header .wh-hd-l-nav>dd.on{background:#019c9b}
+.theme-width-seablue .wh-header .wh-hd-l-nav>dd.on{background:#005c7c}
+.theme-width-skyblue .wh-header .wh-hd-l-nav>dd.on{background:#409bff}
+.theme-width-blue .wh-header .wh-hd-l-nav>dd.on{background:#0150b5}
+.theme-width-violet .wh-header .wh-hd-l-nav>dd.on{background:#2a0e97}
+.theme-width-purple .wh-header .wh-hd-l-nav>dd.on{background:#690075}
+.theme-width-indigo .wh-header .wh-hd-l-nav>dd.on{background:#002d5d}
+.theme-width-darkblue .wh-header .wh-hd-l-nav>dd.on{background:#003482}
+.theme-width-maroon .wh-header .wh-hd-l-nav>dd.on{background:#b00000}
+.theme-width-brown .wh-header .wh-hd-l-nav>dd.on{background:#700002}
+.theme-width-gray .wh-header .wh-hd-l-nav>dd.on{background:#353535}
+.theme-width-black .wh-header .wh-hd-l-nav>dd.on{background:#575757}
+

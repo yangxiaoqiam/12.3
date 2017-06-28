@@ -333,14 +333,6 @@
   background: #fae9e6;
   border-left: 2px solid #cd2500;
 }
-.theme-red .ztree li a:hover span,
-.theme-red .ztree li a:focus span,
-.theme-red .ztree li a.curSelectedNode span {
-  color: #cd2500;
-}
-.theme-red .ztree li span.button:before {
-  color: #cd2500;
-}
 .theme-red .wh-portal-blog-form .wh-portal-blog-btn {
   background: #cd2500;
 }
@@ -1305,14 +1297,6 @@
 .theme-pink .ztree li a.curSelectedNode {
   background: #fcedf7;
   border-left: 2px solid #dc4fad;
-}
-.theme-pink .ztree li a:hover span,
-.theme-pink .ztree li a:focus span,
-.theme-pink .ztree li a.curSelectedNode span {
-  color: #dc4fad;
-}
-.theme-pink .ztree li span.button:before {
-  color: #dc4fad;
 }
 .theme-pink .wh-portal-blog-form .wh-portal-blog-btn {
   background: #dc4fad;
@@ -2279,14 +2263,6 @@
   background: #f7e8ec;
   border-left: 2px solid #ad193d;
 }
-.theme-darkred .ztree li a:hover span,
-.theme-darkred .ztree li a:focus span,
-.theme-darkred .ztree li a.curSelectedNode span {
-  color: #ad193d;
-}
-.theme-darkred .ztree li span.button:before {
-  color: #ad193d;
-}
 .theme-darkred .wh-portal-blog-form .wh-portal-blog-btn {
   background: #ad193d;
 }
@@ -3251,14 +3227,6 @@
 .theme-orange .ztree li a.curSelectedNode {
   background: #fef1e9;
   border-left: 2px solid #F27521;
-}
-.theme-orange .ztree li a:hover span,
-.theme-orange .ztree li a:focus span,
-.theme-orange .ztree li a.curSelectedNode span {
-  color: #F27521;
-}
-.theme-orange .ztree li span.button:before {
-  color: #F27521;
 }
 .theme-orange .wh-portal-blog-form .wh-portal-blog-btn {
   background: #F27521;
@@ -4225,14 +4193,6 @@
   background: #f3f8e6;
   border-left: 2px solid #82ba01;
 }
-.theme-lightgreen .ztree li a:hover span,
-.theme-lightgreen .ztree li a:focus span,
-.theme-lightgreen .ztree li a.curSelectedNode span {
-  color: #82ba01;
-}
-.theme-lightgreen .ztree li span.button:before {
-  color: #82ba01;
-}
 .theme-lightgreen .wh-portal-blog-form .wh-portal-blog-btn {
   background: #82ba01;
 }
@@ -5197,14 +5157,6 @@
 .theme-green .ztree li a.curSelectedNode {
   background: #e6f3e8;
   border-left: 2px solid #008b18;
-}
-.theme-green .ztree li a:hover span,
-.theme-green .ztree li a:focus span,
-.theme-green .ztree li a.curSelectedNode span {
-  color: #008b18;
-}
-.theme-green .ztree li span.button:before {
-  color: #008b18;
 }
 .theme-green .wh-portal-blog-form .wh-portal-blog-btn {
   background: #008b18;
@@ -6171,14 +6123,6 @@
   background: #e6f7f7;
   border-left: 2px solid #03b3b1;
 }
-.theme-cyan .ztree li a:hover span,
-.theme-cyan .ztree li a:focus span,
-.theme-cyan .ztree li a.curSelectedNode span {
-  color: #03b3b1;
-}
-.theme-cyan .ztree li span.button:before {
-  color: #03b3b1;
-}
 .theme-cyan .wh-portal-blog-form .wh-portal-blog-btn {
   background: #03b3b1;
 }
@@ -7144,14 +7088,6 @@
   background: #e6f3f5;
   border-left: 2px solid #00829a;
 }
-.theme-seablue .ztree li a:hover span,
-.theme-seablue .ztree li a:focus span,
-.theme-seablue .ztree li a.curSelectedNode span {
-  color: #00829a;
-}
-.theme-seablue .ztree li span.button:before {
-  color: #00829a;
-}
 .theme-seablue .wh-portal-blog-form .wh-portal-blog-btn {
   background: #00829a;
 }
@@ -8116,14 +8052,6 @@
 .theme-skyblue .ztree li a.curSelectedNode {
   background: #eff7ff;
   border-left: 2px solid #5cb2ff;
-}
-.theme-skyblue .ztree li a:hover span,
-.theme-skyblue .ztree li a:focus span,
-.theme-skyblue .ztree li a.curSelectedNode span {
-  color: #5cb2ff;
-}
-.theme-skyblue .ztree li span.button:before {
-  color: #5cb2ff;
 }
 .theme-skyblue .wh-portal-blog-form .wh-portal-blog-btn {
   background: #5cb2ff;

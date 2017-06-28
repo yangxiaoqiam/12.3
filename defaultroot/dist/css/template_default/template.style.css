@@ -963,7 +963,6 @@ ul.wh-sim-quick-entry-list li a:hover span.wh-sys-warn-num,
 .ztree li a.curSelectedNode {
   padding-top: 0;
   height: 35px;
-  opacity: 0.8;
 }
 .ztree li a.curSelectedNode span {
   /*&.fa_ico_open{
@@ -977,8 +976,11 @@ ul.wh-sim-quick-entry-list li a:hover span.wh-sys-warn-num,
           }
         }*/
 }
+.ztree li a.curSelectedNode span.fa_ico_docu {
+  background: url(../../../../defaultroot/images/ver113/dot-white.png) center no-repeat;
+}
 .ztree li a.curSelectedNode span.fa_ico_docu:before {
-  content: "\f00c";
+  content: none;
 }
 .ztree li a.curSelectedNode_Edit {
   padding-top: 0;
@@ -1017,13 +1019,17 @@ ul.wh-sim-quick-entry-list li a:hover span.wh-sys-warn-num,
   background-color: transparent;
 }
 .ztree li span.fa_ico_open:before {
-  content: "\f0a1";
+  content: "\f007";
 }
 .ztree li span.fa_ico_close:before {
-  content: "\f019";
+  content: "\f005";
+}
+.ztree li span.fa_ico_docu {
+  width: 16px;
+  background: url(../../../../defaultroot/images/ver113/dot.png) center no-repeat;
 }
 .ztree li span.fa_ico_docu:before {
-  content: "\f00d";
+  content: none;
 }
 .ztree li span.switch {
   display: none;
@@ -1131,7 +1137,6 @@ ul.ztree.zTreeDragUL {
 .ztree-org li a.curSelectedNode {
   padding-top: 0;
   height: 35px;
-  opacity: 0.8;
 }
 .ztree-org li a.curSelectedNode span {
   /*&.fa_ico_open{
@@ -1490,7 +1495,6 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
 }
 .wh-hd-l-nav dd a span {
   display: inline-block;
-  font-weight: bold;
 }
 .wh-hd-l-nav dd a span.wh-hd-lspan {
   font-weight: normal;
@@ -2531,24 +2535,35 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
 }
 /* Left Main */
 .wh-l-content {
-  position: absolute;
+  position: fixed;
   z-index: 1;
   width: 202px;
   top: 0;
   left: 5px;
   bottom: 5px;
-  height: 100%;
   overflow: hidden;
   margin: 0;
   -webkit-transition: width 0.3s;
   -o-transition: width 0.3s;
   transition: width 0.3s;
 }
+.ztree {
+  background: #2b2b2b;
+}
+.ztree li.level0 a span {
+  color: #fff;
+}
+.ztree li.level1 a span {
+  color: #d3d3d3;
+}
+.ztree li.level2 {
+  background: #3f3f3f;
+}
 .wh-left-menuList {
   position: relative;
   width: 202px;
   height: 100%;
-  background: #fff;
+  background: #2b2b2b;
   -webkit-box-shadow: 0 0 3px #cfcfcf;
   box-shadow: 0 0 3px #cfcfcf;
 }
@@ -2600,6 +2615,7 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
   padding: 0 2px;
   font-size: 16px;
   margin-top: -8px;
+  color: #fff !important;
 }
 .wh-l-msg a span {
   display: block;
@@ -2609,6 +2625,7 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  color: #fff;
 }
 .wh-l-msg a span i.fa {
   left: auto;
@@ -2758,6 +2775,7 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
 }
 .wh-org-tree .org-tree .wh-l-msg a .fa {
   cursor: pointer;
+  color: #fff;
 }
 .wh-org-tree .org-tree .wh-l-con {
   position: absolute;

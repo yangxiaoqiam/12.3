@@ -34,7 +34,7 @@
 .ztree {
   margin:0;
   color:@color-normal;
-  background-color: @color-bg;
+  background-color:@color-bg;
   li {
     position: relative;
     padding:0;
@@ -100,7 +100,6 @@
     a.curSelectedNode {
       padding-top:0;
       height:@h;
-      opacity:0.8;
       span{
         /*&.fa_ico_open{
           &:before{
@@ -113,8 +112,10 @@
           }
         }*/
         &.fa_ico_docu{
+          background: url(../../../../defaultroot/images/ver113/dot-white.png) center no-repeat;
           &:before{
-            content: "\f00c";
+            content:none;
+           
           }
         }
       }
@@ -155,17 +156,20 @@
       }
       &.fa_ico_open{
         &:before{
-          content: "\f0a1";
+          content: "\f007";
         }
       }
       &.fa_ico_close{
         &:before{
-          content:"\f019";
+          content:"\f005";
         }
       }
       &.fa_ico_docu{
+        width:16px;
+        background:url(../../../../defaultroot/images/ver113/dot.png) center no-repeat;
         &:before{
-          content: "\f00d";
+          content: none;
+
         }
       }
 
@@ -303,7 +307,6 @@ ul.ztree.zTreeDragUL {
     a.curSelectedNode {
       padding-top:0;
       height:@h;
-      opacity:0.8;
       span{
         /*&.fa_ico_open{
           &:before{

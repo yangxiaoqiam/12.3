@@ -2,7 +2,6 @@
 //导入动画库
 @import "global/template.keyframe.less";
 @portal-tools-index: 100;
-@pt-font-size18: 18px;
 @pt-font-size16: 16px;
 @pt-font-size14: 14px;
 @pt-font-size12: 12px;
@@ -175,6 +174,11 @@ h5 {
     .fa {
         cursor: pointer;
         margin-left: 2px;
+        &.fa-cnmore{
+            &:before{
+                 content:none;
+            }
+        }
     }
 }
 
@@ -332,6 +336,9 @@ h5 {
 }
 
 .wh-portal-info-conlinebig {
+    .works-img{
+         margin-bottom:5px;
+    }
     .wh-portal-i-item {
         height: 30px;
         line-height: 30px;
@@ -345,7 +352,6 @@ h5 {
         .wh-pending-header {
             padding: 0;
         }
-        .fa-circle-o {}
     }
 }
 
@@ -4915,6 +4921,7 @@ h5 {
 
 //  新增工作汇报1
 .wh-new-work {
+    display:none;
     .works-img {
         img {
             width: 100%;
@@ -4971,6 +4978,8 @@ h5 {
                     }
                     .fa {
                         color: #fff;
+                        height:70px;
+                        line-height:70px;
                     }
                 }
                 &.title {
@@ -5046,6 +5055,7 @@ h5 {
         width: 33.33%;
         text-align: center;
         position: relative;
+        margin-bottom:5px;
         a {
             display: block;
             width: 90%;
@@ -5093,7 +5103,6 @@ h5 {
                     text-overflow: ellipsis;
                     white-space: nowrap;
                     font-size: @pt-font-size12;
-                    margin-top: 4px;
                     width: 100%;
                     color: ##666;
                 }

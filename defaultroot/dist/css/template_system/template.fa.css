@@ -691,23 +691,26 @@
   content: "\f0e1";
 }
 .fa-daiban:before {
-  content: "\e900";
+  content: "\f0e2";
 }
 .fa-daiyue:before {
-  content: "\e901";
+  content: "\f0e3";
 }
 .fa-yiban:before {
-  content: "\e902";
+  content: "\f0e4";
 }
 .fa-yiyue:before {
-  content: "\e903";
+  content: "\f0e5";
 }
 .fa-gz:before {
-  content: "\e904";
+  content: "\f0e6";
 }
 .fa-mine:before {
-  content: "\e905";
+  content: "\f0e7";
 }
 .fa-return:before {
-  content: "\e906";
+  content: "\f0e8";
+}
+.fa-cnmore:before {
+  content: "\f0e9";
 }
