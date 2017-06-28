@@ -154,7 +154,7 @@ html.size-big16 body {
   font-size: 14px;
 }
 .size-small .ztree li span.button {
-  font-size: 13px;
+  font-size: 12px;
 }
 .size-small .ztree li span.button.fa_ico_docu {
   font-size: 12px;
@@ -302,7 +302,7 @@ html.size-big16 body {
   font-size: 16px;
 }
 .size-big .ztree li span.button {
-  font-size: 14px;
+  font-size: 12px;
 }
 .size-big .ztree li span.button.fa_ico_docu {
   font-size: 13px;
@@ -460,7 +460,7 @@ html.size-big16 body {
   font-size: 16px;
 }
 .size-big16 .ztree li span.button {
-  font-size: 14px;
+  font-size: 12px;
 }
 .size-big16 .ztree li span.button.fa_ico_docu {
   font-size: 13px;

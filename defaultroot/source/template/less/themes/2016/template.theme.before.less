@@ -78,15 +78,22 @@
 			color:@global-color;
 		}
 
+
+       // 头部选中效果
+	    .wh-hd-l-nav dd.on{
+	          background:@global-color;
+	    }
+
+      .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li{
+		 	 border-top-color:transparent;
+		 }
+
 		// IE8 模式边框
 
 		 .wh-hd-box-shadow,
 	  .wh-hd-l-gateway-info{
 	  	border-color:@global-color @ie8-fix;
-	  }
-		 .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li{
-		 	 border-top-color:@global-color;
-		 }
+	  }	 
 
        // 头部选中效果
        .wh-header { 
@@ -234,13 +241,10 @@
 		}
 		.wh-left-menuList{	  
 			.wh-l-msg{
-				border-color: @global-color @global-color-gray-d @global-color @global-color-gray-d;
+				
 			  a{
 			    color: @global-color;
 			  }
-			}
-			.wh-l-con{
-				border-color: @global-color-gray-d;
 			}
 		}
 		.wh-l-all-list{
@@ -436,12 +440,12 @@
 		.ztree{
 		  li{
 		    a{
-		      border-left:2px solid @global-color-white;
+		      //border-left:2px solid @global-color-white;
 		      //border-top:1px solid @global-color-white;
 		      //border-bottom:1px solid @global-color-white;
 		      &:hover,&:focus,
 		      &.curSelectedNode{
-		        background: @global-color-l;
+		        background: @global-color;
 		        border-left:2px solid @global-color;
 		        //border-top:1px solid #efefef;
 		        //border-bottom:1px solid #efefef;
@@ -449,6 +453,11 @@
 		    }
 		  }
 		}
+		.ztree li a.curSelectedNode span,
+           .ztree li a:focus span,
+           .ztree li a:hover span{
+               color:#fff !important;
+        }
 		.wh-portal-blog-form{
 		  .wh-portal-blog-btn{
 		    background: @global-color;
@@ -1282,9 +1291,18 @@
 	   	   	   .work-name{
 	   	   	   	   color:@global-color;
 	   	   	   }
+
+	   	   	   a{
+	   	   	   	  &.work-data,&.weeked{
+	   	   	   	  	 cursor:pointer;
+	   	   	   	  }
+	   	   	   	  &.name{
+	   	   	   	  	  color:@global-color;
+	   	   	   	  }
+	   	   	   }
 	   	   }
 	   }
-
+ 
 
 	   // 纯色背景文件办理提醒
 

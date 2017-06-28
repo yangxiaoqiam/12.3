@@ -1376,8 +1376,8 @@ gway-switch-btn.wh-wrapper {
   position: fixed;
   z-index: 1;
   width: 202px;
-  top: 0;
-  left: 5px;
+  top: 70px;
+  left: 0;
   bottom: 5px;
   overflow: hidden;
   margin: 0;
@@ -1391,7 +1391,10 @@ gway-switch-btn.wh-wrapper {
 .ztree li{
    &.level0 a span{color:#fff;}
    &.level1 a span{color:#d3d3d3;}
+   &.level1{background:#363636}
    &.level2{background:#3f3f3f}
+   &.level3{background:#4f4f4f}
+   &.level4{background:#626060}
 }
 .wh-left-menuList {
   position: relative;
@@ -1400,8 +1403,6 @@ gway-switch-btn.wh-wrapper {
   background:#2b2b2b;
   .box-shadow(0 0 3px #cfcfcf);
   .wh-l-msg {
-    border-width: 2px 1px 1px 1px;
-    border-style: solid;
   }
   .wh-l-con {
     position: absolute;
@@ -1409,8 +1410,6 @@ gway-switch-btn.wh-wrapper {
     top: 45px;
     bottom: 0;
     overflow: auto;
-    border-width: 0 1px 1px 1px;
-    border-style: solid;
     &.wh-l-noscroll {
       overflow: hidden;
     }
@@ -1548,7 +1547,7 @@ gway-switch-btn.wh-wrapper {
 //缩起左边菜单后
 .wh-content {
   .btn-switch-show {
-    left: 193px;
+    left: 189px;
     border-style: solid;
     border-width: 1px 0 1px 1px;
     .border-left-radius(5px);

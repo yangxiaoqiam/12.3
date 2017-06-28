@@ -86,7 +86,7 @@
 	    }
 
       .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li{
-		 	 border-top-color:@global-color;
+		 	 border-top-color:transparent;
 		 }
 
 
@@ -247,10 +247,7 @@
 		}
 		.wh-left-menuList{	  
 			.wh-l-msg{
-				border-color: @global-color @global-color-gray-d @global-color @global-color-gray-d;
-			}
-			.wh-l-con{
-				border-color: @global-color-gray-d;
+				
 			}
 		}
 		.wh-l-all-list{
@@ -427,7 +424,7 @@
 		.ztree{
 		  li{
 		    a{
-		      border-left:2px solid @global-color-white;
+		      //border-left:2px solid @global-color-white;
 		      //border-top:1px solid @global-color-white;
 		      //border-bottom:1px solid @global-color-white;
 		      &:hover,&:focus,
@@ -443,6 +440,11 @@
 		    }
 		  }
 		}
+		.ztree li a.curSelectedNode span,
+	    .ztree li a:focus span,
+	    .ztree li a:hover span{
+	        color:#fff !important;
+	    }
 		.wh-portal-blog-form{
 		  .wh-portal-blog-btn{
 		    background: @global-color;
@@ -1288,6 +1290,15 @@
 	   	   .wh-portal-i-item{
 	   	   	   .work-name{
 	   	   	   	   color:@global-color;
+	   	   	   }
+
+	   	   	   a{
+	   	   	   	  &.work-data,&.weeked{
+	   	   	   	  	 cursor:pointer;
+	   	   	   	  }
+	   	   	   	  &.name{
+	   	   	   	  	  color:@global-color;
+	   	   	   	  }
 	   	   	   }
 	   	   }
 	   }

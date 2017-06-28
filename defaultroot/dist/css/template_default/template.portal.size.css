@@ -339,6 +339,9 @@ body.size-big {
 .size-small .wh-quick-entry-purbackground li a p.title {
   font-size: 12px;
 }
+.size-small .wh-new-work .wh-portal-i-item a {
+  font-size: 12px;
+}
 /*14号  大尺寸*/
 .size-big .wh-main {
   margin: 0 auto;
@@ -674,6 +677,9 @@ body.size-big {
 }
 .size-big .wh-file-handle-one ul li a .file-con {
   font-size: 16px;
+}
+.size-big .wh-new-work .wh-portal-i-item a {
+  font-size: 14px;
 }
 /*16号  大尺寸*/
 .size-big16 .wh-main {
@@ -1030,5 +1036,8 @@ body.size-big {
   font-size: 16px;
 }
 .size-big16 .news-pic .bd li a p span {
+  font-size: 16px;
+}
+.size-big16 .wh-new-work .wh-portal-i-item a {
   font-size: 16px;
 }
