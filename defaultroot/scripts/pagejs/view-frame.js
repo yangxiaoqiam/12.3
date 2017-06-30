@@ -442,3 +442,11 @@ function addHoverDom(treeId, treeNode) {
 function removeHoverDom(treeId, treeNode) {
     $("#addBtn_" + treeNode.tId).unbind().remove();
 };
+
+
+     
+     
+
+          if($(".ztree>li").children().hasClass(".curSelectedNode")){
+          $(this).addClass("ss");
+       }

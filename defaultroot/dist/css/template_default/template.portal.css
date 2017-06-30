@@ -987,6 +987,9 @@ h5 {
   cursor: pointer;
   margin-left: 2px;
 }
+.wh-portal-tools .fa.fa-cnmore {
+  font-family: "Microsoft YaHei", Helvetica, Arial, Sans-serif;
+}
 .wh-portal-tools .fa.fa-cnmore:before {
   content: none;
 }
@@ -5376,17 +5379,16 @@ h5 {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 12px;
   margin-top: 4px;
   width: 100%;
-  color: ##666;
+  color: #666;
 }
 .wh-file-handle-purebackground li .fa {
   vertical-align: middle;
   font-size: 36px;
 }
 .wh-file-handle-one {
-  width: 90%;
+  width: 98%;
   margin: 0 auto;
 }
 .wh-file-handle-one ul li a {
@@ -5413,7 +5415,12 @@ h5 {
   display: inline-block;
   height: 45px;
   line-height: 45px;
-  margin-left: 15px;
+  margin-left: 10px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 62%;
 }
 .wh-file-handle-one ul li a .file-con em {
   color: red;
@@ -5488,7 +5495,7 @@ h5 {
   font-size: 36px;
 }
 .wh-quick-entry-column1 {
-  width: 95%;
+  width: 98%;
   margin: 0 auto;
 }
 .wh-quick-entry-column1 ul li {
@@ -5503,7 +5510,7 @@ h5 {
 }
 .wh-quick-entry-column1 ul li a em {
   display: inline-block;
-  width: 50%;
+  width: 36%;
   text-align: right;
   padding-right: 2%;
   box-sizing: border-box;
@@ -5514,7 +5521,7 @@ h5 {
 }
 .wh-quick-entry-column1 ul li a span {
   display: inline-block;
-  width: 50%;
+  width: 63%;
   text-align: left;
   padding-left: 2%;
   box-sizing: border-box;

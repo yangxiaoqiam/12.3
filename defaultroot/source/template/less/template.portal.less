@@ -175,6 +175,7 @@ h5 {
         cursor: pointer;
         margin-left: 2px;
         &.fa-cnmore{
+            font-family: "Microsoft YaHei",Helvetica,Arial,Sans-serif;
             &:before{
                  content:none;
             }
@@ -4990,10 +4991,9 @@ h5 {
                     overflow: hidden;
                     text-overflow: ellipsis;
                     white-space: nowrap;
-                    font-size: @pt-font-size12;
                     margin-top: 4px;
                     width: 100%;
-                    color: ##666;
+                    color: #666;
                 }
             }
         }
@@ -5007,7 +5007,7 @@ h5 {
 // 单行文件办理
 
 .wh-file-handle-one{
-     width:90%;
+     width:98%;
      margin:0 auto;
      ul{
          li{
@@ -5031,10 +5031,15 @@ h5 {
                         }
                   }
                   .file-con{
-                     display: inline-block;
+                      display: inline-block;
                       height:45px;
                       line-height:45px;
-                      margin-left:15px;
+                      margin-left:10px;
+                      vertical-align: middle;
+                      overflow: hidden;
+                      text-overflow: ellipsis;
+                      white-space: nowrap;
+                      width:62%;
                       em{
                          color:red;
                          margin-left:4px;
@@ -5117,7 +5122,7 @@ h5 {
 
 //单行快捷入口
 .wh-quick-entry-column1 {
-    width: 95%;
+    width: 98%;
     margin: 0 auto;
     ul {
         li {
@@ -5131,7 +5136,7 @@ h5 {
 
                 em {
                     display: inline-block;
-                    width: 50%;
+                    width: 36%;
                     text-align: right;
                     padding-right: 2%;
                     box-sizing: border-box;
@@ -5142,7 +5147,7 @@ h5 {
                 }
                 span {
                     display: inline-block;
-                    width: 50%;
+                    width: 63%;
                     text-align: left;
                      padding-left: 2%;
                     box-sizing: border-box;

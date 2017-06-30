@@ -325,7 +325,7 @@ body.size-big {
   font-size: 12px;
 }
 .size-small .wh-quick-entry-column1 ul li a span {
-  font-size: 14px;
+  font-size: 12px;
 }
 .size-small .wh-quick-entry-column1 ul li a i {
   font-size: 24px;
@@ -334,7 +334,10 @@ body.size-big {
   font-size: 26px;
 }
 .size-small .wh-file-handle-one ul li a .file-con {
-  font-size: 14px;
+  font-size: 12px;
+}
+.size-small .wh-file-handle-purebackground li a p.title {
+  font-size: 12px;
 }
 .size-small .wh-quick-entry-purbackground li a p.title {
   font-size: 12px;
@@ -667,7 +670,7 @@ body.size-big {
   font-size: 14px;
 }
 .size-big .wh-quick-entry-column1 ul li a span {
-  font-size: 16px;
+  font-size: 14px;
 }
 .size-big .wh-quick-entry-column1 ul li a i {
   font-size: 26px;
@@ -676,6 +679,9 @@ body.size-big {
   font-size: 26px;
 }
 .size-big .wh-file-handle-one ul li a .file-con {
+  font-size: 14px;
+}
+.size-big .wh-file-handle-purebackground li a p.title {
   font-size: 16px;
 }
 .size-big .wh-new-work .wh-portal-i-item a {
@@ -1030,7 +1036,10 @@ body.size-big {
   font-size: 26px;
 }
 .size-big16 .wh-file-handle-one ul li a .file-con {
-  font-size: 18px;
+  font-size: 16px;
+}
+.size-big16 .wh-file-handle-purebackground li a p.title {
+  font-size: 16px;
 }
 .size-big16 .wh-quick-entry-purbackground li a p.title {
   font-size: 16px;

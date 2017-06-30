@@ -214,10 +214,6 @@ module.exports = function(grunt) {
         src: '<%= meta.lessPath %>/system/<%= pkg.name %>.system.less',
         dest: '<%= meta.distPath %>/css/<%= template.tmpSystem %>/<%= pkg.name %>.system.css'
       },
-      new: {
-        src: '<%= meta.lessPath %>/system/<%= pkg.name %>.new.less',
-        dest: '<%= meta.distPath %>/css/<%= template.tmpSystem %>/<%= pkg.name %>.new.css'
-      }
     },
 
     usebanner: {
@@ -333,10 +329,6 @@ module.exports = function(grunt) {
       system: {
         src: '<%= meta.distPath %>/css/<%= template.tmpSystem %>/<%= pkg.name %>.system.css',
         dest: '<%= meta.docsPath %>/css/<%= template.tmpSystem %>/<%= pkg.name %>.system.min.css'
-      },
-      new: {
-        src: '<%= meta.distPath %>/css/<%= template.tmpSystem %>/<%= pkg.name %>.new.css',
-        dest: '<%= meta.docsPath %>/css/<%= template.tmpSystem %>/<%= pkg.name %>.new.min.css'
       },
     },
 
