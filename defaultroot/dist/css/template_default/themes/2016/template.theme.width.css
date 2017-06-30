@@ -2122,7 +2122,7 @@
 .theme-width-black .ztree li.level4 {
   background: #c5c1c1;
 }
-.theme-width-blue .wh-content {
+.theme-width-blue .wh-header-home .wh-content {
   background: url(../../../../../images/ver113/home/blue-bg.jpg) center top no-repeat;
 }
 .theme-width-red .wh-header .wh-hd-l-nav > dd.on {
