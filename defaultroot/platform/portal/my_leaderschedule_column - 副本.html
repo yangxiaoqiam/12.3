@@ -1,0 +1,91 @@
+
+<div class="wh-portal-i-title clearfix">
+    <ul class="wh-portal-i-title-left clearfix">
+        <li class="wh-portal-title-li on"><a href="">我的日程</a></li>
+    </ul>
+</div>
+<div class="wh-portal-i-content">
+    <div class="wh-leader-schedule">
+        <div class="wh-leader-schedule-time-box">
+            <ul class="wh-leader-schedule-time-slide clearfix">
+                <li>2015年8月</li>
+                <li>2015年9月</li>
+                <li>2015年10月</li>
+            </ul>
+        </div>
+
+        <div class="wh-leader-s-date-list">
+            <ul class="wh-leader-s-date-li clearfix">
+            <li class="active"><span class="week">周一</span><br>1</li>
+                <li class="sche-no"><span class="week">周二</span><br>2</li>
+                <li><span class="week">周二</span><br>3</li>
+                <li><span class="week">周二</span><br>4</li>
+                <li><span class="week">周二</span><br>5 <i class="wh-portal-schedule-red">日程</i> </li>
+                <li><span class="week">周二</span><br>6</li>
+                <li><span class="week">周二</span><br>7</li>  
+                <li><span class="week">周二</span><br>11</li>
+                <li class="leader-sche-no"><span class="week">周二</span><br>22</li>
+                <li><span class="week">周二</span><br>3</li>
+                <li><span class="week">周二</span><br>4</li>
+                <li><span class="week">周二</span><br>5 <i class="wh-portal-schedule-red">日程</i> </li>
+                <li><span class="week">周二</span><br>6</li>
+                <li><span class="week">周二</span><br>7</li>
+            </ul>
+        </div> 
+        <div class="leader-list">
+            <div class="item">
+                <a href="#">
+                   <i class="fa fa-user-pro fa-color"></i><em>9:00</em> <font>杨洋</font><span>园区例会园区例会园区例会</span>
+               </a>
+               <div class="line"></div>
+            </div>
+            <div class="item">
+                <a href="#">
+                   <i class="fa fa-user-pro fa-color"></i><em>9:00</em> <font>杨洋</font><span>园区例会园区例会园区例会</span>
+               </a>
+               <div class="line"></div>
+            </div>
+            <div class="item">
+                <a href="#">
+                   <i class="fa fa-user-pro fa-color"></i><em>9:00</em> <font>杨洋</font><span>园区例会园区例会园区园区例会园区例会园区园区例会园区例会园区园区例会园区例会区例会区例会区例会区例会区例会区例会区例会区例会园区园区例会园区例会园区例会</span>
+               </a>
+               <div class="line"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        //我的日程
+        /*----------我的日程 年月滚动----------*/
+        $(".wh-leader-schedule-time-box").flexslider({
+            selector:".wh-leader-schedule-time-slide > li",
+            animation: "slide",
+            animationLoop: false,
+            itemMargin: 7,
+            directionNav: true,
+            controlNav:false,
+            slideshow: false
+            // pausePlay: true
+        });
+        /*----------我的日程 日滚动----------*/
+        $(".wh-leader-s-date-list").flexslider({
+            selector:".wh-leader-s-date-li > li",
+            animation: "slide",
+            animationLoop: false,
+            itemWidth: 50,
+            itemMargin: 0,
+            minItems: 2,
+            maxItems: 7,
+            directionNav: true,
+            controlNav:false,
+             
+            // pausePlay: true
+        });
+
+        $(".leader-sche-no").click(function(){ 
+            return false;
+        }) 
+
+    })
+</script>

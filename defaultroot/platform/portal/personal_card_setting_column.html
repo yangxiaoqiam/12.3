@@ -1,0 +1,75 @@
+<div class="wh-personal-card">
+    <div class="wh-personal-card-setting-content">
+        <div class="wh-personal-card-setting clearfix">
+            <img src="images/ver113/personal-card-bg.png" class="wh-personal-card-bg" alt=""/>
+            <a href="javascript:void(0);" class="fa fa-th-large wh-personal-card-setting-click"></a>
+            <div class="wh-personal-card-setting-divtop">
+                <span class="wh-personal-card-look">
+                    <a href=""><img src="images/ver113/card-look.png" class="wh-card-look"/></a>
+                </span>
+                <div class="wh-personal-card-namesign">
+                    <p class="wh-personal-date"><span>2015</span>年<span>9</span>月<span>29</span>日<span>星期二</span></p>
+                    <p><span>欢迎您，</span><a href="#">李小琳</a></p>
+                     <form>
+                         <input type="text" name="sign" class="sign" value="一句话个性签名" readonly="readonly"/>
+                         <span><i class="fa fa-pencil"></i></span>
+                     </form>
+                </div>
+            </div>
+        </div>
+        <div class="wh-personal-card-setting-show clearfix">
+            <dl class="fl">
+                <dt>状态：</dt>
+                <dd class="card-state">上班</dd>
+                <dd class="card-right"><i class="fa fa-angle-down wh-pcard-state-down"></i></dd>
+                <div class="per-wh-hd-guser-state">
+                    <a href="javascript:void(0)" class="current"><span>上班超过很多字怎么办</span><i class="fa"></i></a>
+                    <a href="javascript:void(0)"><span>出差</span><i class="fa"></i></a>
+                    <a href="javascript:void(0)"><span>调休</span><i class="fa"></i></a>
+                    <a href="javascript:void(0)"><span>请假</span><i class="fa"></i></a>
+                    <a href="" class="state-self">自定义</a>
+                </div>
+            </dl>
+            <dl class="fr">
+                <dt>组织：</dt>
+                <dd class="card-state">营销中心</dd>
+                <dd class="card-right"><i class="fa fa-angle-down wh-pcard-group-down"></i></dd>
+                <ul class="wh-pcard-down-list clearfix">
+                    <li class="current"><span>营销中心</span><i class="fa"></i></li>
+                    <li><span>总经办</span><i class="fa"></i></li>
+                    <li><span>绩效管理委员会</span><i class="fa"></i></li>
+                </ul>
+            </dl>
+        </div>
+        <div class="wh-personal-card-setting-btn clearfix">
+            <a href="" class="wh-personal-card-btn-a fl">个人设置</a>
+            <a href="" class="wh-personal-card-btn-a fr">修改密码</a>
+        </div>
+    </div>
+</div>
+<script>
+    $(function(){
+        var pcard_list = $('.wh-pcard-down-list');
+        $(".wh-pcard-group-down").click(function(){
+            pcard_list.slideToggle(300);
+        });
+        $(".wh-pcard-state-down").click(function(){
+            $('.per-wh-hd-guser-state').slideToggle(300);
+        });
+        $(".wh-pcard-down-list li").click(function(){
+            pcard_list.hide();
+        });
+        $(".wh-personal-card-setting-show dl>div,.wh-personal-card-setting-show dl>ul").hover(function(){
+
+        },function(){
+            $(this).hide();
+        })
+
+        $(".fa-pencil").click(function () {
+            $(".sign").removeAttr('readonly');
+        });
+        $('.per-wh-hd-guser-state a').click(function () {
+            $(this).addClass('current').siblings().removeClass('current');
+        });
+    })
+</script>

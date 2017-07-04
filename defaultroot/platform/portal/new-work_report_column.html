@@ -1,0 +1,94 @@
+<div class="wh-portal-i-title clearfix">
+    <ul class="wh-portal-i-title-left wh-portal-title-slide02 clearfix">
+        <li class="wh-portal-title-li on"><a href="">工作汇报</a></li>
+        <li class="wh-portal-title-li"><a href="">下属汇报</a></li>
+    </ul>
+</div>
+<div class="wh-portal-i-content">
+    <div class="wh-portal-info-content wh-portal-info-conlinebig">
+        <div class="wh-portal-slide02">
+            <ul class="wh-new-work  clearfix">
+                <li style="display: list-item;">
+                    <div class="works-img"><img src="images/ver113/home/img4.jpg"></div>
+                    <div class="wh-portal-i-item clearfix">
+                        <div class="new-worklitem">
+                            <img src="images/ver113/pending-header04.jpg" width="22" height="22" alt="">
+                            <a class="work-data"> 201705222-20170526</a>
+                            <a class="weeked">周报</a>
+                            <a class="name">徐丽</a>
+                        </div>
+                    </div>
+                    <div class="wh-portal-i-item clearfix">
+                        <div class="new-worklitem">
+                            <img src="images/ver113/pending-header04.jpg" width="22" height="22" alt="">
+                            <a class="work-data"> 201705222-20170526</a>
+                            <a class="weeked">周报</a>
+                            <a class="name">徐丽</a>
+                        </div>
+                    </div>
+                    <div class="wh-portal-i-item clearfix">
+                        <div class="new-worklitem">
+                            <img src="images/ver113/pending-header04.jpg" width="22" height="22" alt="">
+                            <a class="work-data"> 201705222-20170526</a>
+                            <a class="weeked">周报</a>
+                            <a class="name">徐丽</a>
+                        </div>
+                    </div>
+                    <div class="wh-portal-i-item clearfix">
+                        <div class="new-worklitem">
+                            <img src="images/ver113/pending-header04.jpg" width="22" height="22" alt="">
+                            <a class="work-data"> 201705222-20170526</a>
+                            <a class="weeked">周报</a>
+                            <a class="name">徐丽</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="wh-portal-hidden" style="display: none;">
+                    <div class="works-img"><img src="images/ver113/home/img4.jpg"></div>
+                    <div class="wh-portal-i-item clearfix">
+                        <div class="new-worklitem">
+                           <i class="fa fa-circle"></i><img src="images/ver113/pending-header04.jpg" width="22" height="22" alt="">
+                            <a class="work-data"> 201705222-20170526</a>
+                            <a class="weeked">周报</a>
+                            <a class="name">徐丽</a>
+                        </div>
+                    </div>
+                    <div class="wh-portal-i-item clearfix">
+                        <div class="new-worklitem">
+                           <i class="fa fa-circle"></i><img src="images/ver113/pending-header04.jpg" width="22" height="22" alt="">
+                            <a class="work-data"> 201705222-20170526</a>
+                            <a class="weeked">周报</a>
+                            <a class="name">徐丽</a>
+                        </div>
+                    </div>
+                    <div class="wh-portal-i-item clearfix">
+                        <div class="new-worklitem">
+                           <i class="fa fa-circle"></i><img src="images/ver113/pending-header04.jpg" width="22" height="22" alt="">
+                            <a class="work-data"> 201705222-20170526</a>
+                            <a class="weeked">周报</a>
+                            <a class="name">徐丽</a>
+                        </div>
+                    </div>
+                    <div class="wh-portal-i-item clearfix">
+                        <div class="new-worklitem">
+                           <i class="fa fa-circle"></i><img src="images/ver113/pending-header04.jpg" width="22" height="22" alt="">
+                            <a class="work-data"> 201705222-20170526</a>
+                            <a class="weeked">周报</a>
+                            <a class="name">徐丽</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+$(function() {
+    var $tab_li = $('.wh-portal-title-slide02 li');
+    $tab_li.hover(function() {
+        $(this).addClass('on').siblings().removeClass('on');
+        var index = $tab_li.index(this);
+        $('.wh-portal-slide02 > ul > li').eq(index).show().siblings().hide();
+    });
+})
+</script>

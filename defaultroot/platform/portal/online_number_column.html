@@ -1,0 +1,172 @@
+<div class="wh-portal-i-title clearfix">
+    <ul class="wh-portal-i-title-left clearfix">
+        <li class="wh-portal-title-li on">
+            <i class="fa fa-lock"></i><a href="">在线人数</a></li>
+    </ul>
+</div>
+<div class="wh-portal-i-content">
+    <div id="pTonlineHMS1" class="wh-portal-online-hms">
+
+    </div>
+    <div id="pTonlineHMS2" class="wh-portal-online-hms">
+
+    </div>
+</div>
+<script type="text/javascript">
+$(function(){
+    Highcharts.setOptions({
+        colors: ['#2196f3', '#CCCCCC']
+    });
+    $('#pTonlineHMS1').highcharts({
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: 0,
+            plotShadow: false,
+            height: 280,
+            type: 'line'
+        },
+        title: {
+            text: '在线人数',
+            align: 'center',
+            verticalAlign: 'middle',
+            y: 10,
+            style: {
+                fontWeight: 'bold',
+                fontFamily: '"Microsoft YaHei",Helvetica, Arial,Sans-serif',
+                fontSize:'20px',
+                color: '#2196f3'
+            }
+        },
+        tooltip: {
+            pointFormat: '{series.name}: <b>{point.percentage} 人</b>',
+            style: {
+                fontFamily: '"Microsoft YaHei",Helvetica, Arial,Sans-serif',
+                fontSize:'14px',
+                color: '#2196f3'
+            }
+        },
+        plotOptions: {
+            pie: {
+                dataLabels: {
+                    enabled: true,
+                    distance: -20,
+                    style: {
+                        fontWeight: 'bold',
+                        fontFamily: '"Microsoft YaHei",Helvetica, Arial,Sans-serif',
+                        fontSize:'14px',
+                        color: 'white',
+                        textShadow: '0px 1px 2px black'
+                    }
+                },
+                startAngle: 0,
+                endAngle: 360,
+                center: ['50%', '50%']
+            }
+        },
+        series: [{
+            type: 'pie',
+            name: '总计',
+            innerSize: '80%',
+            data: [
+                ['在线',30],
+                ['离线',70]
+            ]
+        }]
+    });
+
+    $('#pTonlineHMS2').highcharts({
+        chart: {
+            type: 'gauge',
+            title: false,
+            alignTicks: false,
+            plotBackgroundColor: "#ffffff",
+            plotBackgroundImage: null,
+            plotBorderWidth: 0,
+            height: 300,
+            plotShadow: false
+        },
+        title:{
+            text: '在线人数',
+            align: 'center',
+            verticalAlign: 'middle',
+            zIndex:1,
+            y: -20,
+            style:{
+                  color: '#2196f3',
+                    fontSize: '20px',
+                    fontWeight: 'bold',
+                    fontFamily: '"Microsoft YaHei",Helvetica, Arial,Sans-serif'
+            }
+        },
+        pane: {
+            startAngle: -150,
+            endAngle: 150
+        },
+
+        tooltip:{
+            pointFormat: '{series.name}: <b>{point.y} 人</b>',
+            style: {
+                fontSize:"16px",
+                fontFamily: '"Microsoft YaHei",Helvetica, Arial,Sans-serif'
+            }
+        },
+
+        yAxis: [{
+            min: 0,
+            max: 200,
+            lineColor: '#2196f3',
+            tickColor: '#2196f3',
+            minorTickColor: '#000',
+            offset: -10,
+            lineWidth: 5,
+            labels: {
+                distance: -30,
+                rotation: 'auto',
+                style: {
+                    fontFamily: '"Microsoft YaHei",Helvetica, Arial,Sans-serif',
+                    fontSize:'14px',
+                    color: '#2196f3'
+                }
+            },
+            tickLength: 10,
+            minorTickLength: 10,
+            endOnTick: false
+        }/*, {
+            min: 0,
+            max: 124,
+            tickPosition: 'outside',
+            lineColor: '#2196f3',
+            lineWidth: 4,
+            minorTickPosition: 'outside',
+            tickColor: '#2196f3',
+            minorTickColor: '#2196f3',
+            tickLength: 5,
+            minorTickLength: 5,
+            labels: {
+                distance: 12,
+                rotation: 'auto'
+            },
+            offset: -40,
+            endOnTick: false
+        }*/],
+
+        series: [{
+            name: '在线人数',
+            data: [100],
+            dataLabels: {
+                formatter: function () {
+                    var online = this.y,
+                        //mph = Math.round(kmh * 0.621);
+                        all = 200;
+                    return '<span style="color:#2196f3">在线 ' + online + ' 人</span><br/>' +
+                        '<span style="color:#333">总人数 ' + all + ' 人</span>';
+                },
+                backgroundColor: "#ffffff",
+                style: {
+                    fontFamily: '"Microsoft YaHei",Helvetica, Arial,Sans-serif'
+                }
+            }
+        }]
+    });
+})
+</script>

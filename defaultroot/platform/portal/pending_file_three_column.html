@@ -1,0 +1,77 @@
+<div class="wh-portal-i-title clearfix">
+    <ul class="wh-portal-i-title-left clearfix">
+        <li class="wh-portal-title-li on"><a href="">我退回的文件</a></li>
+    </ul>
+</div>
+<div class="wh-portal-i-content">
+    <div class="wh-portal-info-content wh-portal-iclist4 wh-protal-overflow">
+        <div class="wh-portal-i-item">
+            <div class="wh-portal-item-overflow clearfix">
+                <a href="" class="">
+                    <i class="fa fa-file-o"></i>
+                    <span>老客户经营汇报会会议纪要（被李小琳退回）！</span>
+                    <span class="wh-pending-time">[03-20 10:36]</span>
+                </a>
+
+            </div>
+        </div>
+        <div class="wh-portal-i-item clearfix">
+            <a href="">
+                <i class="fa fa-file-o"></i>
+                <span>老客户经营汇报会会议纪要（被李小琳退回）！</span>
+                <span class="wh-pending-time">[03-20 10:36]</span>
+            </a>
+        </div>
+        <div class="wh-portal-i-item clearfix">
+            <a href="">
+                <i class="fa fa-file-o"></i>
+                <span>老客户经营汇报会会议纪要（被李小琳退回）！</span>
+                <span class="wh-pending-time">[03-20 10:36]</span>
+            </a>
+        </div>
+        <div class="wh-portal-i-item clearfix">
+            <a href="">
+                <i class="fa fa-file-o"></i>
+                <span>老客户经营汇报会会议纪要（被李小琳退回）！</span>
+                <span class="wh-pending-time">[03-20 10:36]</span>
+            </a>
+        </div>
+        <div class="wh-portal-i-item clearfix">
+            <a href="">
+                <i class="fa fa-file-o"></i>
+                <span>老客户经营汇报会会议纪要（被李小琳退回）！</span>
+                <span class="wh-pending-time">[03-20 10:36]</span>
+            </a>
+        </div>
+        <div class="wh-portal-i-item clearfix">
+            <a href="">
+                <i class="fa fa-file-o"></i>
+                <span>老客户经营汇报会会议纪要（被李小琳退回）！</span>
+                <span class="wh-pending-time">[03-20 10:36]</span>
+            </a>
+        </div>
+    </div>
+</div>
+<script>
+    $(function(){
+        //列表滚动
+        var _wrap=$('.wh-portal-iclist4');
+        var _interval=3000;
+        var _moving;
+        var infonum = 6;
+        var info_line_height = 26;
+        var counth = info_line_height*(infonum-1);
+        _wrap.css('height',counth);
+        _wrap.hover(function(){
+            clearInterval(_moving);
+        },function(){
+            _moving=setInterval(function(){
+                var _field=_wrap.find('.wh-portal-i-item:first');
+                var _h=_field.height();
+                _field.animate({marginTop:-_h+'px'},600,function(){
+                    _field.css('marginTop',0).appendTo(_wrap);
+                })
+            },_interval)
+        }).trigger('mouseleave');
+    })
+</script>

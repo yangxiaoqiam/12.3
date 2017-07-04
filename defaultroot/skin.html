@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="dist/css/template_system/template.reset.css" />
+  <link rel="stylesheet" href="dist/css/template_system/template.fa.css" />
+  <link rel="stylesheet" href="dist/css/template_default/template.media.css" />
+  <link rel="stylesheet" href="dist/css/template_default/template.style.css" />
+  <link rel="stylesheet" href="dist/css/template_default/themes/2016/template.theme.css" />
+  <link rel="stylesheet" href="dist/css/template_default/template.style.size.css" />
+</head>
+
+<body>
+  <!--换肤专用-->
+  <div class="skin-dialog" data-value="default-blue">
+    <div class="skin-model clearfix">
+      <div id="whSkinImg" class="skin-model-img skin-default" data-value="default-blue">
+        <span class="default-blue"></span>
+      </div>
+      <div class="skin-section" data-value="default">
+        <a class="default active" data-themetype="default" href="javascript:void(0)">
+          <i class="fa fa-check-circle"></i>
+          <em>简约</em>
+          <span></span>
+        </a>
+        <a class="line" data-themetype="line" href="javascript:void(0)">            
+          <i class="fa fa-check-circle"></i>
+          <em>线稿</em>
+          <span></span>
+        </a>
+        <a class="pure" data-themetype="pure" href="javascript:void(0)">
+          <i class="fa fa-check-circle"></i>
+          <em>纯色</em>
+          <span></span>
+        </a>
+      </div>
+    </div>     
+    <div class="skin-color clearfix" data-value="blue">
+      <a class="red" data-themecolor="red" href="javascript:void(0)" title="红色"></a>
+      <a class="pink" data-themecolor="pink" href="javascript:void(0)"></a>
+      <a class="darkred" data-themecolor="darkred" href="javascript:void(0)"></a>
+      <a class="orange" data-themecolor="orange" href="javascript:void(0)"></a>
+      <a class="lightgreen" data-themecolor="lightgreen" href="javascript:void(0)"></a>
+      <a class="green" data-themecolor="green" href="javascript:void(0)"></a>
+      <a class="cyan" data-themecolor="cyan" href="javascript:void(0)"></a>
+      <a class="seablue" data-themecolor="seablue" href="javascript:void(0)"></a>
+      <a class="skyblue" data-themecolor="skyblue" href="javascript:void(0)"></a>
+      <a class="blue active" data-themecolor="blue" href="javascript:void(0)"></a>
+      <a class="violet" data-themecolor="violet" href="javascript:void(0)"></a>
+      <a class="purple" data-themecolor="purple" href="javascript:void(0)"></a>
+      <a class="indigo" data-themecolor="indigo" href="javascript:void(0)"></a>
+      <a class="darkblue" data-themecolor="darkblue" href="javascript:void(0)"></a>
+      <a class="maroon" data-themecolor="maroon" href="javascript:void(0)"></a>
+      <a class="brown" data-themecolor="brown" href="javascript:void(0)"></a>
+      <a class="gray" data-themecolor="gray" href="javascript:void(0)"></a>
+      <a class="black" data-themecolor="black" href="javascript:void(0)"></a>
+    </div>
+    <div class="skin-ok-button clearfix"><span>应用主题</span></div>
+  </div>
+  <script type="text/javascript" src="scripts/plugins/jquery/jquery.min.js"></script>
+  <script>
+
+  function skinThumb(ele,tAll,tName,tColor){
+    var tAll,tName,tColor  
+    tAll=tName+"-"+tColor;
+    $(ele).children('span').removeClass().addClass(tAll);
+  }
+
+  $(function() {
+    var themeName= $('.skin-section').data('value');
+    var themeColor= $('.skin-color').data('value');
+    var theme = $('.skin-dialog').data('value'); 
+
+    $('.skin-section a').on('click',function(){
+      $('.skin-section a').removeClass('active');
+      $(this).addClass('active');
+      themeName = $(this).data('themetype');
+      skinThumb('.skin-model-img',theme,themeName,themeColor);
+    });
+
+    $('.skin-color a').on('click',function(){
+      $('.skin-color a').removeClass('active');
+      $(this).addClass('active');
+      themeColor = $(this).data('themecolor');
+      skinThumb('.skin-model-img',theme,themeName,themeColor);
+    })
+
+    $('.skin-ok-button').on('click',function(){
+      skinThumb('.skin-model-img',theme,themeName,themeColor);
+    })
+  })
+  </script>
+</body> 
+</html>

@@ -1,0 +1,129 @@
+
+<div class="wh-portal-i-title clearfix">
+    <ul class="wh-portal-i-title-left clearfix" id="slideKnow2">
+        <li class="wh-portal-title-li on"><a href="">简单滚动样式</a></li>
+        <li class="wh-portal-title-li"><a href="">简单滚动样式多标签</a></li>
+    </ul>
+</div>
+<div class="wh-portal-i-content">
+    <div class="wh-slide-sim-consult">
+        <ul>
+            <li>
+                <div class="wh-slide-sim-consult-slide flexslider" id="wh-slide-sim-slide1">
+                    <ul class="wh-slide-sim-consult-ul clearfix" id="wh-slide-sim-slideUl1">
+                        <li>
+                            <div class="wh-slide-sim-consult-box">
+                                <div class="wh-slide-sim-look">
+                                    <div class="wh-p-person-header">
+                                        <img src="images/ver113/personal-header.jpg" alt=""/>
+                                    </div>
+                                </div>
+                                <a href="" class="wh-slide-sim-name"><b>李夏林</b></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="wh-slide-sim-consult-box">
+                                <div class="wh-slide-sim-look">
+                                    <div class="wh-p-person-header">
+                                        <img src="images/ver113/personal-header.jpg" alt=""/>
+                                    </div>
+                                </div>
+                                <a href="" class="wh-slide-sim-name"><b>李夏林</b></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="wh-slide-sim-consult-box">
+                                <div class="wh-slide-sim-look">
+                                    <div class="wh-p-person-header">
+                                        <img src="images/ver113/personal-header.jpg" alt=""/>
+                                    </div>
+                                </div>
+                                <a href="" class="wh-slide-sim-name"><b>李夏林</b></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="wh-slide-sim-consult-box">
+                                <div class="wh-slide-sim-look">
+                                    <div class="wh-p-person-header">
+                                        <img src="images/ver113/personal-header.jpg" alt=""/>
+                                    </div>
+                                </div>
+                                <a href="" class="wh-slide-sim-name"><b>李夏林</b></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="wh-slide-sim-consult-box">
+                                <div class="wh-slide-sim-look">
+                                    <div class="wh-p-person-header">
+                                        <img src="images/ver113/personal-header.jpg" alt=""/>
+                                    </div>
+                                </div>
+                                <a href="" class="wh-slide-sim-name"><b>李夏林</b></a>
+                            </div>
+                        </li>
+                    </ul >
+                </div>
+            </li>
+        </ul>
+
+    </div>
+</div>
+<script>
+    function slideFlex(slideSelector, slideSelectorUL){
+        $(slideSelector).flexslider({
+            selector: slideSelectorUL + " > li",
+            animation: "slide",
+            animationLoop: false,
+            itemWidth: 150,
+            itemMargin: 0,
+            minItems: 2,
+            maxItems: 4,
+            directionNav: true,
+            controlNav: false
+            // pausePlay: true
+        });
+    }
+
+    $(function(){
+        var $tab_li = $('#slideKnow2 li');
+        $tab_li.mousemove(function(){
+            $(this).addClass('on').siblings().removeClass('on');
+            var index = $tab_li.index(this);
+            $('#slideKnowCon2 > ul > li').eq(index).show().siblings().hide();
+
+            if(index == 1){
+                $("#wh-slide-sim-slide2").resize();
+            }
+        });
+
+        slideFlex("#wh-slide-sim-slide1", "#wh-slide-sim-slideUl1");
+        slideFlex("#wh-slide-sim-slide2", "#wh-slide-sim-slideUl2");
+
+        //专家咨询
+        /*$("#slideKnowFlex").flexslider({
+         selector:"#slideKnowFlexUl > li",
+         animation: "slide",
+         animationLoop: false,
+         itemWidth: 260,
+         itemMargin: 5,
+         minItems: 2,
+         maxItems: 4,
+         directionNav: true
+         // pausePlay: true
+         });
+
+         //专家咨询
+         $("#slideKnowFlex2").flexslider({
+         selector:"#slideKnowFlexUl2 > li",
+         animation: "slide",
+         animationLoop: false,
+         itemWidth: 260,
+         itemMargin: 5,
+         minItems: 2,
+         maxItems: 4,
+         directionNav: true
+         // pausePlay: true
+         });*/
+    })
+</script>
+

@@ -1,0 +1,80 @@
+<div class="wh-portal-i-title clearfix">
+    <ul class="wh-portal-i-title-left wh-portal-title-slide03 clearfix">
+        <li class="wh-portal-title-li on"><a href="">会议通知示例</a></li>
+        <li class="wh-portal-title-li"><a href="">会议通知示例2</a></li>
+        <li class="wh-portal-title-li"><a href="">会议通知示例3</a></li>
+    </ul>
+</div>
+<div class="wh-portal-i-content">
+    <div class="wh-portal-info-content">
+        <div class="wh-portal-slide03 wh-portal-slide-mt2row">
+            <ul class="clearfix">
+                <li>
+                    <div class="wh-portal-i-item">
+                        <i class="wh-pending-state wh-pending-g-wating">待处理</i>
+                        <a href="" class="clearfix">
+                            <span>李小琳发起的行政办公设备采购流程等您的办理李小琳发起的行政办公设备采购流程等您的办理李小琳发起的行政办公设备采购流程等您的办理！</span>
+                            <em class="wh-pending-time">[03-20 10:36] 合肥 5楼会议室</em>
+                        </a>
+                    </div>
+                    <div class="wh-portal-i-item">
+                        <i class="wh-pending-state wh-pending-g-finish">已办理</i>
+                        <a href="" class="clearfix">
+                            <span>李小琳发起的行政办公设备采购流程等您的办理李小琳发起的行政办公设备采购流程等您的办理李小琳发起的行政办公设备采购流程等您的办理！</span>
+                            <em class="wh-pending-time">[03-20 10:36] 合肥 5楼会议室</em>
+                        </a>
+                    </div>
+                    <div class="wh-portal-i-item">
+                        <i class="wh-pending-state wh-pending-s-no-active">不参会</i>
+                        <a href="" class="clearfix">
+                            <span>李小琳发起的行政办公设备采购流程等您的办理李小琳发起的行政办公设备采购流程等您的办理李小琳发起的行政办公设备采购流程等您的办理！</span>
+                            <em class="wh-pending-time">[03-20 10:36] 合肥 5楼会议室</em>
+                        </a>
+                    </div>
+                    <div class="wh-portal-i-item">
+                        <i class="wh-pending-state wh-pending-s-active">参会</i>
+                        <a href="" class="clearfix">
+                            <span>李小琳发起的行政办公设备采购流程等您的办理李小琳发起的行政办公设备采购流程等您的办理李小琳发起的行政办公设备采购流程等您的办理！</span>
+                            <em class="wh-pending-time">[03-20 10:36] 合肥 5楼会议室</em>
+                        </a>
+                    </div>
+                </li>
+                <li class="wh-portal-hidden">
+                    <div class="wh-portal-i-item clearfix">
+                        <i class="wh-pending-state wh-pending-s-un">未完成</i>
+                        <a href="" class="clearfix">
+                            <span>李小琳发起的行政办公设备采购流程等您的办理李小琳发起的行政办公设备采购流程等您的办理李小琳发起的行政办公设备采购流程等您的办理！</span>
+                            <em class="wh-pending-time">[03-20 10:36] 合肥 5楼会议室</em>
+                        </a>
+                    </div>
+                    <div class="wh-portal-i-item clearfix">
+                        <i class="wh-pending-state wh-pending-s-un">未完成</i>
+                        <a href="" class="clearfix">
+                            <span>李小琳发起的行政办公设备采购流程等您的办理李小琳发起的行政办公设备采购流程等您的办理李小琳发起的行政办公设备采购流程等您的办理！</span>
+                            <em class="wh-pending-time">[03-20 10:36] 合肥 5楼会议室</em>
+                        </a>
+                    </div>
+                </li>
+                <li class="wh-portal-hidden">
+                    <div class="wh-portal-i-item clearfix">
+                        <i class="wh-pending-state wh-pending-s-un">未完成</i>
+                        <a href="" class="clearfix">
+                            <span>李小琳发起的行政办公设备采购流程等您的办理李小琳发起的行政办公设备采购流程等您的办理李小琳发起的行政办公设备采购流程等您的办理！</span>
+                            <em class="wh-pending-time">[03-20 10:36] 合肥 5楼会议室</em>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    $(function(){
+        var $tab_li = $('.wh-portal-title-slide03 li');
+        $tab_li.hover(function(){
+            $(this).addClass('on').siblings().removeClass('on');
+            var index = $tab_li.index(this);
+            $('.wh-portal-slide03 > ul > li').eq(index).show().siblings().hide();
+        });
+    })
+</script>

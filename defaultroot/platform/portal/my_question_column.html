@@ -1,0 +1,54 @@
+
+<div class="wh-portal-i-title clearfix">
+        <ul class="wh-portal-i-title-left wh-portal-title-slide02 clearfix">
+            <li class="wh-portal-title-li on"><a href="">我的提问</a></li>
+            <li class="wh-portal-title-li"><a href="">我的回答</a></li>
+        </ul>
+    </div>
+<div class="wh-portal-i-content">
+        <div class="wh-portal-info-content">
+            <div class="wh-portal-slide02">
+                <ul class="clearfix">
+                    <li>
+                        <div class="wh-portal-i-item clearfix">
+                            <a href=""><i class="fa fa-file-o"></i>谁知道今天会不会下雨谁知道今天会不会下雨谁知道今天会不会下雨</a>
+                        </div>
+                        <div class="wh-portal-i-item clearfix">
+                            <a href=""><i class="fa fa-file-o"></i>信用卡透支2000块钱 必须要一个月还清吗？</a>
+                        </div>
+                        <div class="wh-portal-i-item clearfix">
+                            <a href=""><i class="fa fa-file-o"></i>现在有什么热门的网上或生活中的赚钱或创业项目...</a>
+                        </div>
+                        <div class="wh-portal-i-item clearfix">
+                            <a href=""><i class="fa fa-file-o"></i>信用卡透支2000块钱 必须要一个月还清吗？</a>
+                        </div>
+                        <div class="wh-portal-i-item clearfix">
+                            <a href=""><i class="fa fa-file-o"></i>信用卡透支2000块钱 必须要一个月还清吗？</a>
+                        </div>
+                    </li>
+                    <li class="wh-portal-hidden">
+                        <div class="wh-portal-i-item clearfix">
+                            <a href=""><i class="fa fa-file-o"></i>现在有什么热门的网上或生活中的赚钱或创业项目...</a>
+                        </div>
+                        <div class="wh-portal-i-item clearfix">
+                            <a href=""><i class="fa fa-file-o"></i>信用卡透支2000块钱 必须要一个月还清吗？</a>
+                        </div>
+                        <div class="wh-portal-i-item clearfix">
+                            <a href=""><i class="fa fa-file-o"></i>信用卡透支2000块钱 必须要一个月还清吗？</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+<script>
+    $(function(){
+        var $tab_li = $('.wh-portal-title-slide02 li');
+        $tab_li.hover(function(){
+            $(this).addClass('on').siblings().removeClass('on');
+            var index = $tab_li.index(this);
+            $('.wh-portal-slide02 > ul > li').eq(index).show().siblings().hide();
+        });
+    })
+</script>

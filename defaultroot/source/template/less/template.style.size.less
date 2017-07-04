@@ -1,0 +1,27 @@
+html{
+	&.size-small, &.size-small body{
+		font-size: 12px;
+	}
+	&.size-big, &.size-big body{
+		font-size: 14px;
+	}
+
+	&.size-big16, &.size-big16 body{
+		font-size: 16px;
+	}
+}
+/*12号   小尺寸*/
+.size-small{
+	@import "size/template.style.small.less";
+}
+/*14号  大尺寸*/
+.size-big{
+	@import "size/template.style.big.less";
+
+}
+/*16号  大尺寸*/
+.size-big16{
+	@import "size/template.style.big16.less";
+}
+
+
