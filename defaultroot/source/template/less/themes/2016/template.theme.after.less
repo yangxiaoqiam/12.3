@@ -114,9 +114,6 @@
 		        }
 		    }
 		 }
-    
-
-
 
 	  //流程场景
 
@@ -1280,10 +1277,12 @@
 
 
       //首页新闻图片切换
-	    .news-pic .hd ul li.on{
+	    .news-pic .hd ul li{
+	    	 border:1px solid @global-color;
+	    	&.on{
 	    	 background:@global-color;
-	    }
-      
+	        }
+	     }   
 
      //新增工作汇报姓名
 	   .wh-new-work{
@@ -1304,8 +1303,6 @@
 	   }
  
 
-
- 
 	 // 纯色背景文件办理提醒
 
 	  .wh-file-handle-purebackground{
@@ -1318,9 +1315,7 @@
 	  	  }
 	  }
       
-       
-         // 单行文件办理提醒
-
+      // 单行文件办理提醒
      .wh-file-handle-one {
 		    ul {
 		        li {
@@ -1354,11 +1349,8 @@
 		    }
 		}
 
-   
 
-
-       // 单行文件办理提醒
-
+      // 单行文件办理提醒
      .wh-file-handle-one {
 		    ul {
 		        li {
@@ -1369,9 +1361,7 @@
 		    }
 		}
 
-
 	 // 纯色背景快捷入口
-
 	 .wh-quick-entry-purbackground{
 	  	  ul{
 	  	  	  li{
@@ -1381,9 +1371,7 @@
 	  	  	  }
 	  	  }
 	  }
-    
-
-    
+        
     //单行快捷入口
 		.wh-quick-entry-column1 {
 			    ul {
@@ -1406,27 +1394,8 @@
 			        }
 			    }
 			}
-        
-        
-      
-    
-
-		  &.theme-newa{
-		  	    .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-		       .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus, 
-		        .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover{
-		               border-top: 2px solid @global-color;
-		        }
-
-		        .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li,
-		       .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li, 
-		        .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li{
-		        	      border-bottom: 0 none;
-		               border-top: 2px solid #f6f6f6;
-		        }
-		   
-		  }
-
+ 
+    // }结束符
 	}
 }
 

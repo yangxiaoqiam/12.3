@@ -863,6 +863,11 @@ ul.wh-sim-quick-entry-list li a:hover span.wh-sys-warn-num,
   -o-animation: moveFromTop 0.3s ease-in-out;
   animation: moveFromTop 0.3s ease-in-out;
 }
+.wh-file-handle-one li:hover i.fa {
+  -webkit-animation: moveFromTop 0.3s ease-in-out;
+  -o-animation: moveFromTop 0.3s ease-in-out;
+  animation: moveFromTop 0.3s ease-in-out;
+}
 .wh-my-notes-box .wh-my-notes-plus:hover i.fa,
 .wh-my-notes-box .wh-my-notes-minus:hover i.fa {
   -webkit-animation: rotater360 0.3s ease-in-out;

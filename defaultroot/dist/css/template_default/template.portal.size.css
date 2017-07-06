@@ -661,12 +661,10 @@ body.size-big {
 .size-big .process-list .listbox ul li a {
   font-size: 14px;
 }
-.size-big .wh-file-handle-purebackground li a .fafa em,
-.size-big .wh-file-handle-purebackground li a span.title {
+.size-big .wh-file-handle-purebackground li a p.title {
   font-size: 14px;
 }
-.size-big .wh-quick-entry-purbackground li a .fafa em,
-.size-big .wh-quick-entry-purbackground li a span.title {
+.size-big .wh-quick-entry-purbackground li a p.title {
   font-size: 14px;
 }
 .size-big .wh-quick-entry-column1 ul li a span {
@@ -682,7 +680,7 @@ body.size-big {
   font-size: 14px;
 }
 .size-big .wh-file-handle-purebackground li a p.title {
-  font-size: 16px;
+  font-size: 14px;
 }
 .size-big .wh-new-work .wh-portal-i-item a {
   font-size: 14px;
@@ -1018,11 +1016,9 @@ body.size-big {
 .size-big16 .process-list .listbox ul li a {
   font-size: 14px;
 }
-.size-big16 .wh-file-handle-purebackground li a .fafa em,
 .size-big16 .wh-file-handle-purebackground li a span.title {
   font-size: 14px;
 }
-.size-big16 .wh-quick-entry-purbackground li a .fafa em,
 .size-big16 .wh-quick-entry-purbackground li a span.title {
   font-size: 14px;
 }

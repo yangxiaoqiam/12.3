@@ -1280,10 +1280,16 @@
 
 	    
 	 }
-	 //首页新闻图片切换
-	    .news-pic .hd ul li.on{
-	    	 background:@global-color;
-	    }
+
+       //首页新闻图片切换
+		.news-pic .hd ul li {
+		    border: 1px solid @global-color;
+		    &.on {
+		        background: @global-color;
+		    }
+		}
+
+	    
 	    
 	  //新增工作汇报姓名
 	   .wh-new-work{
@@ -1317,16 +1323,35 @@
 	  }
      
      // 单行文件办理提醒
-
      .wh-file-handle-one {
-		    ul {
-		        li {
-		            a {
-                       border-color:@global-color;
-		            }
-		        }
-		    }
-		}
+      ul {
+          li {
+              a {
+                  border-color: @global-color;
+                  .file-icon {
+                      border-right-color: @global-color;
+                      i {
+                          color: @global-color;
+                      }
+                  }
+                  &:hover {
+                      .file-icon {
+                          background: @global-color;
+                          i {
+                              color: #fff;
+                          }
+                      }
+                      .file-con {
+                          span {
+                              color: @global-color;
+                          }
+                      }
+                  }
+              }
+          }
+       }
+     }
+
 
 
 	  // 纯色背景快捷入口

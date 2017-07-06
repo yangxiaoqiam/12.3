@@ -921,6 +921,9 @@
 .theme-red .leader-list .line {
   border-color: #cd2500;
 }
+.theme-red .news-pic .hd ul li {
+  border: 1px solid #cd2500;
+}
 .theme-red .news-pic .hd ul li.on {
   background: #cd2500;
 }
@@ -939,6 +942,21 @@
 }
 .theme-red .wh-file-handle-one ul li a {
   border-color: #cd2500;
+}
+.theme-red .wh-file-handle-one ul li a .file-icon {
+  border-right-color: #cd2500;
+}
+.theme-red .wh-file-handle-one ul li a .file-icon i {
+  color: #cd2500;
+}
+.theme-red .wh-file-handle-one ul li a:hover .file-icon {
+  background: #cd2500;
+}
+.theme-red .wh-file-handle-one ul li a:hover .file-icon i {
+  color: #fff;
+}
+.theme-red .wh-file-handle-one ul li a:hover .file-con span {
+  color: #cd2500;
 }
 .theme-red .wh-quick-entry-purbackground ul li .fafa {
   background: #cd2500;
@@ -1892,6 +1910,9 @@
 .theme-pink .leader-list .line {
   border-color: #dc4fad;
 }
+.theme-pink .news-pic .hd ul li {
+  border: 1px solid #dc4fad;
+}
 .theme-pink .news-pic .hd ul li.on {
   background: #dc4fad;
 }
@@ -1910,6 +1931,21 @@
 }
 .theme-pink .wh-file-handle-one ul li a {
   border-color: #dc4fad;
+}
+.theme-pink .wh-file-handle-one ul li a .file-icon {
+  border-right-color: #dc4fad;
+}
+.theme-pink .wh-file-handle-one ul li a .file-icon i {
+  color: #dc4fad;
+}
+.theme-pink .wh-file-handle-one ul li a:hover .file-icon {
+  background: #dc4fad;
+}
+.theme-pink .wh-file-handle-one ul li a:hover .file-icon i {
+  color: #fff;
+}
+.theme-pink .wh-file-handle-one ul li a:hover .file-con span {
+  color: #dc4fad;
 }
 .theme-pink .wh-quick-entry-purbackground ul li .fafa {
   background: #dc4fad;
@@ -2863,6 +2899,9 @@
 .theme-darkred .leader-list .line {
   border-color: #ad193d;
 }
+.theme-darkred .news-pic .hd ul li {
+  border: 1px solid #ad193d;
+}
 .theme-darkred .news-pic .hd ul li.on {
   background: #ad193d;
 }
@@ -2881,6 +2920,21 @@
 }
 .theme-darkred .wh-file-handle-one ul li a {
   border-color: #ad193d;
+}
+.theme-darkred .wh-file-handle-one ul li a .file-icon {
+  border-right-color: #ad193d;
+}
+.theme-darkred .wh-file-handle-one ul li a .file-icon i {
+  color: #ad193d;
+}
+.theme-darkred .wh-file-handle-one ul li a:hover .file-icon {
+  background: #ad193d;
+}
+.theme-darkred .wh-file-handle-one ul li a:hover .file-icon i {
+  color: #fff;
+}
+.theme-darkred .wh-file-handle-one ul li a:hover .file-con span {
+  color: #ad193d;
 }
 .theme-darkred .wh-quick-entry-purbackground ul li .fafa {
   background: #ad193d;
@@ -3834,6 +3888,9 @@
 .theme-orange .leader-list .line {
   border-color: #F27521;
 }
+.theme-orange .news-pic .hd ul li {
+  border: 1px solid #F27521;
+}
 .theme-orange .news-pic .hd ul li.on {
   background: #F27521;
 }
@@ -3852,6 +3909,21 @@
 }
 .theme-orange .wh-file-handle-one ul li a {
   border-color: #F27521;
+}
+.theme-orange .wh-file-handle-one ul li a .file-icon {
+  border-right-color: #F27521;
+}
+.theme-orange .wh-file-handle-one ul li a .file-icon i {
+  color: #F27521;
+}
+.theme-orange .wh-file-handle-one ul li a:hover .file-icon {
+  background: #F27521;
+}
+.theme-orange .wh-file-handle-one ul li a:hover .file-icon i {
+  color: #fff;
+}
+.theme-orange .wh-file-handle-one ul li a:hover .file-con span {
+  color: #F27521;
 }
 .theme-orange .wh-quick-entry-purbackground ul li .fafa {
   background: #F27521;
@@ -4805,6 +4877,9 @@
 .theme-lightgreen .leader-list .line {
   border-color: #82ba01;
 }
+.theme-lightgreen .news-pic .hd ul li {
+  border: 1px solid #82ba01;
+}
 .theme-lightgreen .news-pic .hd ul li.on {
   background: #82ba01;
 }
@@ -4823,6 +4898,21 @@
 }
 .theme-lightgreen .wh-file-handle-one ul li a {
   border-color: #82ba01;
+}
+.theme-lightgreen .wh-file-handle-one ul li a .file-icon {
+  border-right-color: #82ba01;
+}
+.theme-lightgreen .wh-file-handle-one ul li a .file-icon i {
+  color: #82ba01;
+}
+.theme-lightgreen .wh-file-handle-one ul li a:hover .file-icon {
+  background: #82ba01;
+}
+.theme-lightgreen .wh-file-handle-one ul li a:hover .file-icon i {
+  color: #fff;
+}
+.theme-lightgreen .wh-file-handle-one ul li a:hover .file-con span {
+  color: #82ba01;
 }
 .theme-lightgreen .wh-quick-entry-purbackground ul li .fafa {
   background: #82ba01;
@@ -5776,6 +5866,9 @@
 .theme-green .leader-list .line {
   border-color: #008b18;
 }
+.theme-green .news-pic .hd ul li {
+  border: 1px solid #008b18;
+}
 .theme-green .news-pic .hd ul li.on {
   background: #008b18;
 }
@@ -5794,6 +5887,21 @@
 }
 .theme-green .wh-file-handle-one ul li a {
   border-color: #008b18;
+}
+.theme-green .wh-file-handle-one ul li a .file-icon {
+  border-right-color: #008b18;
+}
+.theme-green .wh-file-handle-one ul li a .file-icon i {
+  color: #008b18;
+}
+.theme-green .wh-file-handle-one ul li a:hover .file-icon {
+  background: #008b18;
+}
+.theme-green .wh-file-handle-one ul li a:hover .file-icon i {
+  color: #fff;
+}
+.theme-green .wh-file-handle-one ul li a:hover .file-con span {
+  color: #008b18;
 }
 .theme-green .wh-quick-entry-purbackground ul li .fafa {
   background: #008b18;
@@ -6747,6 +6855,9 @@
 .theme-cyan .leader-list .line {
   border-color: #03b3b1;
 }
+.theme-cyan .news-pic .hd ul li {
+  border: 1px solid #03b3b1;
+}
 .theme-cyan .news-pic .hd ul li.on {
   background: #03b3b1;
 }
@@ -6765,6 +6876,21 @@
 }
 .theme-cyan .wh-file-handle-one ul li a {
   border-color: #03b3b1;
+}
+.theme-cyan .wh-file-handle-one ul li a .file-icon {
+  border-right-color: #03b3b1;
+}
+.theme-cyan .wh-file-handle-one ul li a .file-icon i {
+  color: #03b3b1;
+}
+.theme-cyan .wh-file-handle-one ul li a:hover .file-icon {
+  background: #03b3b1;
+}
+.theme-cyan .wh-file-handle-one ul li a:hover .file-icon i {
+  color: #fff;
+}
+.theme-cyan .wh-file-handle-one ul li a:hover .file-con span {
+  color: #03b3b1;
 }
 .theme-cyan .wh-quick-entry-purbackground ul li .fafa {
   background: #03b3b1;
@@ -7718,6 +7844,9 @@
 .theme-seablue .leader-list .line {
   border-color: #00829a;
 }
+.theme-seablue .news-pic .hd ul li {
+  border: 1px solid #00829a;
+}
 .theme-seablue .news-pic .hd ul li.on {
   background: #00829a;
 }
@@ -7736,6 +7865,21 @@
 }
 .theme-seablue .wh-file-handle-one ul li a {
   border-color: #00829a;
+}
+.theme-seablue .wh-file-handle-one ul li a .file-icon {
+  border-right-color: #00829a;
+}
+.theme-seablue .wh-file-handle-one ul li a .file-icon i {
+  color: #00829a;
+}
+.theme-seablue .wh-file-handle-one ul li a:hover .file-icon {
+  background: #00829a;
+}
+.theme-seablue .wh-file-handle-one ul li a:hover .file-icon i {
+  color: #fff;
+}
+.theme-seablue .wh-file-handle-one ul li a:hover .file-con span {
+  color: #00829a;
 }
 .theme-seablue .wh-quick-entry-purbackground ul li .fafa {
   background: #00829a;
@@ -8689,6 +8833,9 @@
 .theme-skyblue .leader-list .line {
   border-color: #5cb2ff;
 }
+.theme-skyblue .news-pic .hd ul li {
+  border: 1px solid #5cb2ff;
+}
 .theme-skyblue .news-pic .hd ul li.on {
   background: #5cb2ff;
 }
@@ -8707,6 +8854,21 @@
 }
 .theme-skyblue .wh-file-handle-one ul li a {
   border-color: #5cb2ff;
+}
+.theme-skyblue .wh-file-handle-one ul li a .file-icon {
+  border-right-color: #5cb2ff;
+}
+.theme-skyblue .wh-file-handle-one ul li a .file-icon i {
+  color: #5cb2ff;
+}
+.theme-skyblue .wh-file-handle-one ul li a:hover .file-icon {
+  background: #5cb2ff;
+}
+.theme-skyblue .wh-file-handle-one ul li a:hover .file-icon i {
+  color: #fff;
+}
+.theme-skyblue .wh-file-handle-one ul li a:hover .file-con span {
+  color: #5cb2ff;
 }
 .theme-skyblue .wh-quick-entry-purbackground ul li .fafa {
   background: #5cb2ff;

@@ -10,11 +10,10 @@
 @import "color/var-width.less";
 //背景
 
-.theme-width-blue{
-    .wh-header-home .wh-content{
-        background:url(../../../../../images/ver113/home/blue-bg.jpg) center top no-repeat;
-    }
-}
+
+
+
+
 .theme-mixin(
   @colorName,
   @colorType,
@@ -74,26 +73,13 @@
            }
        }
    }
-    .wh-header-home .wh-header {
-       .top-trabg {
-           border-bottom: 1px solid #323d4f;
-           background-color: rgba(0, 0, 0, 0.6);
-           *background: #000;
-           *filter: alpha(opacity=60);
-       }
-       .wh-hd-l-nav>dd.on{
-         background:@global-color;
-       }
-    }
+    
    
    .wh-content {
-       top: 60px;
+       top: 110px;
        //左侧
        .wh-l-content {
            top: 111px;
-       }
-       .wh-r-content {
-           top: 50px;
        }
    }
    
@@ -112,7 +98,7 @@
    
    //定宽首页头部栏目
    .wh-header-home {
-       
+        .wh-l-content,.wh-content{bottom:0;}
    }
    
    //portal栏目样式
@@ -153,6 +139,9 @@
    .ztree li.level2{background:#e1e1e1}
    .ztree li.level3{background:#d5d3d3}
    .ztree li.level4{background:#c5c1c1}
+
+  
+
   
   // 结束符         
   }
@@ -160,6 +149,35 @@
 
 
 // 定宽头部内页导航选中效果
+.theme-width-lightgreen .wh-header-home .wh-content{
+        background:url(../../../../../images/ver113/home/lightgreen.jpg) center top no-repeat;
+}
+.theme-width-green .wh-header-home .wh-content{
+        background:url(../../../../../images/ver113/home/green.jpg) center top no-repeat;
+}
+.theme-width-cyan .wh-header-home .wh-content{
+        background:url(../../../../../images/ver113/home/cyan.jpg) center top no-repeat;
+}
+.theme-width-seablue .wh-header-home .wh-content{
+        background:url(../../../../../images/ver113/home/seablue.jpg) center top no-repeat;
+}
+.theme-width-skyblue .wh-header-home .wh-content{
+        background:url(../../../../../images/ver113/home/skyblue.jpg) center top no-repeat;
+}
+.theme-width-blue .wh-header-home .wh-content{
+        background:url(../../../../../images/ver113/home/blue.jpg) center top no-repeat;
+}
+.theme-width-violet .wh-header-home .wh-content{
+        background:url(../../../../../images/ver113/home/violet.jpg) center top no-repeat;
+}
+.theme-width-purple .wh-header-home .wh-content{
+        background:url(../../../../../images/ver113/home/purple.jpg) center top no-repeat;
+}
+.theme-width-indigo .wh-header-home .wh-content{
+        background:url(../../../../../images/ver113/home/indigo.jpg) center top no-repeat;
+}
+
+
 .theme-width-red .wh-header .wh-hd-l-nav>dd.on{background:#bf1b00}
 .theme-width-pink .wh-header .wh-hd-l-nav>dd.on{background:#d13794}
 .theme-width-darkred .wh-header .wh-hd-l-nav>dd.on{background:#bf1b00}

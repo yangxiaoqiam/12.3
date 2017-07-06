@@ -427,7 +427,11 @@ html.size-big16 body {
   line-height: 28px;
 }
 .size-big16 .wh-hd-custom-menu .wh-hd-cmcontainer div span {
+  height: 18px;
   line-height: 1.3;
+}
+.size-big16 .wh-hd-custom-switch .wh-hd-custom-menu-btn > span {
+  font-size: 14px;
 }
 .size-big16 .wh-hd-menu-add ul li .wh-hd-custom-menu-d {
   height: 40px;
